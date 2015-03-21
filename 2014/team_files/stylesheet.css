@@ -1,0 +1,396 @@
+@font-face {
+	font-family: "TitilliumWeb";
+    src: url(fonts/TitilliumWeb-Regular.ttf) format("truetype");
+}
+
+*{font-family:"TitilliumWeb";}
+
+a:link {color:#FFFFFF;}
+a:visited {color:#FFFFFF;}
+a:hover {color:#50BCBC;}
+a:active {color:black;}
+
+a:hover, a:visited, a:link, a:active {
+
+}
+
+a:not(.underline) {
+    text-decoration: none !important;
+}
+
+#logo{
+	max-height: 8em;
+    padding-bottom: 1em;
+}
+
+/* Header-jutut */
+
+header {
+	color:white;
+}
+
+header a {
+	color: white;
+	padding-right: 1.5vw;
+    padding-left: 1.5vw;
+	font-size: 1.5em;
+}
+
+
+header h1{
+	font-size: 1.35em;
+	padding-right: 0;
+	padding-left: 1.5vw;
+}
+
+header #logo {
+	margin-top: 1.5em;
+	padding-left:1em;
+	height: 1.5em;
+	margin-right:0.2em;
+
+}
+
+header #lang {
+    margin-top: 3em;
+    font-size: 0.6em;
+}
+
+header .navbar {
+	background-color:rgba(0,0,0,0.7);
+	border:0px;
+}
+
+#navigation {
+	margin-top: 2.5em;
+}
+
+/* Header päättyy */
+
+/* Yksittäisten sivujen ylägradientti grafiikasta valkoiseksi*/
+
+.top-graphic{
+    min-height:100vh;
+    background-image: url('../img/sepia_1920x1080_pack.jpg');
+    background-size: cover;
+}
+
+.top-graphic .content{
+    padding-top:30vh;
+    color:black;
+    text-align:justify;
+}
+
+.top-graphic .content img {
+    margin-top:10vh;
+}
+
+.top-graphic .content h1 {
+    margin-bottom:5%;
+    color:black;
+}
+
+/* Leipätekstin modifikaatio */
+
+.big-text{
+    margin-bottom: 5%;
+    font-size:x-large;
+    margin-right:5%;
+}
+
+body{
+	background-color:black;
+    margin: 0;
+    padding: 0;
+}
+
+article {
+	color:floralwhite;
+	padding-top: 5vh;
+	padding-bottom: 5vh;
+	padding-left: 15vw;
+	padding-right: 15vw;
+	min-height:85vh;
+    font-size:large;
+}
+
+article h1 {
+    font-family: "Kirvy-Regular", Verdana, Tahoma;
+}
+
+/* Pääsivun tyylit */
+
+.what{
+	padding-top: 20vh;
+	background-image:url('../img/sepia_1920x1080_pack.jpg');
+	background-size: cover;
+	min-height:100vh;
+	color: black;
+    text-align: center;
+}
+
+.team{
+	background-color: #912964;
+}
+
+.university-title {
+    color: rgb(81,81,81);
+    font-style: italic;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.idea {
+	background-color: #0A4958;
+}
+
+.follow {
+	background-color: white;
+	color: black;
+}
+
+.seekers {
+    color: black;
+    background-image:url('../img/kasi_vectored_gradient_transp.png');
+    background-size: 40%;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+.seekers a.BBSeeker {
+    color:#B00C69;
+}
+
+.seekers a.TSeeker {
+    color:#399f70;
+}
+
+#sm-logo {
+    padding-bottom: 1em;
+}
+
+.support {
+	background-color: #F6E7D2;
+	color:black;
+}
+
+.more {
+    font-size:2em;
+    font-family: "Infinity", Verdana, Tahoma;
+}
+
+/* Välilehtisivujen tyylejä */
+
+.detail{
+    background-color:white;
+    color:black;
+    padding-top:0;
+    min-height:50vh;
+    padding-bottom: 0;
+}
+
+#sponsors {
+	font-family: "Raleway-Regular", Verdana, Tahoma;
+}
+
+#sponsors .row {
+    margin-right:0;
+}
+
+.img-cheesy {
+    margin: 3em auto;
+    text-align: center;
+    font-style: italic;
+   }
+.img-cheesy img {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+}
+.img-cheesy i {
+    margin: 0;
+    padding: 0;
+}
+
+.blacklinks {
+   
+}
+.blacklinks a{
+    color: black;
+    text-decoration: underline;
+}
+.view-padding {
+    padding-top: 8vh;
+}
+/* partnerit sivun taulukko */
+.partners {
+	color: white;
+	padding-top: 20vh;
+	background-image:url('../img/DSC_6156-2_pack.jpg');
+	background-size: cover;
+}
+
+.content-partners {
+	margin-bottom: 0;
+	padding-bottom: 15vh;
+}
+
+.sponsor-pack {
+    font-size: 1.1em;
+    font-weight: 400;
+    margin: 0 auto;
+    border: 0px solid rgb(0,0,0);
+
+    background-color: rgba(10,10,10,0.4);
+    width: 80%;
+    position: relative;
+
+}
+
+
+.sponsor-pack h1{
+    font-size: 1.8em;
+    text-align: center;
+    padding: 0.5em 0;
+}
+.sponsor-pack .sisalto, .sponsor-list .sisalto {
+    margin: 0 auto;
+    width: 80%;
+}
+/* naa ympyrat on oikeastan ribboneita. ne on niiku ihkusälää */
+.sponsor-circle {
+     position: absolute;
+    right: 1em;
+     width:0;
+     height:80px;
+     border-right:25px solid rgb(180,00,100);
+     border-left:25px solid rgb(190,0,100);
+     border-bottom:30px solid transparent;
+
+}
+
+
+.sponsor-circle.second {
+     border-right:25px solid rgb(250,150,00);
+     border-left:25px solid rgb(250,160,00);
+     border-bottom:30px solid transparent;
+}
+.sponsor-circle.third {
+    border-right:25px solid rgb(00,110,60);
+     border-left:25px solid rgb(00,120,60);
+     border-bottom:30px solid transparent;
+}
+
+.sponsor-list {
+    padding: 1em;
+    font-size: 1.1em;
+    font-weight: 400;
+    margin: 0 auto;
+    margin-top: 5em;
+    border: 0px solid rgb(0,0,0);
+    width: 80%;
+
+    background-color: rgba(120, 63, 68, 0.45);
+}
+
+.sponsor-list h1 {
+    margin-top: 0;
+}
+
+/* Footerin tyylit */
+
+footer {
+  text-align: center;
+  color: white;
+}
+
+.footerimg {
+  max-height: 100px;
+  max-width: 250px !important;
+}
+
+.footerlogo {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 20px;
+}
+
+#logorowmain {
+    padding-top: 100px;
+    background-image:url('../img/1920x1080_FOOTER_pack.jpg');
+    background-size: cover;
+}
+
+#logorowtab {
+    padding-top: 100px;
+	background-image:url('../img/turqos_1920x1080_pack.jpg');
+	background-size: cover;
+}
+
+#logorowpartners {
+    padding-top: 50px;
+    background: #FFDFBA;
+}
+/* Footerin tyylit loppu */
+
+
+
+/* Bottom navigaatio */
+
+footer a {
+	color: white;
+	padding: 0.75vw;
+}
+
+footer a:hover {
+	color: #50BCBC;
+}
+
+footer #navigation {
+	padding-top: 1vh;
+	margin-bottom: 1vh;
+}
+
+footer .bottom {
+	background-color:rgba(0,0,0,0.7);
+	padding-bottom: 0.5vh;
+}
+
+#contact {
+    font-size: 10px;
+    color:white;
+}
+
+/* Bottom navigaatio loppu */
+
+
+/* Valign? */
+.valign-outer {
+	display: table;
+    width: 100%;
+    height: 85vh;
+
+    //padding: 20vh 0;
+}
+
+.valign-inner {
+	display: table-cell;
+	vertical-align: middle;
+
+}
+.valign-inner-center {
+	margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+
+}
+@media (max-width: 700px) {
+	header #logo {
+		display: none;
+	}
+    /* partnerit sivun taulukko responsiiviseksi ilman bootstrappia joka ei toimi */
+    .sponsor-pack {
+        width: 100%;
+        font-size: 0.8em;
+    }
+}
