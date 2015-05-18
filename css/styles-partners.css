@@ -1,6 +1,12 @@
 /*
  * Globals
  */
+
+#navigation {
+	padding-top: 2em;
+	padding-bottom: 1em;
+	background-color: black;
+}
  
 /* Links */
 a,
