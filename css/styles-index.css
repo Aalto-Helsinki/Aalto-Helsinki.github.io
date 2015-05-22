@@ -113,22 +113,22 @@ body {
   background: #ffffff;
 }
 .backgroundindex {
-  background: url('../img/Backgrounds/plants.jpg') no-repeat;
+  background: url('http://i.imgur.com/yiruKSt.jpg') no-repeat;
   background-color: #639fab;
   background-size: cover;
 }
 .backgroundpartners {
-  background: url('../img/Backgrounds/cloud.jpg') no-repeat;
+  background: url('http://i.imgur.com/LA3pNwg.jpg') no-repeat;
   background-color: #0f7173;
   background-size: cover;
 }
 .backgroundproject {
-  background: url('../img/Backgrounds/brickwall.jpg') no-repeat;
+  background: url('http://i.imgur.com/ya3jTfb.jpg') no-repeat;
   background-color: #639fab;
   background-size: cover;
 }
 .backgroundteam {
-  background: url('../img/Backgrounds/brickwalldark.jpg') no-repeat;
+  background: url('http://i.imgur.com/lL61Mz5.jpg') no-repeat;
   background-color: #0f7173;
   background-size: cover;
 }
