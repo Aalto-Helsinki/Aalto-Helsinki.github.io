@@ -8,6 +8,34 @@
 	background-color: #2D2D2A;
 	
 }
+
+#box1 { /* not used right now */
+   position: absolute;
+   top: 80%; 
+   left: 80%; 
+   color: #D62839;
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0.7);
+   /*opacity: 0.4;*/
+   padding: 10px; 
+}
+#box2 { 
+   position: absolute; 
+   top: 70%; 
+   left: 75%; 
+   color: #ffffff;
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: #D62839;
+   opacity: 0.7;
+   padding: 10px; 
+}
+.image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
  
 /* Links */
 a,
