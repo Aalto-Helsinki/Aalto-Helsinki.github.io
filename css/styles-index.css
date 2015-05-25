@@ -32,7 +32,10 @@
    padding: 10px; 
 }
 
-
+#quote {
+  margin: 40px 0 0 ;
+  color:#2D2D2A;
+}
  
 /* Links */
 a,
