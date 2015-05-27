@@ -141,24 +141,24 @@ body {
   background: #ffffff;
 }
 .backgroundindex {
-  background: url('http://i.imgur.com/nGhtR3s.jpg') no-repeat;
+  background: url('http://i.imgur.com/eP5V7dN.jpg') no-repeat;
   background-color: #639fab;
-  background-size: cover;
+  background-size: 100%  100%;
 }
 .backgroundpartners {
-  background: url('http://i.imgur.com/AjBE3pG.jpg') no-repeat;
+  background: url('http://i.imgur.com/9FWAdDR.jpg') no-repeat;
   background-color: #0f7173;
-  background-size: cover;
+  background-size: 100% 100%;
 }
 .backgroundproject {
-  background: url('http://i.imgur.com/zFKtBH4.jpg') no-repeat;
+  background: url('http://i.imgur.com/nj7GmR0.jpg') no-repeat;
   background-color: #639fab;
-  background-size: cover;
+  background-size: 100% 100%;
 }
 .backgroundteam {
-  background: url('http://i.imgur.com/XJguqWm.jpg') no-repeat;
+  background: url('http://i.imgur.com/wzu0nvk.jpg') no-repeat;
   background-color: #0f7173;
-  background-size: cover;
+  background-size: 100% 100%;
 }
 .parallax {
 	background : url('images/background.png') no-repeat; /* @@ Should apply programatically */
