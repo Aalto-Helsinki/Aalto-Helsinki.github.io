@@ -12,75 +12,24 @@
 #box1 { /* not used right now */
    position: absolute;
    top: 70%; 
-   left: 60%; 
+   left: 75%; 
    color: #ffffff;
-   letter-spacing: 1px;  
+   letter-spacing: -1px;  
    background: rgb(0, 0, 0); /* fallback color */
    background: #2D2D2A;
    opacity: 0.7;
-   padding: 14px; 
+   padding: 10px; 
 }
-
-#box1:hover { /* not used right now */
-   position: absolute;
-   top: 70%; 
-   left: 60%; 
-   color: #ffffff;
-	text-decoration: underline;
-   letter-spacing: 1px;  
-   background: rgb(0, 0, 0); /* fallback color */
-   background: #2D2D2A;
-   opacity: 0.7;
-   padding: 14px; 
-}
-
 #box2 { 
    position: absolute; 
-   top: 77%; 
-   left: 60%; 
+   top: 70%; 
+   left: 75%; 
    color: #ffffff;
-   letter-spacing: 1px;  
+   letter-spacing: -1px;  
    background: rgb(0, 0, 0); /* fallback color */
    background: #D62839;
    opacity: 0.7;
-   padding: 14px; 
-}
-
-#box2:hover{ 
-   position: absolute; 
-   top: 77%; 
-   left: 60%; 
-   color: #ffffff;
-	text-decoration: underline;
-   letter-spacing: 1px;  
-   background: rgb(0, 0, 0); /* fallback color */
-   background: #D62839;
-   opacity: 0.7;
-   padding: 14px; 
-}
-
-#box3 { 
-   position: absolute; 
-   top: 10%; 
-   left: 65%; 
-   color: #ffffff;
-   letter-spacing: 1px;  
-   background: rgb(0, 0, 0); /* fallback color */
-   background: #2D2D2A;
-   opacity: 0.7;
-   padding: 14px; 
-}
-#box3:hover { 
-   position: absolute; 
-   top: 10%; 
-   left: 65%; 
-   color: #ffffff;
-	text-decoration: underline;
-   letter-spacing: 1px;  
-   background: rgb(0, 0, 0); /* fallback color */
-   background: #2D2D2A;
-   opacity: 0.7;
-   padding: 14px; 
+   padding: 10px; 
 }
 
 #quote {
