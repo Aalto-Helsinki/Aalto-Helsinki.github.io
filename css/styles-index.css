@@ -9,23 +9,48 @@
 	
 }
 
-#box1 { /* not used right now */
+#box1 {
    position: absolute;
    top: 70%; 
-   left: 75%; 
+   left: 70%; 
    color: #ffffff;
-   letter-spacing: -1px;  
+   letter-spacing: 1px;  
    background: rgb(0, 0, 0); /* fallback color */
    background: #2D2D2A;
    opacity: 0.7;
    padding: 10px; 
 }
+#box1:hover {
+   position: absolute;
+   top: 70%; 
+   left: 70%; 
+   color: #ffffff;
+	text-decoration: underline;
+   letter-spacing: 1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: #2D2D2A;
+   opacity: 0.7;
+   padding: 10px; 
+}
+
 #box2 { 
    position: absolute; 
-   top: 70%; 
-   left: 75%; 
+   top: 65%; 
+   left: 70%; 
    color: #ffffff;
-   letter-spacing: -1px;  
+   letter-spacing: 1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: #D62839;
+   opacity: 0.7;
+   padding: 10px; 
+}
+#box2:hover{ 
+   position: absolute; 
+   top: 65%; 
+   left: 70%; 
+   color: #ffffff;
+	text-decoration: underline;
+   letter-spacing: 1px;  
    background: rgb(0, 0, 0); /* fallback color */
    background: #D62839;
    opacity: 0.7;
