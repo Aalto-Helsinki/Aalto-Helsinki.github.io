@@ -57,6 +57,33 @@
    padding: 10px; 
 }
 
+#box3 { 
+   position: absolute; 
+   top: 15%; 
+   left: 30%; 
+   color: #000000;/*#ffffff;*/
+   text-align: center;
+   letter-spacing: 1px;
+   background: rgb(0, 0, 0); /* fallback color */
+   background: #ffffff;
+   opacity: 0.8;
+   padding: 10px; 
+}
+
+#box3:hover { 
+   position: absolute; 
+   top: 15%; 
+   left: 30%; 
+   color: #000000;/*#ffffff;*/
+	text-decoration: underline;
+	text-align: center;
+   letter-spacing: 1px;
+   background: rgb(0, 0, 0); /* fallback color */
+   background: #ffffff;
+   opacity: 0.8;
+   padding: 10px; 
+}
+
 #quote {
   margin: 40px 0 0 ;
   color:#2D2D2A;
