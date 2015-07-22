@@ -2,6 +2,17 @@
  * Globals
  */
 
+.addressbar{
+	padding-top: 15px; 
+	padding-bottom: 15px; 
+	background-color: #2D2D2A;
+}
+
+.addressbar p{
+	color:#ffffff; 
+	text-align:center;
+}
+
 #navigation {
 	padding-top: 15px;
 	padding-bottom: 15px;
