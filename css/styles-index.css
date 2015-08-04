@@ -2,11 +2,102 @@
  * Globals
  */
 
+.addressbar{
+	padding-top: 15px; 
+	padding-bottom: 15px; 
+	background-color: #2D2D2A;
+}
+
+.addressbar p{
+	color:#ffffff; 
+	text-align:center;
+}
+
 #navigation {
 	padding-top: 15px;
 	padding-bottom: 15px;
 	background-color: #2D2D2A;
 	
+}
+
+#box1 {
+   position: absolute;
+   top: 70%; 
+   left: 70%; 
+   color: #ffffff;
+   letter-spacing: 1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: #2D2D2A;
+   opacity: 0.7;
+   padding: 10px; 
+}
+#box1:hover {
+   position: absolute;
+   top: 70%; 
+   left: 70%; 
+   color: #ffffff;
+	text-decoration: underline;
+   letter-spacing: 1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: #2D2D2A;
+   opacity: 0.7;
+   padding: 10px; 
+}
+
+#box2 { 
+   position: absolute; 
+   top: 65%; 
+   left: 70%; 
+   color: #ffffff;
+   letter-spacing: 1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: #D62839;
+   opacity: 0.7;
+   padding: 10px; 
+}
+#box2:hover{ 
+   position: absolute; 
+   top: 65%; 
+   left: 70%; 
+   color: #ffffff;
+	text-decoration: underline;
+   letter-spacing: 1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: #D62839;
+   opacity: 0.7;
+   padding: 10px; 
+}
+
+#box3 { 
+   position: absolute; 
+   top: 15%; 
+   left: 30%; 
+   color: #000000;/*#ffffff;*/
+   text-align: center;
+   letter-spacing: 1px;
+   background: rgb(0, 0, 0); /* fallback color */
+   background: #ffffff;
+   opacity: 0.8;
+   padding: 10px; 
+}
+
+#box3:hover { 
+   position: absolute; 
+   top: 15%; 
+   left: 30%; 
+   color: #000000;/*#ffffff;*/
+	text-decoration: underline;
+	text-align: center;
+   letter-spacing: 1px;
+   background: rgb(0, 0, 0); /* fallback color */
+   background: #ffffff;
+   opacity: 0.8;
+   padding: 10px; 
+}
+
+#quote {
+  margin: 40px 0 0 ;
+  color:#2D2D2A;
 }
  
 /* Links */
@@ -18,6 +109,20 @@ a:focus{
 a:hover {
   color: #BBCDE5;
     text-decoration: none;
+}
+
+/* Links on media page */
+.mylink,
+.mylink:focus{
+  color: black;
+    text-decoration: none;
+}
+.mylink:hover {
+  color: gray;/*#BBCDE5;*/
+    text-decoration: none;
+}
+.mylink img:hover{
+  opacity: 0.85;
 }
 
 /*--------------------------------------------------------------
@@ -113,24 +218,24 @@ body {
   background: #ffffff;
 }
 .backgroundindex {
-  background: url('http://i.imgur.com/yiruKSt.jpg') no-repeat;
+  background: url('http://i.imgur.com/K9Wa5wy.jpg') no-repeat;
   background-color: #639fab;
-  background-size: cover;
+  background-size: 100%  100%;
 }
 .backgroundpartners {
-  background: url('http://i.imgur.com/LA3pNwg.jpg') no-repeat;
+  background: url('http://i.imgur.com/9FWAdDR.jpg') no-repeat;
   background-color: #0f7173;
-  background-size: cover;
+  background-size: 100% 100%;
 }
 .backgroundproject {
-  background: url('http://i.imgur.com/ya3jTfb.jpg') no-repeat;
+  background: url('http://i.imgur.com/nj7GmR0.jpg') no-repeat;
   background-color: #639fab;
-  background-size: cover;
+  background-size: 100% 100%;
 }
 .backgroundteam {
-  background: url('http://i.imgur.com/lL61Mz5.jpg') no-repeat;
+  background: url('http://i.imgur.com/wzu0nvk.jpg') no-repeat;
   background-color: #0f7173;
-  background-size: cover;
+  background-size: 100% 100%;
 }
 .parallax {
 	background : url('images/background.png') no-repeat; /* @@ Should apply programatically */
@@ -338,7 +443,7 @@ nav {
     /* position : relative;  apply 4 cover with bottom features */	
 }
 .cover-block .row {
-  margin: 120px 0 0;
+  margin: 50px 0 0;
 }
 .cover-block .lead {
   color: #222222;
