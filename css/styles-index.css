@@ -111,6 +111,20 @@ a:hover {
     text-decoration: none;
 }
 
+/* Links on media page */
+.mylink,
+.mylink:focus{
+  color: black;
+    text-decoration: none;
+}
+.mylink:hover {
+  color: gray;/*#BBCDE5;*/
+    text-decoration: none;
+}
+.mylink img:hover{
+  opacity: 0.85;
+}
+
 /*--------------------------------------------------------------
 Typography
 --------------------------------------------------------------*/
