@@ -1,3 +1,17 @@
 .rekryrow{
-  margin-top:10%;
+  margin-top:5%;
+}
+.rekryrow a:link{
+  color:gray;
+}
+.rekryrow a:visited{
+  color:gray;
+}
+.rekryrow a:hover{
+  color:black;
+}
+
+#cloud{
+  text-align: center;
+  font-style: italic;
 }
