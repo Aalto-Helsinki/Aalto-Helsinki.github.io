@@ -1,0 +1,28 @@
+.rekryrow{
+  margin-top:5%;
+}
+.rekryrow a:link{
+  color:gray;
+}
+.rekryrow a:visited{
+  color:gray;
+}
+.rekryrow a:hover{
+  color:black;
+}
+
+.rekryrow h1{
+  margin-top:0;
+  padding-top:0;
+  margin-bottom:5%;
+}
+
+.rekryrow h2{
+  margin-top:0;
+  padding-top:0;
+}
+
+#cloud{
+  text-align: center;
+  font-style: italic;
+}
