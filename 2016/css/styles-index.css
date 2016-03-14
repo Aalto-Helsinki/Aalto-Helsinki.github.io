@@ -153,7 +153,8 @@ html,
 body {
   height: 100%;
     background-color: #fff;
-	background-image: url('/2016/img/background_version1.jpg') no-repeat;
+	background: url('/2016/img/background_version1.jpg') no-repeat;
+	background-size: cover;
   /* overflow-x: hidden;  remove for jquery scolling problems */ 
   -webkit-font-smoothing: antialiased; /* font smoothing */
   -moz-osx-font-smoothing: grayscale;
