@@ -429,6 +429,10 @@ nav {
 	/*color: #999999; */
 	font-weight: 400;
 }
+.block .lead a {
+	color: #2a6496;
+	text-decoration: none;
+}
 .block .btn-lg {
 	padding: 10px 40px;
 	font-size: 20px;
