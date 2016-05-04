@@ -1,3 +1,7 @@
+---
+title: Aalto-Helsinki
+---
+
 <!DOCTYPE html> 
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
@@ -8,15 +12,11 @@
 
     <title>Aalto-Helsinki</title>
 	
-	<link href="./Tinyone - HTML_files/css" rel="stylesheet" type="text/css">
-	<link href="./Tinyone - HTML_files/css(1)" rel="stylesheet" type="text/css">
-    <link rel="icon" type="image/png" href="./img/favicon.png">
-	
     <!-- Bootstrap core CSS -->
-    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
     
     <!-- Font Awesome -->
-    <link href="./css/font-awesome.css" rel="stylesheet">
+    <link href="/css/font-awesome.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="./css/styles-index.css" rel="stylesheet">
@@ -33,48 +33,7 @@
 
     <body>
 <div class="site row-offcanvas row-offcanvas-left">  
-	<header>
-            <div class="navbar navbar-default "> <!-- If we want to have fixed navbar, just add 'navbar-fixed-top' there -->
-                <div class="row text-center" id="logobar">
-                    <div class="col-sm-2" id="navigation">
-						<nav >
-                        <a href="./index.html"><img style="height:23px" src="./img/AH.png" id="ahlogo" class="img-responsive"></a>
-						</nav>
-                    </div> 
-                    <div class="text-center col-sm-8" id="navigation">
-                        <nav>
-                            <!--a href="./partners.html">Partners &nbsp</a>
-                            <a href="./project.html">&nbsp Project &nbsp</a>
-							<a href="./team.html">&nbsp Team &nbsp</a>
-							<a href="./media.html">&nbsp Media &nbsp</a-->
-							<a href="http://blog.aaltohelsinki.com/" >&nbsp Blog &nbsp</a>
-							<!--a href="http://2015.igem.org/Team:Aalto-Helsinki" >&nbsp Wiki &nbsp</a-->
-							<a href="/2014/index.html">&nbsp 2014 &nbsp</a>
-							<a href="/2015/index.html">&nbsp 2015 &nbsp</a>
-							<!--a href="http://www.aaltohelsinki.com/">&nbsp Recruitment 2016&nbsp&nbsp&nbsp</a-->
-							<a href="https://www.facebook.com/AaltoHelsinki">
-										<i class="fa fa-facebook"></i>
-									</a>
-							<a href="https://twitter.com/AaltoHelsinki">
-										<p style="display:inline">&nbsp&nbsp&nbsp</p><i class="fa fa-twitter"></i>
-									</a>
-							<a href="https://instagram.com/aaltohelsinki_igem">
-							            <p style="display:inline">&nbsp&nbsp&nbsp</p><i class="fa fa-instagram"></i>
-								    </a>
-                        </nav>
-                    </div>
-					<div class="text-center col-sm-2" id="navigation">
-                        <nav>
-                            <!--a href="./index_fi.html">FI</a-->
-                            <a href="./index.html">EN</a>
-                        </nav>
-                    </div>
-					
-					
-                </div>
-            </div>
-        </header>
-
+    {% include_relative topbar/blackbartop.html %}
     
 	<!-- cover block -->
     <div class="block-wrapper cover-block full-height">
@@ -82,7 +41,7 @@
 			<div class="container block-container"> 
 					<div class="item">
 						<a href="./index.html"> 
-							<img style= "width:100%; height:100%" src="./img/slideshow/dna.png" alt="iGEM">
+							<img style= "width:100%; height:100%" src="./img/dna.png" alt="iGEM">
 							<p></p>
 						</a>
 					</div>
@@ -336,27 +295,16 @@
   	 </div> 
 	<!-- end sponsors -->
 
-	<!-- Bar at the bottom of the page containing address and e-mail -->
-  	<div class="block-wrapper">
-  		<div class="inner-container">
-			<div class = "row">
-				<div class="col-xs-12 col-md-12 addressbar" >
-					<p >Kemistintie 1, Espoo, Finland &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp team (at) aaltohelsinki.com &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp +358 40 822 9925</p>
-				</div>
-			</div>
-  		</div>	
-  	</div>
-	<!-- Bar at the bottom ends -->
-    
+	{% include_relative topbar/blackbarbottom.html %}
 
 </div> <!-- end off-canvas -->
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="./Tinyone - HTML_files/jquery.min.js"></script>
+    <!--script src="./Tinyone - HTML_files/jquery.min.js"></script>
     <script src="./Tinyone - HTML_files/bootstrap.min.js"></script>
     <script src="./Tinyone - HTML_files/offcanvas.js"></script>
-    <script src="./Tinyone - HTML_files/function.js"></script>
+    <script src="./Tinyone - HTML_files/function.js"></script-->
   
 
 </body></html>

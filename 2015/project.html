@@ -1,3 +1,7 @@
+---
+title: Aalto-Helsinki
+---
+
 <!DOCTYPE html>
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
@@ -33,42 +37,7 @@
 
   <body>
 <div class="site row-offcanvas row-offcanvas-left">  
-	<header>
-            <div class="navbar navbar-default "> <!-- If we want to have fixed navbar, just add 'navbar-fixed-top' there -->
-                <div class="row text-center" id="logobar">
-                    <div class="col-sm-3" id="navigation">
-						<nav >
-                        <a href="./index.html"><img style="height:1.45em" src="./img/AH.png" id="ahlogo" class="img-responsive"></a>
-						</nav>
-                    </div> 
-                    <div class="text-center col-sm-6" id="navigation">
-                        <nav>
-                            <a href="./partners.html">Partners &nbsp</a>
-                            <a href="./project.html">&nbsp Project &nbsp</a>
-							<a href="./team.html">&nbsp Team &nbsp</a>
-							<a href="./media.html">&nbsp Media &nbsp</a>
-							<a href="http://blog.aaltohelsinki.com/" >&nbsp Blog &nbsp</a>
-							<a href="http://2015.igem.org/Team:Aalto-Helsinki" >&nbsp Wiki &nbsp</a>
-							<a href="http://www.aaltohelsinki.com/2014/index_en.html">&nbsp 2014 &nbsp&nbsp&nbsp</a>
-							<a href="https://www.facebook.com/AaltoHelsinki">
-										<i class="fa fa-facebook"></i>
-									</a>
-							<a href="https://twitter.com/AaltoHelsinki">
-										<p style="display:inline">&nbsp&nbsp&nbsp</p><i class="fa fa-twitter"></i>
-									</a>
-                        </nav>
-                    </div>
-					<div class="text-center col-sm-3" id="navigation">
-                        <nav>
-                            <a href="./index_fi.html">FI</a>
-                            <a href="./index.html">EN</a>
-                        </nav>
-                    </div>
-					
-					
-                </div>
-            </div>
-        </header>
+	{% include_relative menu/topmenu.html %}
   
 	<!-- cover block -->
     <div class="block-wrapper backgroundproject cover-block full-height">
