@@ -1,3 +1,40 @@
+html, body, section, .container {
+	height: 100%;
+}
+
+#svg {
+	padding-left: 80px;
+}
+
+@font-face {
+	font-family: BebasLight;
+	src: url(BebasNeueLight.ttf);
+}
+
+span h1 {
+	padding-top: 10%;
+}
+
+h1 span {
+	color: white;
+	padding: 10px;
+	font-size: larger;
+	text-shadow: 4px 2px gray;
+	text-shadow: 4px 2px rgba(0,0,0,0.5);
+}
+
+.centerrow {
+	text-align: center;
+}
+
+.centercol {
+	display: inline-table;
+	float: none;
+	text-align: left;
+	margin-right: 60px;
+	margin-left: 30px;
+}
+
 .black-bar {
 	padding-top: 15px;
 	padding-bottom: 15px;
@@ -6,12 +43,25 @@
 	border: none;
 }
 
+.nomargin-right {
+	margin-right: 0;
+}
+
+.black-bar-bottom {
+	margin-top: 80px;
+}
+
 /* The black navigation bar, top and bottom */
 .black-bar a, .black-bar p{
     color: #fff;
     text-decoration: none;
 	text-align: center;
 }
+
+#currentLink {
+	text-decoration: underline;
+}
+
 .black-bar a:hover {
     color: #BBCDE5;
 }
@@ -29,13 +79,24 @@
 	width: 940px !important;
 }
 
+.block-wrapper-inner {
+	padding-left: 100px;
+	padding-top: 10%;
+}
+
 .block, .lead {
 	font-size: 20px;
 }
 
+.spacing {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-right: 20px;
+}
+
 body {
    height: 100%;
-   background: url('/2016/img/final_cropped_background.png') no-repeat;
+   /*background: url('/2016/img/final_cropped_background.png') no-repeat;*/
    background-color: white;
    background-size: cover;
   -webkit-font-smoothing: antialiased; /* font smoothing */
@@ -43,6 +104,170 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+.teambackground {
+	background: whitesmoke;
+}
+
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 700;
+}
+
+.rowborder {
+	margin-bottom: 60px;
+}
+
+/* Photos */
+
+/* Navigation arrows */
+
+section {
+	text-align: center;
+	position: relative;
+	/*margin: 40px;*/
+	height: calc(100% - 80px);
+	overflow: hidden;
+}
+
+section h1 {
+	margin-top: 160px;
+	
+}
+
+.circle {
+	background-color = rgb(255, 255, 255);
+	/*border-radius: 200px;*/
+	height: 200px;
+	width: 200px;
+	font-weight: bold;
+}
+
+.teamphoto {
+	background: url('/2016/img/team2.jpg') no-repeat;
+	background-size: 100%;
+	background-position: 0% 30%;
+	height: 110%;
+	width: 100%;
+	/*background: #cc6055;*/
+}
+
+.lakephoto {
+	background: url('/2016/img/lake2.jpg') no-repeat;
+	background-size: 100%;
+	background-position: 0% 30%;
+	height: 110%;
+	width: 100%;
+	/*background: #cc6055;*/
+}
+
+.sciencephoto {
+	background: url('/2016/img/colorful.jpg') no-repeat;
+	background-size: 100%;
+	background-position: 0% 30%;
+	height: 110%;
+	width: 100%;
+}
+
+section nav a {
+	position: absolute;
+	display: block;
+	top: 50%;
+}
+
+nav a.prevArrow {
+	left: 0;
+}
+
+nav a.nextArrow {
+	right: 0;
+}
+
+.nav-circlepop a {
+	margin: 0 30px;
+	width: 50px;
+	height: 50px;
+}
+
+.nav-circlepop a::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background: black;
+	content: '';
+	opacity: 0;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+	transition: transform 0.3s, opacity 0.3s;
+	-webkit-transform: scale(0.9);
+	transform: scale(0.9);
+}
+
+.nav-circlepop .icon-wrap {
+	position: relative;
+	display: block;
+	margin: 10% 0 0 10%;
+	width: 80%;
+	height: 80%;
+}
+
+.nav-circlepop a.nextArrow .icon-wrap {
+	-webkit-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+.nav-circlepop a.downArrow .icon-wrap {
+	-webkit-transform: rotate(270deg);
+	transform: rotate(270deg);
+}
+
+.nav-circlepop .icon-wrap::before,
+.nav-circlepop .icon-wrap::after {
+	position: absolute;
+	left: 25%;
+	width: 3px;
+	height: 50%;
+	background: black;
+	content: '';
+	-webkit-transition: -webkit-transform 0.3s, background-color 0.3s;
+	transition: transform 0.3s, background-color 0.3s;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.nav-circlepop .icon-wrap::before {
+	-webkit-transform: translateX(-50%) rotate(30deg);
+	transform: translateX(-50%) rotate(30deg);
+	-webkit-transform-origin: 0 100%;
+	transform-origin: 0 100%;
+}
+
+.nav-circlepop .icon-wrap::after {
+	top: 50%;
+	-webkit-transform: translateX(-50%) rotate(-30deg);
+	transform: translateX(-50%) rotate(-30deg);
+	-webkit-transform-origin: 0 0;
+	transform-origin: 0 0;
+}
+
+.nav-circlepop a:hover::before {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+.nav-circlepop a:hover .icon-wrap::before,
+.nav-circlepop a:hover .icon-wrap::after {
+	/*background: #cc6055;*/
+	background: white;
+}
+
+.nav-circlepop a:hover .icon-wrap::before {
+	-webkit-transform: translateX(-50%) rotate(45deg);
+	transform: translateX(-50%) rotate(45deg);
+}
+
+.nav-circlepop a:hover .icon-wrap::after {
+	-webkit-transform: translateX(-50%) rotate(-45deg);
+	transform: translateX(-50%) rotate(-45deg);
 }
