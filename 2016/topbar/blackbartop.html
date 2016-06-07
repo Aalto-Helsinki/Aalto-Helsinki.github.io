@@ -1,5 +1,6 @@
 <header>
-            <div class="navbar navbar-default black-bar"> <!-- If we want to have fixed navbar, just add 'navbar-fixed-top' there -->
+<!-->[href*='" + location.pathname + "']<-->
+            <div class="navbar navbar-default navbar-fixed-top black-bar"> <!-- If we want to have fixed navbar, just add 'navbar-fixed-top' there -->
                 <div class="row text-center" id="logobar">
                     <div class="col-sm-2" id="navigation">
 						<nav >
@@ -12,29 +13,28 @@
                             <a href="./project.html">&nbsp Project &nbsp</a>
 							<a href="./team.html">&nbsp Team &nbsp</a>
 							<a href="./media.html">&nbsp Media &nbsp</a-->
-							<a href="http://blog.aaltohelsinki.com/" >&nbsp Blog &nbsp</a>
+							<span>&nbsp </span><a href="/2016/index.html" >Main</a><span> &nbsp</span>
+							<span>&nbsp </span><a href="/2016/team.html" >Team</a><span> &nbsp</span>
+							<span>&nbsp </span><a href="/2016/project.html" >Project</a><span> &nbsp</span>
+							<span>&nbsp </span><a href="http://blog.aaltohelsinki.com/" >Blog</a><span> &nbsp</span>
 							<!--a href="http://2015.igem.org/Team:Aalto-Helsinki" >&nbsp Wiki &nbsp</a-->
 							<a href="/2014/index_en.html">&nbsp 2014 &nbsp</a>
 							<a href="/2015/index.html">&nbsp 2015 &nbsp</a>
 							<a href="https://www.facebook.com/AaltoHelsinki">
 										<i class="fa fa-facebook"></i>
-									</a>
+							</a>
 							<a href="https://twitter.com/AaltoHelsinki">
 										<p style="display:inline">&nbsp&nbsp&nbsp</p><i class="fa fa-twitter"></i>
-									</a>
+							</a>
 							<a href="https://instagram.com/aaltohelsinki_igem">
 							            <p style="display:inline">&nbsp&nbsp&nbsp</p><i class="fa fa-instagram"></i>
-								    </a>
-                        </nav>
-                    </div>
-					<div class="text-center col-sm-2" id="navigation">
-                        <nav>
-                            <!--a href="./index_fi.html">FI</a-->
-                            <a href="./index.html">EN</a>
+						    </a>
                         </nav>
                     </div>
 					
 					
                 </div>
             </div>
+			
+<script>$(".black-bar a[href*='" + location.pathname + "']:last").attr("id", "currentLink");</script>
         </header>

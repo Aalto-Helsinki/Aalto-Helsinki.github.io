@@ -1,0 +1,165 @@
+<!DOCTYPE html> 
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Aalto-Helsinki</title>
+	
+	<script src="/js/jquery-1.6.2.min.js"></script>
+	
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link href="/css/font-awesome.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./css/styles-index.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+    <body class="teambackground">
+
+	<header>
+<!-->[href*='" + location.pathname + "']<-->
+            <div class="navbar navbar-default navbar-fixed-top black-bar"> <!-- If we want to have fixed navbar, just add 'navbar-fixed-top' there -->
+                <div class="row text-center" id="logobar">
+                    <div class="col-sm-2" id="navigation">
+						<nav >
+                        <a href="./index.html"><img style="height:23px" src="./img/AH.png" id="ahlogo" class="img-responsive"></a>
+						</nav>
+                    </div> 
+                    <div class="text-center col-sm-8" id="navigation">
+                        <nav>
+                            <!--a href="./partners.html">Partners &nbsp</a>
+                            <a href="./project.html">&nbsp Project &nbsp</a>
+							<a href="./team.html">&nbsp Team &nbsp</a>
+							<a href="./media.html">&nbsp Media &nbsp</a-->
+							<span>&nbsp </span><a href="/2016/index.html" >Main</a><span> &nbsp</span>
+							<span>&nbsp </span><a href="/2016/team.html" >Team</a><span> &nbsp</span>
+							<span>&nbsp </span><a href="/2016/project.html" >Project</a><span> &nbsp</span>
+							<span>&nbsp </span><a href="http://blog.aaltohelsinki.com/" >Blog</a><span> &nbsp</span>
+							<!--a href="http://2015.igem.org/Team:Aalto-Helsinki" >&nbsp Wiki &nbsp</a-->
+							<a href="/2014/index_en.html">&nbsp 2014 &nbsp</a>
+							<a href="/2015/index.html">&nbsp 2015 &nbsp</a>
+							<a href="https://www.facebook.com/AaltoHelsinki">
+										<i class="fa fa-facebook"></i>
+							</a>
+							<a href="https://twitter.com/AaltoHelsinki">
+										<p style="display:inline">&nbsp&nbsp&nbsp</p><i class="fa fa-twitter"></i>
+							</a>
+							<a href="https://instagram.com/aaltohelsinki_igem">
+							            <p style="display:inline">&nbsp&nbsp&nbsp</p><i class="fa fa-instagram"></i>
+						    </a>
+                        </nav>
+                    </div>
+					
+					
+                </div>
+            </div>
+			
+<script>$(".black-bar a[href*='" + location.pathname + "']:last").attr("id", "currentLink");</script>
+        </header>
+    
+	<!--br/><br/-->
+	
+	<section class="sciencephoto parallax">
+	<span>
+	<nav class="nav-circlepop">
+		<span>
+		<a class="prevArrow" href="/2016/team.html"> <span class="icon-wrap"> </span></a>
+		</span>
+	</nav>
+	<h1><span>OUR PROJECT</span></h1>
+	</span>
+	</section>
+	
+    <!-- featured -->
+    <div class="block-wrapper featured-block" id="features">
+
+      <div class="block-wrapper-inner">
+
+	  <div class="container">
+	    <div class="spacing">
+	    <h2>Making Water Safe</h2>
+		<p class="lead spacing">Toxins produced by blue-green algae are a recurring problem in Finnish water systems every summer.
+		When present in large quantities as blooms, cyanotoxins pose a significant health threat to humans
+		and animals. The goal of our project is to <b>sense</b> the most common cyanobacterial toxins and <b>degrade</b> them by producing a cyanotoxin-degrading
+		enzyme with genetically modified yeast.</p>
+		
+		<p = class="lead">The final product of our project would be a kit containing a sensor device and a degradation capsule. The sensor would indicate the presence of harmful toxins in the
+		sample and the capsule could then be used to detoxify water as needed. This kit would enable the safe use of lake water as sauna, shower or animal drinking
+		water.</p>
+		</div>
+		
+		<div class="spacing">
+		<h2>Synthetic Biology</h2>
+		<p class="lead spacing">The broader purpose of our project is to promote and increase understanding of synthetic biology in Finland and
+		around the world. Synthetic biology is a new field of science and technology that combines biology with engineering.
+		The basic principle is to design new genes, genetic devices, metabolic routes and entire organisms to create novel products and production pathways.</p>
+		</div>
+		
+		<div class="spacing">
+		<h2>Is This Safe?</h2>
+		<p class="lead spacing"> The concept of genetically modified organisms (GMOs) is often presented with caution in the media.
+		We are working responsibly and ethically to try and change the negative image created by GMOs. One of our main considerations 
+		is for our solutions to be safe also outside laboratory settings. 
+		
+		</p>
+		</div>
+		
+      </div>
+			
+      </div>
+      
+    </div> <!-- end featured -->
+	  
+	<script>
+	$(document).ready( function() {
+	    var parallax = document.querySelectorAll(".parallax");
+		var speed = 0.75;
+		
+		window.onscroll = function() {
+		    [].slice.call(parallax).forEach(function(el, i) {
+				var elBackgroundPos = "0%" + (-0.3*window.outerHeight+window.pageYOffset * speed) + "px";
+				el.style.backgroundPosition = elBackgroundPos;
+			});
+		};
+		
+	});
+	</script>
+	
+	<!-- Bar at the bottom of the page containing address and e-mail -->
+<div class="block-wrapper black-bar black-bar-bottom">
+  	<div class="inner-container">
+		<div class = "row nomargin-right">
+			<div class="col-xs-12 col-md-12 addressbar" >
+				<p >Kemistintie 1, Espoo, Finland &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp team (at) aaltohelsinki.com &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp +358 40 822 9925</p>
+			</div>
+		</div>
+    </div>	
+</div>
+<!-- Bar at the bottom ends -->
+    
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!--script src="./Tinyone - HTML_files/jquery.min.js"></script>
+    <script src="./Tinyone - HTML_files/bootstrap.min.js"></script>
+    <script src="./Tinyone - HTML_files/offcanvas.js"></script>
+    <script src="./Tinyone - HTML_files/function.js"></script-->
+  
+
+</body></html>
