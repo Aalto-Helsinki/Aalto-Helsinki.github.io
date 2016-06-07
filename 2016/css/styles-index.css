@@ -86,6 +86,9 @@ h1 span {
 
 .block, .lead {
 	font-size: 20px;
+}
+
+.justified {
 	text-align: justify;
 }
 
