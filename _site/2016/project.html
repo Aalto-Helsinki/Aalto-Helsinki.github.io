@@ -32,7 +32,6 @@
     <body class="teambackground">
 
 	<header>
-<!-->[href*='" + location.pathname + "']<-->
             <div class="navbar navbar-default navbar-fixed-top black-bar"> <!-- If we want to have fixed navbar, just add 'navbar-fixed-top' there -->
                 <div class="row text-center" id="logobar">
                     <div class="col-sm-2" id="navigation">
@@ -42,15 +41,10 @@
                     </div> 
                     <div class="text-center col-sm-8" id="navigation">
                         <nav>
-                            <!--a href="./partners.html">Partners &nbsp</a>
-                            <a href="./project.html">&nbsp Project &nbsp</a>
-							<a href="./team.html">&nbsp Team &nbsp</a>
-							<a href="./media.html">&nbsp Media &nbsp</a-->
 							<span>&nbsp </span><a href="/2016/index.html" >Main</a><span> &nbsp</span>
 							<span>&nbsp </span><a href="/2016/team.html" >Team</a><span> &nbsp</span>
 							<span>&nbsp </span><a href="/2016/project.html" >Project</a><span> &nbsp</span>
 							<span>&nbsp </span><a href="http://blog.aaltohelsinki.com/" >Blog</a><span> &nbsp</span>
-							<!--a href="http://2015.igem.org/Team:Aalto-Helsinki" >&nbsp Wiki &nbsp</a-->
 							<a href="/2014/index_en.html">&nbsp 2014 &nbsp</a>
 							<a href="/2015/index.html">&nbsp 2015 &nbsp</a>
 							<a href="https://www.facebook.com/AaltoHelsinki">
@@ -69,7 +63,7 @@
                 </div>
             </div>
 			
-<script>$(".black-bar a[href*='" + location.pathname + "']:last").attr("id", "currentLink");</script>
+<script>$(".black-bar a[href*='" + location.pathname + "']:first").attr("id", "currentLink");</script>
         </header>
     
 	<!--br/><br/-->
@@ -98,7 +92,7 @@
 		and animals. The goal of our project is to <b>sense</b> the most common cyanobacterial toxins and <b>degrade</b> them by producing a cyanotoxin-degrading
 		enzyme with genetically modified yeast.</p>
 		
-		<p = class="lead justified">The final product of our project would be a kit containing a sensor device and a degradation capsule. The sensor would indicate the presence of harmful toxins in the
+		<p class="lead spacing justified">The final product of our project would be a kit containing a sensor device and a degradation capsule. The sensor would indicate the presence of harmful toxins in the
 		sample and the capsule could then be used to detoxify water as needed. This kit would enable the safe use of lake water as sauna, shower or animal drinking
 		water.</p>
 		</div>
