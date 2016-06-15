@@ -171,15 +171,16 @@ title: Aalto-Helsinki
 	  
 	<script>
 	$(document).ready( function() {
-	    var parallax = document.querySelectorAll(".parallax");
+	    var parallax = document.querySelector(".parallax");
 		var speed = 0.75;
+		var mult = 0.3;
 		
-		window.onscroll = function() {
-		    [].slice.call(parallax).forEach(function(el, i) {
-				var elBackgroundPos = "0%" + (-0.3*window.outerHeight+window.pageYOffset * speed) + "px";
-				el.style.backgroundPosition = elBackgroundPos;
-			});
-		};
+		function animationParallax() {
+			var elBackgroundPos = "0%" + (window.pageYOffset * speed) + "px";
+			parallax.style.backgroundPosition = elBackgroundPos;
+		}
+		
+		window.onscroll = animationParallax;
 		
 	});
 	</script>

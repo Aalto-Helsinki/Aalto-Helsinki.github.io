@@ -43,20 +43,21 @@
                     </div> 
                     <div class="text-center col-sm-8" id="navigation">
                         <nav>
-							<span>&nbsp </span><a href="/2016/index.html" >Main</a><span> &nbsp</span>
-							<span>&nbsp </span><a href="/2016/team.html" >Team</a><span> &nbsp</span>
-							<span>&nbsp </span><a href="/2016/project.html" >Project</a><span> &nbsp</span>
-							<span>&nbsp </span><a href="http://blog.aaltohelsinki.com/" >Blog</a><span> &nbsp</span>
-							<a href="/2014/index_en.html">&nbsp 2014 &nbsp</a>
-							<a href="/2015/index.html">&nbsp 2015 &nbsp</a>
+							<span>&nbsp </span><a href="/2016/index.html" >Main</a><span> &nbsp </span>
+							<span>&nbsp </span><a href="/2016/team.html" >Team</a><span> &nbsp </span>
+							<span>&nbsp </span><a href="/2016/project.html" >Project</a><span> &nbsp </span>
+							<span>&nbsp </span><a href="/2016/partners.html" >Partners</a><span> &nbsp </span>
+							<span>&nbsp </span><a href="http://blog.aaltohelsinki.com/" >Blog</a><span> &nbsp </span>
+							<a href="/2014/index_en.html">&nbsp 2014 &nbsp </a>
+							<a href="/2015/index.html">&nbsp 2015 &nbsp </a>
 							<a href="https://www.facebook.com/AaltoHelsinki">
 										<i class="fa fa-facebook"></i>
 							</a>
 							<a href="https://twitter.com/AaltoHelsinki">
-										<p style="display:inline">&nbsp&nbsp&nbsp</p><i class="fa fa-twitter"></i>
+										<p style="display:inline">&nbsp&nbsp&nbsp </p><i class="fa fa-twitter"></i>
 							</a>
 							<a href="https://instagram.com/aaltohelsinki_igem">
-							            <p style="display:inline">&nbsp&nbsp&nbsp</p><i class="fa fa-instagram"></i>
+							            <p style="display:inline">&nbsp&nbsp&nbsp </p><i class="fa fa-instagram"></i>
 						    </a>
                         </nav>
                     </div>
@@ -69,7 +70,6 @@
         </header>
     
 	<!--br/><br/-->
-	
 	<section class="lakephoto parallax">
 	<nav class="nav-circlepop">
 		<span>
@@ -85,7 +85,7 @@
 	</svg>
 	</section>
 	
-	<div class="block-wrapper featured-block" id="features">
+	<div class="block-wrapper featured-block parallax__layer parallax__layer--base" id="features">
 	<div class="block-wrapper-inner">
 	<div class="container">
 	
@@ -123,15 +123,15 @@
 	  
 	<script>
 	$(document).ready( function() {
-	    var parallax = document.querySelectorAll(".parallax");
+	    var parallax = document.querySelector(".parallax");
 		var speed = 0.75;
+
+		function parallaxanimation() {
+			var elBackgroundPos = "0%" + (window.pageYOffset * speed) + "px";
+			parallax.style.backgroundPosition = elBackgroundPos;
+		}
 		
-		window.onscroll = function() {
-		    [].slice.call(parallax).forEach(function(el, i) {
-				var elBackgroundPos = "0%" + (window.pageYOffset * speed) + "px";
-				el.style.backgroundPosition = elBackgroundPos;
-			});
-		};
+		window.onscroll = parallaxanimation;
 		
 	});
 	</script>
