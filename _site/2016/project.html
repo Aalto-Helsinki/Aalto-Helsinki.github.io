@@ -41,20 +41,21 @@
                     </div> 
                     <div class="text-center col-sm-8" id="navigation">
                         <nav>
-							<span>&nbsp </span><a href="/2016/index.html" >Main</a><span> &nbsp</span>
-							<span>&nbsp </span><a href="/2016/team.html" >Team</a><span> &nbsp</span>
-							<span>&nbsp </span><a href="/2016/project.html" >Project</a><span> &nbsp</span>
-							<span>&nbsp </span><a href="http://blog.aaltohelsinki.com/" >Blog</a><span> &nbsp</span>
-							<a href="/2014/index_en.html">&nbsp 2014 &nbsp</a>
-							<a href="/2015/index.html">&nbsp 2015 &nbsp</a>
+							<span>&nbsp </span><a href="/2016/index.html" >Main</a><span> &nbsp </span>
+							<span>&nbsp </span><a href="/2016/team.html" >Team</a><span> &nbsp </span>
+							<span>&nbsp </span><a href="/2016/project.html" >Project</a><span> &nbsp </span>
+							<span>&nbsp </span><a href="/2016/partners.html" >Partners</a><span> &nbsp </span>
+							<span>&nbsp </span><a href="http://blog.aaltohelsinki.com/" >Blog</a><span> &nbsp </span>
+							<a href="/2014/index_en.html">&nbsp 2014 &nbsp </a>
+							<a href="/2015/index.html">&nbsp 2015 &nbsp </a>
 							<a href="https://www.facebook.com/AaltoHelsinki">
 										<i class="fa fa-facebook"></i>
 							</a>
 							<a href="https://twitter.com/AaltoHelsinki">
-										<p style="display:inline">&nbsp&nbsp&nbsp</p><i class="fa fa-twitter"></i>
+										<p style="display:inline">&nbsp&nbsp&nbsp </p><i class="fa fa-twitter"></i>
 							</a>
 							<a href="https://instagram.com/aaltohelsinki_igem">
-							            <p style="display:inline">&nbsp&nbsp&nbsp</p><i class="fa fa-instagram"></i>
+							            <p style="display:inline">&nbsp&nbsp&nbsp </p><i class="fa fa-instagram"></i>
 						    </a>
                         </nav>
                     </div>
@@ -73,6 +74,7 @@
 	<nav class="nav-circlepop">
 		<span>
 		<a class="prevArrow" href="/2016/team.html"> <span class="icon-wrap"> </span></a>
+		<a class="nextArrow" href="/2016/partners.html"> <span class="icon-wrap"> </span></a>
 		</span>
 	</nav>
 	<h1><span>OUR PROJECT</span></h1>
@@ -86,7 +88,7 @@
 
 	  <div class="container">
 	    <div class="spacing">
-	    <h2>Making Water Safe</h2>
+	    <h2>Fighting Against Blue-Green Algae</h2>
 		<p class="lead spacing justified">Toxins produced by blue-green algae are a recurring problem in Finnish water systems every summer.
 		When present in large quantities as blooms, cyanotoxins pose a significant health threat to humans
 		and animals. The goal of our project is to <b>sense</b> the most common cyanobacterial toxins and <b>degrade</b> them by producing a cyanotoxin-degrading
@@ -121,16 +123,17 @@
 	  
 	<script>
 	$(document).ready( function() {
-	    var parallax = document.querySelectorAll(".parallax");
+	    var parallax = document.querySelector(".parallax");
 		var speed = 0.75;
+		var mult = 0.3;
+		/*parallax.style.backgroundPosition = "0%" + -mult*window.innerHeight + "px";*/
 		
-		window.onscroll = function() {
-		    [].slice.call(parallax).forEach(function(el, i) {
-				var elBackgroundPos = "0%" + (-0.3*window.outerHeight+window.pageYOffset * speed) + "px";
-				el.style.backgroundPosition = elBackgroundPos;
-			});
-		};
+		function animationParallax() {
+			var elBackgroundPos = "0%" + (window.pageYOffset * speed) + "px";
+			parallax.style.backgroundPosition = elBackgroundPos;
+		}
 		
+		window.onscroll = animationParallax;
 	});
 	</script>
 	

@@ -2,8 +2,12 @@ html, body, section, .container {
 	height: 100%;
 }
 
+a img {
+	width: 80%;
+}
+
 #svg {
-	padding-left: 80px;
+	margin-left: 6%;
 }
 
 @font-face {
@@ -80,7 +84,7 @@ h1 span {
 }
 
 .block-wrapper-inner {
-	padding-left: 100px;
+	/*padding-left: 100px;*/
 	padding-top: 10%;
 }
 
@@ -137,7 +141,7 @@ section h1 {
 }
 
 .circle {
-	background-color = rgb(255, 255, 255);
+	background-color: rgb(255, 255, 255);
 	/*border-radius: 200px;*/
 	height: 200px;
 	width: 200px;
@@ -145,9 +149,9 @@ section h1 {
 }
 
 .teamphoto {
-	background: url('/2016/img/team2.jpg') no-repeat;
+	background: url('/2016/img/team3.jpg') no-repeat;
 	background-size: 100%;
-	background-position: 0% 30%;
+	background-position: 0% 0%;
 	height: 110%;
 	width: 100%;
 	/*background: #cc6055;*/
@@ -164,9 +168,18 @@ section h1 {
 }
 
 .sciencephoto {
-	background: url('/2016/img/colorful.jpg') no-repeat;
+	background: url('/2016/img/colorful2.jpg') no-repeat;
 	background-size: 100%;
-	background-position: 0% 30%;
+	background-position: 0% 0%;
+	height: 110%;
+	width: 100%;
+}
+
+.handshakephoto {
+	background: url('/2016/img/handshake2.jpg') no-repeat;
+	/*background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/2016/img/handshake.jpg') no-repeat;*/
+	background-size: 100%;
+	background-position: 0% 0%;
 	height: 110%;
 	width: 100%;
 }
@@ -276,6 +289,32 @@ nav a.nextArrow {
 	transform: translateX(-50%) rotate(-45deg);
 }
 
+/* CSS Parallax 
+
+.parallax {
+	perspective: 1px;
+	height: 100vh;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.parallax__layer {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.parallax__layer--base {
+	transform: translateZ(0);
+}
+
+.parallax__layer--back {
+	transform: translateZ(-1px) scale(2);
+}
+*/
+
 /* Mobile style */
 
 @media screen and (max-width: 600px) {
@@ -300,5 +339,9 @@ nav a.nextArrow {
 	
 	.container .col-md-3 {
 		margin-bottom: 60px;
+	}
+	
+	.handshakephoto {
+		background-position: 0% 25%;
 	}
 }

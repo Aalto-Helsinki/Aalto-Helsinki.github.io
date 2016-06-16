@@ -44,6 +44,7 @@ title: Aalto-Helsinki
 	<nav class="nav-circlepop">
 		<span>
 		<a class="prevArrow" href="/2016/team.html"> <span class="icon-wrap"> </span></a>
+		<a class="nextArrow" href="/2016/partners.html"> <span class="icon-wrap"> </span></a>
 		</span>
 	</nav>
 	<h1><span>OUR PROJECT</span></h1>
@@ -57,7 +58,7 @@ title: Aalto-Helsinki
 
 	  <div class="container">
 	    <div class="spacing">
-	    <h2>Making Water Safe</h2>
+	    <h2>Fighting Against Blue-Green Algae</h2>
 		<p class="lead spacing justified">Toxins produced by blue-green algae are a recurring problem in Finnish water systems every summer.
 		When present in large quantities as blooms, cyanotoxins pose a significant health threat to humans
 		and animals. The goal of our project is to <b>sense</b> the most common cyanobacterial toxins and <b>degrade</b> them by producing a cyanotoxin-degrading
@@ -92,16 +93,17 @@ title: Aalto-Helsinki
 	  
 	<script>
 	$(document).ready( function() {
-	    var parallax = document.querySelectorAll(".parallax");
+	    var parallax = document.querySelector(".parallax");
 		var speed = 0.75;
+		var mult = 0.3;
+		/*parallax.style.backgroundPosition = "0%" + -mult*window.innerHeight + "px";*/
 		
-		window.onscroll = function() {
-		    [].slice.call(parallax).forEach(function(el, i) {
-				var elBackgroundPos = "0%" + (-0.3*window.outerHeight+window.pageYOffset * speed) + "px";
-				el.style.backgroundPosition = elBackgroundPos;
-			});
-		};
+		function animationParallax() {
+			var elBackgroundPos = "0%" + (window.pageYOffset * speed) + "px";
+			parallax.style.backgroundPosition = elBackgroundPos;
+		}
 		
+		window.onscroll = animationParallax;
 	});
 	</script>
 	

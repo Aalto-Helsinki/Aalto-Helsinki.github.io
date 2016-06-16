@@ -40,7 +40,6 @@ title: Aalto-Helsinki
 	{% include_relative topbar/blackbartop.html %}
     
 	<!--br/><br/-->
-	
 	<section class="lakephoto parallax">
 	<nav class="nav-circlepop">
 		<span>
@@ -56,7 +55,7 @@ title: Aalto-Helsinki
 	</svg>
 	</section>
 	
-	<div class="block-wrapper featured-block" id="features">
+	<div class="block-wrapper featured-block parallax__layer parallax__layer--base" id="features">
 	<div class="block-wrapper-inner">
 	<div class="container">
 	
@@ -94,15 +93,15 @@ title: Aalto-Helsinki
 	  
 	<script>
 	$(document).ready( function() {
-	    var parallax = document.querySelectorAll(".parallax");
+	    var parallax = document.querySelector(".parallax");
 		var speed = 0.75;
+
+		function parallaxanimation() {
+			var elBackgroundPos = "0%" + (window.pageYOffset * speed) + "px";
+			parallax.style.backgroundPosition = elBackgroundPos;
+		}
 		
-		window.onscroll = function() {
-		    [].slice.call(parallax).forEach(function(el, i) {
-				var elBackgroundPos = "0%" + (window.pageYOffset * speed) + "px";
-				el.style.backgroundPosition = elBackgroundPos;
-			});
-		};
+		window.onscroll = parallaxanimation;
 		
 	});
 	</script>
