@@ -19,12 +19,24 @@
 	},
 	c.prototype._initAnimation = function(){
 		for(var a=0;a<this.paths.length;a++){
+			//if (a <= 1) {
 			var b=this.paths[a],c=b.getTotalLength();
 			b.style.fillOpacity=0,b.style.strokeOpacity=1,b.style.transition=b.style.WebkitTransition="none",
 			b.style.strokeDasharray = c+" "+c,
-			b.style.strokeDashoffset=c, b.getBoundingClientRect(),
-			b.style.transition=b.style.WebkitTransition="stroke-dashoffset 2s ease-in-out",b.style.strokeDashoffset=0,this._fillPath(b);
-			console.log(b.style.transition);
+			b.style.strokeDashoffset=c+"px", b.getBoundingClientRect();
+			b.style.transition=b.style.WebkitTransition="stroke-dashoffset 2s ease-in-out",b.style.strokeDashoffset="0px",this._fillPath(b);
+			/*var offsetMe = function() {
+			if(b.style.strokeDashoffset <= 0) { 
+			cancelAnimationFrame(offsetMe);
+			return;
+			}
+			b.style.strokeDashoffset = Number(b.style.strokeDashoffset)-2;
+			//console.log(b.style.strokeDashoffset);
+			requestAnimationFrame(offsetMe);
+			}
+			offsetMe();
+			this._fillPath(b);
+			}*/
 		}
 	},
 	c.prototype._fillPath = function(a){

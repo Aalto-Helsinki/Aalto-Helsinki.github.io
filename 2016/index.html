@@ -14,7 +14,7 @@ title: Aalto-Helsinki
 	
 	<script src="/js/jquery-1.6.2.min.js"></script>
 	<script src="modernizr.js"></script>
-	<script src="drawfillsvg.js"></script>
+	<script src="drawfillsvg.min.js"></script>
 	
     <!-- Bootstrap core CSS -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">
@@ -114,7 +114,10 @@ title: Aalto-Helsinki
 	</script>
 	<script>
 		$( document ).ready( function() {
-			var myAnimation = new DrawFillSVG({elementId: "svg"});
+		    console.log(navigator.appName)
+			if (!(ActiveXObject in window)) {
+				var myAnimation = new DrawFillSVG({elementId: "svg"});
+			}
 		});
 	</script>
 
