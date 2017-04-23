@@ -159,11 +159,11 @@ section h1 {
 
 .lakephoto {
 	background: url('/2017/img/igem-logo-multicolour.png') no-repeat;
-	background-size: 65%;
+	background-size: 100%;
 	background-size: cover;
-	/*background-position: 0% 30%;*/
-	height: 110%;
-	width: 100%;
+	background-position: 0% 20%;
+	height: 90%;
+	width: 90%;
 	/*background: #cc6055;*/
 }
 
