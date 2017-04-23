@@ -161,9 +161,9 @@ section h1 {
 	background: url('/2017/img/igem-logo-multicolour.png') no-repeat;
 	/*background-size: 100%;*/
 	background-size: cover;
-	background-position: 40% 0%;
-	height: 80%;
-	width: 80%;
+	background-position: 50% 0%;
+	height: 100%;
+	width: 100%;
 	/*background: #cc6055;*/
 }
 
