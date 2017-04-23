@@ -73,34 +73,6 @@ title: Aalto-Helsinki
 	</div>
 	</div>
 	</div>
-	
-	<!-- sponsors -->
-    <div class="block-wrapper" id="partners">
-      <div class="container">
-	  {% include_relative topbar/supporters.html %}
-      </div>
-	</div>
-	  
-	<script>
-	$(document).ready( function() {
-	    var parallax = document.querySelector(".parallax");
-		var speed = 0.75;
-
-		function parallaxanimation() {
-			var elBackgroundPos = "0%" + (window.pageYOffset * speed) + "px";
-			parallax.style.backgroundPosition = elBackgroundPos;
-		}
-		
-		window.onscroll = parallaxanimation;
-		
-	});
-	</script>
-	<script>
-		$( document ).ready( function() {
-			var myAnimation = new DrawFillSVG({elementId: "svg"});
-		});
-	</script>
-
 
 	
 	{% include_relative topbar/blackbarbottom.html %}
