@@ -102,6 +102,8 @@ h1 span {
 	margin-right: 20px;
 }
 
+<link href='//fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+
 body {
    height: 100%;
    /*background: url('/2016/img/final_cropped_background.png') no-repeat;*/
@@ -109,7 +111,7 @@ body {
    background-size: cover;
   -webkit-font-smoothing: antialiased; /* font smoothing */
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Quicksand';font-size:22px;
 }
 
 .teambackground {
