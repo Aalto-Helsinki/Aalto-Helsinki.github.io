@@ -11,8 +11,8 @@ a img {
 }
 
 @font-face {
-	font-family: BebasLight;
-	src: url(BebasNeueLight.ttf);
+	font-family: Quicksand;
+	src: url(Adam.otf);
 }
 
 span h1 {
@@ -101,8 +101,6 @@ h1 span {
 	margin-bottom: 40px;
 	margin-right: 20px;
 }
-
-<link href='//fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
 
 body {
    height: 100%;
