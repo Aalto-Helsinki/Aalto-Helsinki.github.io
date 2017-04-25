@@ -109,7 +109,7 @@ body {
    background-size: cover;
   -webkit-font-smoothing: antialiased; /* font smoothing */
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Quicksand';font-size:22px;
+  font-family: 'Quicksand';font-size:18px;
 }
 
 .teambackground {
