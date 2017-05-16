@@ -125,7 +125,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Photos */
-
+footerimg {
+  max-height: 100px;
+  max-width: 250px !important;
+}
 /* Navigation arrows */
 
 section {
