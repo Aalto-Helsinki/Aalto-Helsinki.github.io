@@ -1,5 +1,5 @@
 html, body, section, .container {
-	height: 70%;
+	height: 75%;
 }
 
 a img {
@@ -103,7 +103,7 @@ h1 span {
 }
 
 body {
-   height: 70%;
+   height: 75%;
    /*background: url('/2016/img/final_cropped_background.png') no-repeat;*/
    background-color: white;
    background-size: cover;
