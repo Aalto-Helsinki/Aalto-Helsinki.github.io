@@ -28,7 +28,7 @@ h1 span {
 }
 
 .centerrow {
-	text-align: center;
+	text-align: justify;
 }
 
 .centercol {
@@ -89,7 +89,7 @@ h1 span {
 }
 
 .block, .lead {
-	font-size: 18px;
+	font-size: 15px;
 }
 
 .justified {
