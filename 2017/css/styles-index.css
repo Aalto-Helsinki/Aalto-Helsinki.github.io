@@ -28,13 +28,13 @@ h1 span {
 }
 
 .centerrow {
-	text-align: justify;
+	text-align: left;
 }
 
 .centercol {
 	display: inline-table;
 	float: none;
-	text-align: justify;
+	text-align: left;
 	margin-right: 30px;
 	margin-left: 30px;
 }
