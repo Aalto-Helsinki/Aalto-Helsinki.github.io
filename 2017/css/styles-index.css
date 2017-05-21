@@ -1,5 +1,5 @@
 html, body, section, .container {
-	height: 80%;
+	height: 70%;
 }
 
 a img {
@@ -85,7 +85,7 @@ h1 span {
 
 .block-wrapper-inner {
 	/*padding-left: 100px;*/
-	padding-top: 10%;
+	padding-top: 2%;
 }
 
 .block, .lead {
@@ -103,7 +103,7 @@ h1 span {
 }
 
 body {
-   height: 80%;
+   height: 70%;
    /*background: url('/2016/img/final_cropped_background.png') no-repeat;*/
    background-color: white;
    background-size: cover;
