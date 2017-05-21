@@ -151,7 +151,7 @@ section h1 {
 .teamphoto {
 	background: url('/2017/img/iGEM2017-logo-black.png') no-repeat;
 	background-size: 100%;
-	background-position: 0% 20%;
+	background-position: 0% 0%;
 	height: 110%;
 	width: 100%;
 	/*background: #cc6055;*/
@@ -288,7 +288,7 @@ nav a.nextArrow {
 	transform: translateX(-50%) rotate(-45deg);
 }
 
-/* CSS Parallax */
+/* CSS Parallax
 
 .parallax {
 	perspective: 1px;
@@ -312,7 +312,7 @@ nav a.nextArrow {
 .parallax__layer--back {
 	transform: translateZ(-1px) scale(2);
 }
-
+*/
 
 /* Mobile style */
 
