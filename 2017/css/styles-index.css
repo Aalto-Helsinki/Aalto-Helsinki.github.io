@@ -1,5 +1,5 @@
 html, body, section, .container {
-	height: 100%;
+	height: 50%;
 }
 
 a img {
@@ -103,7 +103,7 @@ h1 span {
 }
 
 body {
-   height: 100%;
+   height: 50%;
    /*background: url('/2016/img/final_cropped_background.png') no-repeat;*/
    background-color: white;
    background-size: cover;
@@ -186,7 +186,7 @@ section h1 {
 section nav a {
 	position: absolute;
 	display: block;
-	top: 0%;
+	top: 20%;
 }
 
 nav a.prevArrow {
