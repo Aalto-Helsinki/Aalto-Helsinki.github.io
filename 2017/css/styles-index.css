@@ -1,5 +1,5 @@
 html, body, section, .container {
-	height: 85%;
+	height: 80%;
 }
 
 a img {
@@ -85,7 +85,7 @@ h1 span {
 
 .block-wrapper-inner {
 	/*padding-left: 100px;*/
-	padding-top: 1%;
+	padding-top: 0%;
 }
 
 .block, .lead {
