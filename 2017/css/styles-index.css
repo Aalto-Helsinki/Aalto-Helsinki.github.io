@@ -6,6 +6,11 @@ a img {
 	width: 80%;
 }
 
+img.hilife {
+	width: 30px;
+	height: 371px;
+}
+
 #svg {
 	margin-left: 6%;
 }
