@@ -1,5 +1,6 @@
 .rekryrow{
   margin-top:5%;
+  font-size: 16px;
 }
 .rekryrow a:link{
   color:gray;
@@ -11,15 +12,32 @@
   color:black;
 }
 
+li {
+  font-family: Tahoma;
+  font-size: 15px;
+}
+
+p {
+  font-family: Tahoma;
+  font-size: 15px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 1000 !important;
+}
+
 .rekryrow h1{
   margin-top:0;
   padding-top:0;
   margin-bottom:5%;
+  font-size: 29px;
+  text-shadow: 1px 1px #686868;
 }
 
 .rekryrow h2{
   margin-top:0;
   padding-top:0;
+  font-size: 24px;
 }
 
 #cloud{
