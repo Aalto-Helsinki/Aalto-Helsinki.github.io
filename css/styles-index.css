@@ -353,9 +353,9 @@ nav a.nextArrow {
  		display: block;
   		-moz-box-sizing: border-box;
   		box-sizing: border-box;
-  		background: url('../img/rainbow-banner-mobile.png') no-repeat;
+  		/*background: url('../img/rainbow-banner-mobile.png') no-repeat;*/
   		background-position: center center;
-  		background-size: 100%;
+  		background-size: 20%;
   		/*width: 180px;*/ /* Width of new image */
   		height: 420px; /* Height of new image */
 	}
