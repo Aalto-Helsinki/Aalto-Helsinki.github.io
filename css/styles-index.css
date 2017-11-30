@@ -321,7 +321,7 @@ nav a.nextArrow {
 
 /* Mobile style */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
 	#svg {
 		padding-left: 0;
 		margin-top: 20%;
