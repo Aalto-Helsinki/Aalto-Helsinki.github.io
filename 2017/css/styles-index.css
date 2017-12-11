@@ -166,7 +166,7 @@ section h1 {
 	background: url('/2017/img/CROPPED_IGEM2017 logo multicolour.png') no-repeat;
 	background-size: 100%;
 	background-position: 0% 0%;
-	height: 110%;
+	height: 80%;
 	width: 100%;
 	/*background: #cc6055;*/
 }
@@ -318,6 +318,23 @@ nav a.nextArrow {
 	transform: translateZ(-1px) scale(2);
 }
 */
+
+@media screen and (max-width: 1000px) {
+
+	.handshakephoto {
+		background-position: 0% 25%;
+		height: 40%;
+	}
+	.lakephoto {
+		height: 40%;
+	}
+	.teamphoto {
+		height: 40%;
+	}
+	.sciencephoto {
+		height: 40%;
+	}
+}
 
 /* Mobile style */
 
