@@ -1,0 +1,119 @@
+---
+title: Aalto-Helsinki
+---
+
+<!DOCTYPE html> 
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Aalto-Helsinki</title>
+	
+	<script src="/js/jquery-1.6.2.min.js"></script>
+	
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link href="/css/font-awesome.css" rel="stylesheet">
+
+    <!-- Quicksand font -->
+    <link href='//fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+
+    <!-- Custom styles for this template -->
+    <link href="./css/styles-index.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+    <body class="teambackground">
+
+	{% include_relative topbar/blackbartop.html %}
+    
+	<!--br/><br/-->
+
+    <!-- featured -->
+    <div class="block-wrapper featured-block" id="features">
+
+      <div class="block-wrapper-inner">
+
+	  <div class="container">
+	    <div class="spacing">
+	    <h2>Press</h2>
+		<p class="lead spacing justified">We are a student-driven team that will participate in a synthetic biology competition: International Genetically Engineered Machine (iGEM). In practice this means, that we are working in the lab with bacteria to which we insert DNA in order to produce an antimicrobial peptide. This peptide is efficient at killing many hospital bacteria, such as MRSA. The peptide is called dermcidin, and it is natural in the sense that it is secreted by the human sweat glands. It also has a very different working mechanism from antibiotics. This is why it is a great potential solution to combat antibiotic resistance in such applications that are in close contact with humans. This kind of solutions include wound care products, implants and surgical devices.
+		</p>
+
+		<p class="lead spacing justified">We believe that science has great potential, when practiced responsibly and safely. This especially applies to synthetic biology, as cells are incredibly complex working units, which can be used to produce complicated molecules. We are happy to comment on our project, synthetic biology, the competition or science in general. Because of this, we also intend to organize workshops and present at events, as well as create educational online material about synthetic biology, in Finnish.
+		</p>
+
+		<p class="lead spacing justified">If you would like to interview us or write about us in the media, feel free to contact us through our team email. We are more than happy to help.
+		</p>
+		
+		</div>
+		
+		<div class="spacing">
+		<h2>Media photos</h2>
+		<p class="lead spacing justified">These photos can be freely used by media.</p>
+		
+		<div class="spacing">
+		<img src="/2017/img/press1.jpg" width=700 /><br>
+		<br>
+		<img src="/2017/img/press2.jpg" width=700 /><br>
+		
+		</p>
+	
+		</div>
+	
+		
+      </div>
+			
+      </div>
+      
+    </div> <!-- end featured -->
+	  
+	<!-- sponsors -->
+    <div class="block-wrapper" id="partners">
+      <div class="container">
+      <br>
+	  {% include_relative topbar/supporters.html %}
+      </div>
+	</div>
+	
+	<!--<script>
+	$(document).ready( function() {
+	    var parallax = document.querySelector(".parallax");
+		var speed = 0.75;
+		var mult = 0.3;
+		/*parallax.style.backgroundPosition = "0%" + -mult*window.innerHeight + "px";*/
+		
+		function animationParallax() {
+			var elBackgroundPos = "0%" + (window.pageYOffset * speed) + "px";
+			parallax.style.backgroundPosition = elBackgroundPos;
+		}
+		
+		window.onscroll = animationParallax;
+	});
+	</script>-->
+	
+	{% include_relative topbar/blackbarbottom.html %}
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!--script src="./Tinyone - HTML_files/jquery.min.js"></script>
+    <script src="./Tinyone - HTML_files/bootstrap.min.js"></script>
+    <script src="./Tinyone - HTML_files/offcanvas.js"></script>
+    <script src="./Tinyone - HTML_files/function.js"></script-->
+  
+
+</body></html>
