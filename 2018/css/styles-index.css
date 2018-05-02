@@ -157,7 +157,7 @@ section h1 {
 	background: url('/2018/img/teamphoto2018.jpg') no-repeat;
 	background-size: 100%;
 	background-position: 0% 0%;
-	height: 110%;
+	height: 150%;
 	width: 100%;
 	/*background: #cc6055;*/
 }
@@ -329,7 +329,7 @@ nav a.nextArrow {
 		height: 40%;
 	}
 	.teamphoto {
-		height: 40%;
+		/*height: 40%;*/
 	}
 	.sciencephoto {
 		height: 40%;
