@@ -1,3 +1,7 @@
+---
+title: Aalto-Helsinki
+---
+
 <!DOCTYPE html> 
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
@@ -8,23 +12,22 @@
 
     <title>Aalto-Helsinki</title>
 	
-	<link href="./Tinyone - HTML_files/css" rel="stylesheet" type="text/css">
-	<link href="./Tinyone - HTML_files/css(1)" rel="stylesheet" type="text/css">
-    <link rel="icon" type="image/png" href="./img/favicon.png">
+	<script src="/js/jquery-1.6.2.min.js"></script>
+	<script src="modernizr.js"></script>
+	<script src="drawfillsvg.min.js"></script>
 	
     <!-- Bootstrap core CSS -->
-    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
     
     <!-- Font Awesome -->
-    <link href="./css/font-awesome.css" rel="stylesheet">
+    <link href="/css/font-awesome.css" rel="stylesheet">
+
+    <!-- Quicksand font -->
+    <link href='//fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
 
     <!-- Custom styles for this template -->
     <link href="./css/styles-index.css" rel="stylesheet">
-    <link href="./css/styles-rekry.css" rel="stylesheet">
 
-    <!-- redirect to 2018 index
-    <meta http-equiv="refresh" content="0; url=http://www.aaltohelsinki.com/2018/index.html"/>
-	-->
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
@@ -33,217 +36,51 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
   </head>
 
-    <body>
+    <body class="teambackground">
 
-  <img class="AHmainlogo" style="width:100%;  padding-top: 62px;" src="./img/rainbow-banner++.png">
-
-<div class="site row-offcanvas row-offcanvas-left">  
-	<header>
-            
-            <div class="navbar navbar-default navbar-fixed-top black-bar"> 
-              <!-- If we want to have fixed navbar, just add 'navbar-fixed-top' there -->
-                <div class="row text-center" id="logobar">
-                    <div class="col-sm-2" id="navigation">
-						<nav >
-
-						</nav>
-                    </div> 
-                    <div class="text-center col-sm-8" id="navigation">
-                        <nav>
-							<a href="#rekry1">Participate &nbsp</a>
-                            <a href="#rekry2">&nbsp iGEM &nbsp</a>
-							<a href="#rekry3">&nbsp What? &nbsp</a>
-							<a href="#rekry4">&nbsp Who? &nbsp</a>
-							<a href="#rekry5" >&nbsp Apply! &nbsp</a>
-                                      <a href="./index.html"><img style="width:155px" src="./img/AH-logo+.png" id="ahlogo"></a>
-							<a href="/2014/index_en.html">&nbsp; 2014 &nbsp; </a>
-							<a href="/2015/index.html">&nbsp; 2015 &nbsp; </a>
-              <a href="/2016/index.html">&nbsp; 2016 &nbsp; </a>
-              <a href="/2017/index.html">&nbsp; 2017 &nbsp; </a>
-							<a href="https://www.facebook.com/AaltoHelsinki">
-										<i class="fa fa-facebook"></i>
-							</a>
-							<a href="https://twitter.com/AaltoHelsinki">
-										<p style="display:inline">&nbsp; &nbsp; &nbsp; </p><i class="fa fa-twitter"></i>
-							</a>
-							<a href="https://instagram.com/aaltohelsinki_igem">
-							            <p style="display:inline">&nbsp; &nbsp; &nbsp; </p><i class="fa fa-instagram"></i>
-						    </a>
-                        </nav>
-                    </div>
-					
-					
-                </div>
-            </div>
-        </header>
-
+	{% include_relative topbar/blackbartop.html %}
     
-    
-    <!-- featured -->
-    <div class="block-wrapper white featured-block full-height" id="features">
-
-      <div style="padding-top: 0px !important" class="block-wrapper-inner" >
-
-
-				<div class="row rekryrow" id="rekry1">
-					<div class="col-md-offset-1 col-md-5">
-          <!--<h1>You will be directed to the 2017 page in a few seconds...</h1>-->
-					
-          <h1>Participate in the iGEM competition!</h1>
-        		<h2>Do you want to spend an unforgettable summer?</h2>
-        <p>
-          Apply for (perhaps) the <strong>coolest summer job ever!</strong> We are now recruiting Aalto University and University of Helsinki students to form a new iGEM team to represent Finland in an international competition.
-        </p>
-        <p>
-          Do you want to make a difference? Carry out your own ideas and experiments in a student-driven research group, design and build a biological system of your own and compete with it in Boston. Learn immense amounts of new things and spend an unforgettable summer with <strong>synthetic biology</strong>. Read more and apply!
-        </p>
-         <p>
-          <a href="https://www.youtube.com/watch?v=sakRQvsdQlo&t=4s"><i>Synthetic Biology</i></a> is a field which views biology as something that can be engineered. It aims at engineering systems which consist of standardized genetic parts, in order to develop a functional organism.
-        </p>
-					</div>	
-					<!--<div class="col-md-5"><img style="max-width:80%;margin-top:0%;"  src="./img/rekry/r0-process-nutshell+.png" class="mem-face"></div>
-				</div>		-->
-			
-				<div class="row rekryrow"  id="rekry2">
-					<!--<div class="col-md-offset-1 col-md-5"><img style="max-width:100%;margin-top:2%;"  src="./img/rekry/r5-lab.jpg" class="mem-face"></div>-->
-					<div class="col-md-5">
-						<h1 >iGEM?</h1>
-                		<ul>
-          <li><strong>i</strong>nternational <strong>G</strong>enetically <strong>E</strong>ngineered <strong>M</strong>achine</li>
-          <li>An international synthetic biology competition</li>
-          <li>A competition for university students pursuing either Bachelor's or Master's degree</li>
-          <li>Research in a student-driven group for a couple of months</li>
-          <li>Presenting your research and findings at the Giant Jamboree in Boston</li>
-        </ul>
-        <p>
-          Find out more about iGEM on <a href="http://igem.org/Main_Page">http://igem.org/Main_Page</a>.
-        </p>
-        <p>
-          You can take a look at the previous teams' websites:<br>
-          <a href="http://aaltohelsinki.com/2014">Aalto-Helsinki 2014</a>, <a href="http://aaltohelsinki.com/2015">Aalto-Helsinki 2015</a>, <a href="http://aaltohelsinki.com/2016">Aalto-Helsinki 2016</a> and <a href="http://aaltohelsinki.com/2017">Aalto-Helsinki 2017</a> and our <a href="https://www.facebook.com/AaltoHelsinki">Facebook page</a> to know more!
-        </p>
-        <p>
-          All the aspects of the project are documented in the project "wiki". Take a look at our previous wikis to understand iGEM better:<br>
-          <a href="http://2014.igem.org/Team:Aalto-Helsinki">Wiki 2014</a>, <a href="http://2015.igem.org/Team:Aalto-Helsinki">Wiki 2015</a>, <a href="http://2016.igem.org/Team:Aalto-Helsinki">Wiki 2016</a> and <a href="http://2017.igem.org/Team:Aalto-Helsinki">Wiki 2017</a>.
-        </p>
-        <p>
-          This is what Aalto-Helsinki iGEM was in the previous years, but this year <strong>you</strong> and the rest of the team will decide what to research and how to do it!
-        </p>
-					</div>	
-				</div>		
-				
-
-				<div class="row rekryrow" id="rekry3">
-					<div class="col-md-offset-1 col-md-5">
-        <h1>What do you get?</h1>
-    <p>
-      <ul>
-        <li>Implement your own ideas with 8-12 other students in your own interdisciplinary research group.</li>
-        <li>Take part in the amazing competition in Boston with hundreds of teams from all around the world.</li>
-        <li>Learn new things that you never heard about in a lecture hall, in just one summer.</li>
-        <li>Find new unexpected career opportunities.</li>
-        <li>Work full-time over the summer - the ideation already starts in the spring, and work will continue in the fall.</li>
-        <li>An internationally substantial merit on your CV.</li>
-        <li>Take part in the search for funding and collaborating partners.</li>
-        <li>A trip to Boston and a paycheck, but don't expect significant monetary benefits.</li>
-        <li>Previous teams have also had the chance to travel to iGEM meetups in Europe during the Summer.</li>
-        <li>An opportunity to get study credits.</li>
-        <li>Improve your English skills.</li>
-        <li>A chance to perfect your presentation skills and face new challenges.</li>
-      </ul>
-    </p>
-					</div>	
-					<!--<div class="col-md-5"><img style="max-width:100%;margin-top:2%;"  src="./img/rekry/r4-fun.jpg" class="mem-face"></div>-->
-				</div>	
-
-				<div class="row rekryrow"  id="rekry4">
-					<!--<div class="col-md-offset-1 col-md-5"><img style="max-width:100%;margin-top:-3%"  src="./img/rekry/r7-proto.jpeg" class="mem-face"></div>-->
-					<div class="col-md-5">
-        <h1>We want you</h1>
-        <p>
-          Many fields of knowledge are needed in an iGEM team - whether you are studying towards a Bachelor's degree or a Master's degree. Do you study or find interest in some of the following fields?
-        </p>
-        <p id="cloud">
-                            Molecular biosciences&nbsp;&nbsp;&nbsp;&nbsp;Synthetic biology
-                 &nbsp;&nbsp;&nbsp;&nbsp;(Bio)chemistry&nbsp;&nbsp;&nbsp;&nbsp;Microbiology
-                     &nbsp;&nbsp;&nbsp;&nbsp;Biotechnology&nbsp;&nbsp;&nbsp;&nbsp;Gene technology 
-                &nbsp;&nbsp;&nbsp;&nbsp;(Bio)physics&nbsp;&nbsp;&nbsp;&nbsp;Bioinformatics<br>&nbsp;&nbsp;&nbsp;&nbsp;Information technology
-             &nbsp;&nbsp;&nbsp;&nbsp;Programming&nbsp;&nbsp;&nbsp;&nbsp;Web-design
-            &nbsp;&nbsp;&nbsp;&nbsp;Statistics&nbsp;&nbsp;&nbsp;&nbsp;<br>(Applied) Mathematics
-                &nbsp;&nbsp;&nbsp;&nbsp;Systems science &nbsp;&nbsp;&nbsp;&nbsp;Communications&nbsp;&nbsp;&nbsp;&nbsp;Medicine
-               &nbsp;&nbsp;&nbsp;&nbsp;Marketing&nbsp;&nbsp;&nbsp;&nbsp;Design
-              &nbsp;&nbsp;&nbsp;&nbsp;Blogging&nbsp;&nbsp;&nbsp;&nbsp;Photography
-               &nbsp;&nbsp;&nbsp;&nbsp;Presenting&nbsp;&nbsp;&nbsp;&nbsp;Engineering
-                 &nbsp;&nbsp;&nbsp;&nbsp;Product development&nbsp;&nbsp;&nbsp;&nbsp;Mechatronics
-        </p>
-        <p>
-          Even if your field is not on the list, don't worry! Motivation and the desire to learn are the most important criteria!
-        </p>
-					</div>	
-				</div>	
-
-				<div class="row rekryrow" id="rekry5">
-					<div class="col-md-offset-1 col-md-5">
-						<h1>Apply now!</h1>
-        <p>
-          The application period is open <strong>NOW</strong> and continues until <strong>January 27th 11.59 pm</strong>. You can apply by sending an email to ( rekry at aaltohelsinki . com ) according to the directions below. We will invite the most suitable candidates to an interview in the beginning of February and let you know about the decision by middle of February.
-        </p>
-
-        <p>Write an open application letter where you consider at least the following questions:</p>
-
-        <ol>
-          <li>Why do you want to be a part of the 2018 iGEM team?</li>
-          <li>What special skills of yours would be useful for the team?</li>
-          <li>What would you like to learn during the summer?</li>
-        </ol>
-
-        <p>If you are applying as a team captain, also answer to:</p>
-
-        <ol>
-          <li>What kind of a team captain would you be?</li>
-          <li>If you are not selected to be the team captain, would you still be willing to participate as a team member?</li>
-        </ol>
-
-        <p>Attach the following documents to the email preferably as <b>pdf-files</b>:</p>
-        <ul>
-          <li>Application letter</li>
-          <li>CV (please include your date of birth)</li>
-          <li>Transcript of completed university studies</li>
-        </ul>
-        <p>
-          For more information about recruitment and iGEM, please contact ( team at aaltohelsinki . com ).
-        </p>
-
-					</div>	
-					<!--<div class="col-md-5"><img style="max-width:100%;margin-top:9%;"  src="./img/rekry/r1-usha-matilda.jpg" class="mem-face"></div>-->
-				
-        </div>	
-
-
-      
-      </div>
-    </div> <!-- end featured -->
-    
-    
+	<!--br/><br/-->
+	<section class="lakephoto parallax">
+	<!--<nav class="nav-circlepop">
+		<span>
+		<a class="nextArrow" href="/2018/team.html"> <span class="icon-wrap"> </span></a>
+		</span>
+	</nav>-->
+	</section>
 	
+	<div class="block-wrapper featured-block parallax__layer parallax__layer--base" id="features">
+	<div class="block-wrapper-inner">
+	<div class="container">
+	
+	<div class="spacing">
+	<h2>What is iGEM?</h2>
+	<p class="lead spacing justified">
+	Synthetic biology is a novel, rapidly developing, interdisciplinary science with tremendous potential in various fields including medicine, food and energy industries. <a href="http://2018.igem.org/Main_Page">International Genetically Engineered Machine</a> (iGEM) is a worldwide synthetic biology competition originating from MIT, Boston. The iGEM competition is concerned with overcoming a challenge within a short time frame under the umbrella of innovation, design, experiment work and prototype modelling. More than 300 student-driven teams participate in iGEM annually, with Aalto-Helsinki being the only team representing Finland. </p>
+	</div>
 
-<!-- Bar at the bottom of the page containing address and e-mail -->
-<div class="block-wrapper black-bar black-bar-bottom">
-  	<div class="inner-container">
-		<div class = "row nomargin-right">
-			<div class="col-xs-12 col-md-12 addressbar" >
-				<p >Kemistintie 1, Espoo, Finland &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; team (at) aaltohelsinki.com</p>
-			</div>
-		</div>
-    </div>	
-</div>
-<!-- Bar at the bottom ends -->
-    
+	<div class="spacing">
+	<h2>Our Team</h2>
+	<p class="lead spacing justified">
+	The Aalto-Helsinki 2018 is a multidisciplinary team of 10 people with a shared ambition to conduct a unique and multidisciplinary research project. Our team is more multidisciplinary than ever before: It comprises of expertise from various fields including bioinformatics, molecular biosciences, genetics, biotechnology and chemical engineering, experimental physics, business, design and sustainability. Read more in the descriptions on our <a href="http://www.aaltohelsinki.com/2018/team.html">Team Page</a> and from our <a href="http://blog.aaltohelsinki.com">Blog. </a></p>
+	
+    </div>
 
-</div> <!-- end off-canvas -->
+	<div class="spacing">
+	<h2>Our Project</h2>
+	<p class="lead spacing justified">
+	Check our <a href="http://www.aaltohelsinki.com/2018/project.html">Project Page</a> for a more detailed description. </p>
+	</div>
+	
+	</div>
+	</div>
+	</div>
+
+	
+	{% include_relative topbar/blackbarbottom.html %}
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
