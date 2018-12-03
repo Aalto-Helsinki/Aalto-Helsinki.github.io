@@ -163,7 +163,7 @@ section h1 {
 }
 
 .lakephoto {
-	background: url('/2018/img/banner.png') no-repeat;
+	/*background: url('/2018/img/banner.png') no-repeat;*/
 	background-size: 100%;
 	background-position: 0% 22%;
 	height: 160%;
