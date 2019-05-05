@@ -36,7 +36,7 @@ html, body {
     background-color: rgb(0, 0, 0);
     border: none;
     font-size: 25px;
-    font-family: "Bahnschrift";
+    font-family: 'Oswald', sans-serif;
     font-stretch: condensed;
     font-weight: lighter;
     letter-spacing: 5px;
@@ -150,7 +150,7 @@ html, body {
 
 h1 {
     font-size: 30px;
-    font-family: "Bahnschrift";
+    font-family: 'Oswald', sans-serif;
     font-stretch: condensed;
     font-weight: lighter;
     color: rgb(68, 141, 125);
@@ -159,7 +159,7 @@ h1 {
 }
 
 .short {
-    font-family: "Bahnschrift";
+    font-family: 'Oswald', sans-serif;
     font-stretch: condensed;
     font-weight: 200;
     font-size: 30px;
@@ -173,7 +173,7 @@ h1 {
 }
 
 .maintext {
-    font-family: "Dubai Light";
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-weight: 500;
     position: initial;
@@ -184,7 +184,7 @@ h1 {
 }
 
 .maintext_support {
-    font-family: "Dubai Light";
+    font-family: 'Montserrat', sans-serif;
     color: white;
     font-size: 20px;
     font-weight: 500;
@@ -208,7 +208,7 @@ h1 {
 }
 
 h4 {
-    font-family: "Bahnschrift";
+    font-family: 'Oswald', sans-serif;
     font-weight: lighter;
     color: white;
     font-size: 15px;
@@ -216,7 +216,7 @@ h4 {
 }
 
 h5 {
-    font-family: "Bahnschrift";
+    font-family: 'Oswald', sans-serif;
     font-weight: lighter;
     color: white;
     font-size: 15px;
@@ -224,7 +224,7 @@ h5 {
 }
 
 .desc {
-    font-family: "Dubai Light";
+    font-family: 'Montserrat', sans-serif;
     color: white;
 }
 
@@ -240,7 +240,7 @@ h5 {
     overflow: hidden;
     position: inherit;
     background-color: black;
-    font-family: "Dubai Light";
+    font-family: 'Montserrat', sans-serif;
     color: white;
     font-size: 20px;
     left: 0;
