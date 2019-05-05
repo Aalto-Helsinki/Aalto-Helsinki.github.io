@@ -1,0 +1,329 @@
+html, body {
+    height: 100%;
+    background-color: black;
+    scroll-behavior: smooth;
+}
+
+
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 5%; /* Place the button at the bottom of the page */
+    right: 5%; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: rgba(0, 0, 0, 0.308); /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 1%; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 20px; /* Increase font size */
+}
+  
+#myBtn:hover {
+    background-color: rgba(77, 145, 128, 0.726); /* Add a dark-grey background on hover */
+}
+
+
+
+.topmenu {
+    overflow: hidden;
+    margin: auto;
+    padding-top: 0px;
+    padding-bottom: 40px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    font-size: 25px;
+    font-family: "Bahnschrift";
+    font-stretch: condensed;
+    font-weight: lighter;
+    letter-spacing: 5px;
+    top: 0;
+    position: initial;
+    right: 0;
+    left: 0;
+    text-transform: uppercase;
+    padding-left: 0%;
+
+}
+.topmenu a {
+    float: left;
+    display: block;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 10px 10px;
+    text-decoration: none;
+    margin-left: 8%;
+    color: white;
+}
+
+
+
+#project  {
+    color: rgb(58, 151, 131);
+}
+
+#team {
+    color: rgb(58, 151, 131);
+}
+
+#igem {
+    color: rgb(58, 151, 131);
+}
+
+#partners {
+    color: rgb(58, 151, 131);
+}
+
+#press {
+    color: rgb(58, 151, 131);
+}
+
+
+.topmenu #projectm:hover {
+    color:  rgb(58, 151, 131);
+}
+
+.topmenu #teamm:hover {
+    color: rgb(58, 151, 131);
+}
+
+.topmenu #igemm:hover {
+    color: rgb(58, 151, 131);
+}
+
+.topmenu #partnersm:hover {
+    color: rgb(58, 151, 131);
+}
+
+.topmenu #pressm:hover {
+    color: rgb(58, 151, 131);
+}
+
+.topmenu #blogm:hover {
+    color: rgb(58, 151, 131);
+}
+    
+
+#fb:hover {
+    color: rgb(59, 89, 152);
+}
+
+#twi:hover {
+    color: rgb(29, 161, 242);
+}
+
+#ig:hover {
+    color: rgb(225,48,108);   
+}
+
+#blog:hover {
+    color: #34526f;
+}
+
+
+.text {
+    background-color: #fff;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    padding-bottom: 4%;
+    margin-bottom: 10%;
+
+}
+
+.support {
+    background-color: rgb(0, 0, 0);
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    padding-bottom: 1%;
+    margin-bottom: 1%;
+}
+
+.spacing {
+    position: initial;
+
+}
+
+h1 {
+    font-size: 30px;
+    font-family: "Bahnschrift";
+    font-stretch: condensed;
+    font-weight: lighter;
+    color: rgb(68, 141, 125);
+    position: initial;
+
+}
+
+.short {
+    font-family: "Bahnschrift";
+    font-stretch: condensed;
+    font-weight: 200;
+    font-size: 30px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    position: initial;
+    padding-right: 50%;
+    padding-bottom: 5%;
+
+
+}
+
+.maintext {
+    font-family: "Dubai Light";
+    font-size: 20px;
+    font-weight: 500;
+    position: initial;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+
+}
+
+.maintext_support {
+    font-family: "Dubai Light";
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    position: initial;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 10%;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    grid-template-rows:  auto auto auto auto auto auto auto auto auto auto;
+    grid-gap: 10px;
+    padding-left: 50px;
+}
+
+.photo {
+    width: 80%;
+}
+
+h4 {
+    font-family: "Bahnschrift";
+    font-weight: lighter;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+h5 {
+    font-family: "Bahnschrift";
+    font-weight: lighter;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+.desc {
+    font-family: "Dubai Light";
+    color: white;
+}
+
+#link:link {
+    text-decoration: none;
+}
+
+#link:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    overflow: hidden;
+    position: inherit;
+    background-color: black;
+    font-family: "Dubai Light";
+    color: white;
+    font-size: 20px;
+    left: 0;
+    bottom: 0;
+    display: block;
+    text-align: center;
+    padding-bottom: 5%;
+
+}
+
+.icon {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    padding-bottom: 2%;
+    padding-right: 2%;
+    padding-left: 2%;
+
+}
+
+
+.previous {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding-right: 1%;
+    padding-left: 1%;
+    padding-bottom: 1%;
+}
+
+#prev:hover {
+    color: rgb(68, 141, 125);
+}
+
+
+.row {
+    margin: 0 -5px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 17%;
+    padding-left: 2%;
+    padding-right: 0.5%;
+}
+
+.column1 {
+    float: left;
+    width: 17%;
+    padding-left: 5%;
+    padding-right: 3%;
+    padding-bottom: 10%;
+}
+
+
+.container {
+    padding-top: 2%;
+    padding-bottom: 10%;
+    padding-right: 2%;
+    padding-left: 2%;
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+    .column1 {
+        width: 50%;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+
+}
