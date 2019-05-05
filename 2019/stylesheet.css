@@ -175,7 +175,8 @@ h1 {
 .maintext {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: lighter;
+    line-height: 1.8;
     position: initial;
     padding-left: 5%;
     padding-right: 5%;
@@ -187,7 +188,8 @@ h1 {
     font-family: 'Montserrat', sans-serif;
     color: white;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: lighter;
+    line-height: 1.8;
     position: initial;
     padding-left: 5%;
     padding-right: 5%;
