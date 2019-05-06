@@ -317,7 +317,7 @@ h5 {
 
 @media screen and (max-width: 600px) {
     .column {
-        width: 100%;
+        width: 95%;
         display: block;
         margin-bottom: 20px;
     }
@@ -325,6 +325,32 @@ h5 {
         width: 50%;
         display: block;
         margin-bottom: 20px;
+    }
+    
+    .topmenu {
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .topmenu a {
+        font-size: 20px;
+        inline-size: 18%;
+    }
+    
+    h1 {
+        font-size: 20px;
+    }
+    
+    .short {
+        font-size: 20px;
+    }
+    
+    .maintext {
+        font-size: 17px;
+    }
+    
+    .maintext_support {
+        font-size: 17px;
     }
 
 
