@@ -38,7 +38,7 @@ html, body {
     font-size: 25px;
     font-family: 'Oswald', sans-serif;
     font-stretch: condensed;
-    font-weight: lighter;
+    font-weight: 100;
     letter-spacing: 5px;
     top: 0;
     position: initial;
@@ -152,7 +152,7 @@ h1 {
     font-size: 30px;
     font-family: 'Oswald', sans-serif;
     font-stretch: condensed;
-    font-weight: lighter;
+    font-weight: 100;
     color: rgb(68, 141, 125);
     position: initial;
 
@@ -161,7 +161,7 @@ h1 {
 .short {
     font-family: 'Oswald', sans-serif;
     font-stretch: condensed;
-    font-weight: 200;
+    font-weight: 100;
     font-size: 30px;
     letter-spacing: 5px;
     text-transform: uppercase;
