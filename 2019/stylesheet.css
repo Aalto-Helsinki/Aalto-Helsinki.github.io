@@ -290,11 +290,11 @@ h5 {
     clear: both;
 }
 
-.column {
-    float: left;
-    width: 17%;
-    padding-left: 2%;
-    padding-right: 0.5%;
+.team-row {
+    display: grid;
+    grid-template-columns: 22% 22% 22% 22%;
+    grid-template-rows: auto auto auto;
+    grid-gap: 4%;
 }
 
 .column1 {
