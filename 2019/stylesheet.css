@@ -124,6 +124,20 @@ html, body {
     color: #34526f;
 }
 
+.rekrybtn {
+    padding: 10px 10px 10px 10px;
+    width: 100%;
+    font-size: 18px;
+    background-color: white;
+    border: 1px rgb(68, 141, 125) solid;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+    font-stretch: condensed;
+}
+
+.rekrybtn:hover {
+    background-color: rgb(155, 185, 179);
+}
 
 .text {
     background-color: #fff;
