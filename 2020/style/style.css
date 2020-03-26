@@ -6,9 +6,17 @@
 
 html
 {
-    overflow-y: scroll;
-    overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
+    overflow-y: scroll; 
+    overflow-x: hidden; 
+}
+
+@supports (-webkit-touch-callout: none) {
+    html
+    {
+        overflow-y: initial; 
+        overflow-x: initial; 
+    }
 }
 
 body {
@@ -51,9 +59,10 @@ body {
     width: 100vw;
 }
 
+
+
 .section {
     padding: 10%;
-    -webkit-overflow-scrolling: touch;
 }
 
 .row {
