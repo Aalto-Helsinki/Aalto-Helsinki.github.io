@@ -1,401 +1,370 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Font Awesome-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <!--css-->
-    <link href="2019/stylesheet.css" rel="stylesheet">
-    <!--fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Oswald" rel="stylesheet">
-    <!--jquery-->
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./2020/style/style.css" />
+    <link rel="stylesheet" href="./2020/style/animation.css" />
     <title>Aalto-Helsinki</title>
-    
-    <link rel="icon" type="image/png" href="2019/logos/favicon.png">
-
-    <!--smooth scroll on menu click-->
-    <script>
-        $(document).ready(function(){
-            $("a").on('click', function(event) {
-            
-                if (this.hash !== "") {
-                event.preventDefault();
-            
-                var hash = this.hash;
-
-                $('html, body').animate({
-                    scrollTop: $(hash).offset().top
-                }, 1000, function(){
-            
-                    window.location.hash = hash;
-                });
-                }
-            });
-        });
-        </script>
-
+    <link rel="icon" type="image/png" href="./2020/images/logo-black.svg">
 </head>
+
 <body>
+    <nav>
+        <div id="navbar">
+            <div class="logo">
+                <img src="./2020/images/logo-white.svg" alt="">
+            </div>
+            <ul class="nav-list">
+                <li class = "selected"><a class="nav-links scroll" href="#s1" data-menuanchor="firstPage">Home</a></li>
+                <li><a class="nav-links scroll" href="#s2" data-menuanchor="thirdPage">Team</a></li>
+                <li><a class="nav-links scroll" href="#s4" data-menuanchor="firstPage">iGEM</a></li>
+                <li><a class="nav-links scroll" href="#s5" data-menuanchor="firstPage">Sponsors</a></li>
+                <li><a class="nav-links scroll" href="#s6" data-menuanchor="firstPage">Contact Us</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </nav>
+    <div class="fullpage">
+        <div class="section s1" id="s1">
+            <div class="content">
+                <svg id="logo" width="100vw" viewBox="0 0 5334 3334" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/"
+                    style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+                    <path d="M2236.64,1664.86c292.578,-1322.82 579.333,-1304.07 860.129,0.376"
+                        style="fill:none;stroke:#000;stroke-width:12.5px;" />
+                    <path d="M1579.72,1666.58c220.892,-784.532 437.387,-773.41 649.384,0.223"
+                        style="fill:none;stroke:#000;stroke-width:12.5px;" />
+                    <path d="M1116.13,1669.11c155.981,-449.356 308.858,-442.986 458.558,0.128"
+                        style="fill:none;stroke:#000;stroke-width:12.5px;" />
+                    <path d="M3761.18,1663.89c155.981,-449.357 308.858,-442.986 458.557,0.127"
+                        style="fill:none;stroke:#000;stroke-width:12.5px;" />
+                    <path d="M3104.06,1659.93c220.892,-784.532 437.387,-773.41 649.384,0.223"
+                        style="fill:none;stroke:#000;stroke-width:12.5px;" />
+                    <path d="M3097.57,1667.39c-290.272,1323.33 -577.059,1305.07 -860.128,1.123"
+                        style="fill:none;stroke:#000;stroke-width:12.5px;" />
+                    <path d="M2229.71,1668.08c-219.151,784.833 -435.671,774.007 -649.384,0.666"
+                        style="fill:none;stroke:#000;stroke-width:12.5px;" />
+                    <path d="M1575.12,1669.97c-154.752,449.529 -307.645,443.328 -458.557,0.381"
+                        style="fill:none;stroke:#000;stroke-width:12.5px;" />
+                    <path d="M4220.16,1664.75c-154.752,449.529 -307.646,443.329 -458.557,0.382"
+                        style="fill:none;stroke:#000;stroke-width:12.5px;" />
+                    <path d="M3754.05,1661.43c-219.151,784.833 -435.671,774.007 -649.384,0.666"
+                        style="fill:none;stroke:#000;stroke-width:12.5px;" />
+                    <path d="M2518.83,2535.41l-0.022,-1729.49" style="fill:none;stroke:#000;stroke-width:12.5px;" />
+                    <path d="M1792.76,2182.88l-0.016,-1025.72" style="fill:none;stroke:#000;stroke-width:12.5px;" />
+                    <path d="M1266.57,1964.84l-0.011,-587.5" style="fill:none;stroke:#000;stroke-width:12.5px;" />
+                    <path d="M3911.62,1959.62l-0.012,-587.499" style="fill:none;stroke:#000;stroke-width:12.5px;" />
+                    <path d="M3317.11,2176.23l-0.016,-1025.71" style="fill:none;stroke:#000;stroke-width:12.5px;" />
+                    <path d="M2814.59,797.721l0.051,1735" style="fill:none;stroke:#000;stroke-width:12.5px;" />
+                    <path d="M2016.06,1152.3l0.038,1028.99" style="fill:none;stroke:#000;stroke-width:12.5px;" />
+                    <path d="M1424.25,1374.55l0.028,589.372" style="fill:none;stroke:#000;stroke-width:12.5px;" />
+                    <path d="M4069.3,1369.33l0.028,589.372" style="fill:none;stroke:#000;stroke-width:12.5px;" />
+                    <path d="M3540.41,1145.65l0.039,1028.99" style="fill:none;stroke:#000;stroke-width:12.5px;" />
+                    <path d="M2364.14,2159.94l0.513,-986.978" style="fill:none;stroke:#000;stroke-width:12.5px;" />
+                    <path d="M1675.98,1960.2l0.387,-585.352" style="fill:none;stroke:#000;stroke-width:12.5px;" />
+                    <path d="M1184.11,1837.29l0.273,-335.273" style="fill:none;stroke:#000;stroke-width:12.5px;" />
+                    <path d="M3829.15,1832.07l0.274,-335.272" style="fill:none;stroke:#000;stroke-width:12.5px;" />
+                    <path d="M3200.32,1953.55l0.387,-585.353" style="fill:none;stroke:#000;stroke-width:12.5px;" />
+                    <path d="M2968.68,1165.19l-0.028,995.368" style="fill:none;stroke:#000;stroke-width:12.5px;" />
+                    <path d="M2132.39,1370.23l-0.02,590.329" style="fill:none;stroke:#000;stroke-width:12.5px;" />
+                    <path d="M1506.4,1499.38l-0.014,338.122" style="fill:none;stroke:#000;stroke-width:12.5px;" />
+                    <path d="M4151.44,1494.15l-0.014,338.123" style="fill:none;stroke:#000;stroke-width:12.5px;" />
+                    <path d="M3656.74,1363.58l-0.021,590.329" style="fill:none;stroke:#000;stroke-width:12.5px;" />
+                    <path d="M837.452,1666.4l3658.3,0.031" style="fill:none;stroke:#000;stroke-width:8.33px;" />
+                    <text x="1607.94px" y="2999.21px"
+                        style="font-family:'Futura-Medium', 'Futura', sans-serif;font-weight:500;font-size:200px;">AAL
+                        <tspan x="1983.14px 2074.84px 2253.55px " y="2999.21px 2999.21px 2999.21px ">TO-</tspan>HEL
+                        <tspan x="2646.13px 2762.73px " y="2999.21px 2999.21px ">SI</tspan>NKI 2020</text></svg>
+            </div>
+        </div>
 
-    <!--black logo-->
-    <div class="header">
-        <img src="2019/img/weblogo.png" style="width: 100%; background-attachment: fixed; background-position: center; left: 0; right: 0;">
-    </div>
-
-    <!--scroll-up button-->
-    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-circle-up"></i></button> 
-
-    <script>
-        // When the user scrolls down 20px from the top of the document, show the button
-        window.onscroll = function() {scrollFunction()};
-        
-        function scrollFunction() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            document.getElementById("myBtn").style.display = "block";
-            } else {
-            document.getElementById("myBtn").style.display = "none";
-            }
-        }
-        
-        // When the user clicks on the button, scroll to the top of the document
-        function topFunction() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-        }
-    </script>
-
-    <div class="topmenu">
-        <a id="projectm" href="#project1">Project</a>
-        <a id="teamm" href="#team1">Team</a>
-        <a id="igemm" href="#igem1">iGEM</a>
-        <a id="partnersm" href="#partners1">Partners</a>
-        <a id="pressm" href="#press1">Contact</a>
-        <a id="blogm" href="http://blog.aaltohelsinki.com">Blog</a>
-    </div>
-
-
-        <div id="rekryy">
-        <div class="text">
-            <div class="spacing">
-
-                <!--<h1 id="project">VibXPresso</h1>-->
-                <p class="short" style="padding-right: 45%;">
-                    APPLY FOR AALTO-HELSINKI 2020!
-                </p>
-
-                <img src="2019/img/rekry.png" style="width: 100%;">
-                <p class="maintext">
-                    Are you looking for a unique summer job experience?<br>
-                    Do you want to build a project in the field of synthetic biology from scratch together with your peers?
-                    Do you want to combine knowledge from various fields of study to create something incredible?<br><br>
-
-                    If the answer is yes – apply to be part of the <span style="font-family: 'Oswald', sans-serif; color: rgb(61, 118, 105);">Aalto-Helsinki iGEM 2020 team</span>!
-                    Besides getting to organize and execute a project of your choice, you will have the opportunity to travel and network with professionals and other synbio enthusiasts during the project.
-                    All of this will culminate at the iGEM Giant Jamboree in Boston in November 2020 where you have a chance to present your project.<br><br>
-
-                    We are looking for students from Aalto University and the University of Helsinki with strong motivation, team work skills, and can do -attitude.
-                    We are recruiting Team Members and Team Leader(s) with a background in some of the following: <br>
-                    <span style="color: rgb(58, 100, 90);">Bioinformatics, Biology, Bioengineering, Biotechnology, Business, Funding, Chemistry, Computer Science, Design, Entrepreneurship, Graphic Design, Math, Medicine, Molecular Biosciences, Marketing, Physics, Research, Software, and Mechanical/ Civil/ Electrical Engineering.</span><br><br>
-
-                    <span style="font-family: 'Oswald', sans-serif; color: rgb(61, 118, 105);">Apply now, or latest by 17.1.2020:</span>  <a href="https://forms.gle/atUicoSPAwbCYDDs5">https://forms.gle/atUicoSPAwbCYDDs5</a><br><br>
-
-                </p>
-                <button class="rekrybtn" id="rekrybtn1" onclick="toggle_visibility('rekry');">READ MORE ON APPLYING HERE <i class="fas fa-angle-down"></i></button>
-                    <p class="maintext" id="rekry" style="display: none; padding-top: 5%; padding-bottom: 5%;">
-                        The project will kick start during early spring, and the team will start with ideation of project topics and funding arrangements.
-                        Summer will be full time work. The past the teams have received paychecks for the summer - but it is up to the team to negotiate salaries with collaborators.
-                        During the autumn, the team will wrap up the project and prepare for the Giant Jamboree taking place in Boston in November 2020.
-                        You can also receive 10-15 ECTS for the project depending on your school. <br><br>
-
-                        We will process applications during the application period, and invite all potential candidates for interviews after the application period.
-                        <span style="font-family: 'Oswald', sans-serif; color: rgb(61, 118, 105);">The first meeting of the new team will be on Sunday 16.2.2020 - please mark your calendar!<br><br>
-                            We are looking forward to your application!<br>
-                            <a href="www.aaltohelsinki.com ">www.aaltohelsinki.com </a><br><br>
-
-                            Apply now, or latest by 17.1.2020:  <a href="https://forms.gle/atUicoSPAwbCYDDs5">https://forms.gle/atUicoSPAwbCYDDs5</a><br><br>
-                        </span>
-
-                        <span style="color: rgb(58, 100, 90);">iGEM - International Genetically Engineered Machine</span> is a synthetic biology competition for students all around the world.
-                        With over 300 teams participating yearly, the goal is to design and execute a synthetic biology project that helps finding solutions to real world problems.
-                        The final showcase takes place in Boston, USA, where teams present their projects to participants from over 40 different countries.<br><br>
-
-                        <a href="https://igem.org/Main_Page">https://igem.org/Main_Page</a><br><br>
-
-                        <span style="color: rgb(58, 100, 90);">Aalto-Helsinki</span> is a student lead team participating in the iGEM competition.
-                        Since 2014, students from Aalto University and the University of Helsinki have joined forces to run a synthetic biology project with an interdisciplinary team from the start to the final showcase.
-                        <span style="color: rgb(58, 100, 90);">To read more about the 2019 team’s iGEM journey, visit our blog here:</span><br>
-                        <a href="https://blog.aaltohelsinki.com/">https://blog.aaltohelsinki.com/</a>
-
+        <div class="section s2" id="s2">
+            <div class="content">
+                <h2 class="title">TEAM</h2>
+                <h1 class="subtitle">WHAT IF STUDENTS RAN THEIR OWN RESEARCH PROJECT?</h1>
+                <div class="description">
+                    <p>The Aalto-Helsinki 2019 is a multidisciplinary team of 10 people with a shared ambition to
+                        conduct a unique synthetic biology research project. With expertise in biosystems and
+                        biomaterials engineering, microbiology, bioinformatics, molecular biosciences, energy and
+                        environmental engineering, biotechnology and chemical engineering, translational medicine,
+                        chemistry, design, and business, our team has the capability to conduct an exceptional
+                        research project that requires multidisciplinary skills, ambition, and innovation. Thus,
+                        Aalto-Helsinki is an extremely diverse team that truly represents the spirit of Aalto
+                        University and University of Helsinki by bringing the various fields of study together for
+                        higher value creation.</p>
+                    <p>Our main advisor is Heli Viskari, Aalto University lecturer, Department of Bioproducts and
+                        Biosystems, and our advising team also includes Minna Poranen, Principal Investigator at the
+                        University of Helsinki, faculty of Biological and Environmental Sciences, and Markus Linder,
+                        Aalto University professor of Biomolecular Sciences.</p>
+                    <p>Our aim is to design and prototype a synthetic biology project and participate in the world’s
+                        largest synthetic biology competition, iGEM, in November 2019 to showcase our project among
+                        other top universities in the world.</p>
+                </div>
+            </div>
+        </div>
+        <div class="section s3" id="s3">
+            <div class="content">
+                <div class="row">
+                    <div class="bio">
+                        <img src="./2020/img/Tytti.PNG" alt="Tytti">
+                        <div>
+                            <h4><b>Tytti</b></h4>
+                            <h5>Aalto University</h5>
+                            <p class="desc">Team Leader. Student of the
+                                Biotechnology MSc program at
+                                Aalto University. BSc degree in
+                                Biotechnology and Chemical
+                                Technology from the same
+                                university.</p>
+                        </div>
+                    </div>
+                    <div class="bio">
+                        <img src="./2020/img/Carla.PNG" alt="Carla">
+                        <div>
+                            <h4><b>Carla</b></h4>
+                            <h5>University of Helsinki</h5>
+                            <p>Team Vice-Leader. Student of
+                                the Ecology and Evolutionary
+                                Biology MSc program at the
+                                University of Helsinki. BSc
+                                degree in Genetics from the
+                                Autonomous University of
+                                Barcelona (UAB), Spain.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="bio">
+                        <img src="./2020/img/Daria.PNG" alt="Daria">
+                        <div>
+                            <h4><b>Daria</b></h4>
+                            <h5>University of Helsinki</h5>
+                            <p>Student of the Genetics and
+                                Molecular Biosciences MSc
+                                program at the University of
+                                Helsinki. BSc degree in
+                                Biotechnology from the
+                                University of Silesia, Poland.</p>
+                        </div>
+                    </div>
+                    <div class="bio">
+                        <img src="./2020/img/Emilia.PNG" alt="Emilia">
+                        <div>
+                            <h4><b>Emilia</b></h4>
+                            <h5>Aalto University</h5>
+                            <p>Student of the Biotechnology
+                                MSc program at Aalto
+                                University. BSc degree in
+                                Biotechnology from Tampere
+                                University.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="bio">
+                        <img src="./2020/img/Gustav.PNG" alt="Gustav">
+                        <div>
+                            <h4><b>Gustav</b></h4>
+                            <h5>Aalto University</h5>
+                            <p>Student of the major in
+                                Biosystems and Biomaterial
+                                Engineering from the Life
+                                Science Technology MSc
+                                program at Aalto University. BSc
+                                degree in Biotechnology and
+                                Chemical Technology from the
+                                same university.</p>
+                        </div>
+                    </div>
+                    <div class="bio">
+                        <img src="./2020/img/Nata.PNG" alt="Natalia">
+                        <div>
+                            <h4><b>Natalia</b></h4>
+                            <h5>Aalto University</h5>
+                            <p>Student of the major in
+                                Biosystems and Biomaterial
+                                Engineering from the Life
+                                Science Technology MSc
+                                program at Aalto University. BSc
+                                degree in Biotechnology and
+                                Chemical Technology from the
+                                same university.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="bio">
+                        <img src="./2020/img/Amanda.PNG" alt="Amanda">
+                        <div>
+                            <h4><b>Amanda</b></h4>
+                            <h5>University of Helsinki</h5>
+                            <p>Student of the Science BSc
+                                program at the University of
+                                Helsinki.</p>
+                        </div>
+                    </div>
+                    <div class="bio">
+                        <img src="./2020/img/Artur.PNG" alt="Artur">
+                        <div>
+                            <h4><b>Artur</b></h4>
+                            <h5>Aalto University</h5>
+                            <p>Student of the Bioinformation
+                                Technology BSc program at
+                                Aalto University.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="bio">
+                        <img src="./2020/img/Julia.PNG" alt="Julia">
+                        <div>
+                            <h4><b>Julia</b></h4>
+                            <h5>University of Helsinki</h5>
+                            <p>Student of the Molecular
+                                Bioscences BSc program at the
+                                University of Helsinki.</p>
+                        </div>
+                    </div>
+                    <div class="bio">
+                        <img src="./2020/img/Maria.PNG" alt="Maria">
+                        <div>
+                            <h4><b>Maria</b></h4>
+                            <h5>University of Helsinki</h5>
+                            <p>Student of the Physics BSc
+                                program at the University of
+                                Helsinki.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section s4"  id="s4">
+            <div class="content">
+                <h2 class="title">iGEM</h2>
+                <h1 class="subtitle">WHAT IF SYNTHETIC BIOLOGY WAS USED TO ENGINEER A SOLUTION TO SOLVE GRAND ISSUES IN
+                    HEALTHCARE?</h1>
+                <div class="description">
+                    <p>International Genetically Engineered Machine (iGEM) is an international synthetic biology
+                        competition
+                        originating from the Massachusetts Institute of Technology, Boston, USA. The iGEM competition
+                        challenges students to design and implement a project within a short time frame using
+                        innovation,
+                        design, experimental work, modelling applications.
                     </p>
+                    <p>The broader purpose of our project is to promote and increase the understanding of synthetic
+                        biology
+                        in Finland and around the world. Synthetic biology is a field of science and technology that
+                        combines biology with engineering principles. The basic principle is to design new genes,
+                        genetic
+                        devices, metabolic routes and entire organisms to create novel products and production pathways.
+                        Standardization is also a key component of this process, which is why one goal of the iGEM
+                        competition is to maintain the "BioBrick part registry" - a library of standardized genetic
+                        parts.
+                    </p>
+                    <p>
+                        Synthetic biology has the potential to provide valuable solutions to many of today's problems.
+                        However, media and the general public still sometimes see genetically modified organisms rather
+                        as a
+                        threat than an opportunity. We work responsibly and take safety and ethics carefully into
+                        account in
+                        our project design and laboratory work. We conduct research that is safe for us and the
+                        environment.
+                    </p>
+                </div>
             </div>
         </div>
-    </div> 
-    <script type="text/javascript">
-        function toggle_visibility(rekry) {
-           var e = document.getElementById(rekry);
-           if(e.style.display == 'none')
-              e.style.display = 'block';
-           else
-              e.style.display = 'none';
-        }
-    </script>
-    
-    <div id="project1">
-        <div class="text">
-            <div class="spacing">
-
-                <h1 id="project">VibXPresso</h1>
-                <p class="short">
-                    Vibrio natriegens with Xtreme Protein Expression and Secretion System Optimization
-                </p>
-
-                <p class="maintext">
-                    <i>Vibrio natriegens</i> is challenging <i>Escherichia coli</i> as the organism of choice for research and biotechnology applications – and we’re betting on <i>V. natriegens!</i> The gram-negative marine bacteria with a generation under 10 minutes combined with the ability to produce and secrete large amounts of proteins into the growth medium makes <i>V. natriegens</i> an ideal chassis organism.<br><br>
-
-                    Inspired by the possibilities that <i>V. natriegens</i> offers, our team Aalto-Helsinki is determined to take on the challenge of improving the bacterium’s protein <span style="color: rgb(68, 141, 125);">expression</span> and <span style="color: rgb(68, 141, 125);">secretion</span>.<br><br>
- 
-                    <span style="color: rgb(68, 141, 125);">Recombinant proteins</span> are widely used for biomedical research and in the pharmaceutical industry. Several methods for protein production have been established during the past decades providing aid for millions of people. However, even with today’s technologies, improved efficacy is urgent as the demand for recombinant proteins is only increasing - <span style="color: rgb(68, 141, 125);">it has been estimated that within the next 10 years half of all medicine will be biopharmaceutical, including recombinant proteins.</span><br><br>
-
-                    Our iGEM project aims to tackle these challenges by improving the next-generation synthetic biology chassis organism <i>Vibrio natriegens</i>. Hence the name of our project VibXPresso - Vibrio natriegens with Xtreme PRotein Expression and Secretion Optimization.<br><br>
-                    
-                    To read more about the science behind our project visit our <a href="https://2019.igem.org/Team:Aalto-Helsinki">wiki</a>.<br><br>
-
-                </p>
+        <div class="section s5"  id="s5">
+            <div class="content">
+                <h2 class="title">SUPPORT US</h2>
+                <div class="description">
+                    <p>
+                        We are an independent, student driven team of passionate students, who have a strong will to
+                        create
+                        new synthetic biology solutions. However, we could not do this without the support of our
+                        partners.
+                        If you or your organization would like to support us in some way, contact us at team (at)
+                        aaltohelsinki.com. All of our supporters will be mentioned on this page and in our presentations
+                        and
+                        posters. Additional benefits, such as social media visibility can be negotiated.
+                    </p>
+                </div>
+                <div class="sponsors">
+                    <img class="logo" src="./2020/logos/Aalto_BIZ_black.png">
+                    <img class="logo" src="./2020/logos/Aalto_BIZ_black.png">
+                    <img class="logo" src="./2020/logos/Aalto_CHE_EN_black.png">
+                    <img class="logo" src="./2020/logos/Aalto_ELEC_EN_black.png">
+                    <img class="logo" src="./2020/logos/Aalto_ENG_EN_black.png">
+                </div>
+                <div class="sponsors">
+                    <img class="logo" src="./2020/logos/Aalto_SCI_EN_black.png">
+                    <img class="logo" src="./2020/logos/df_black.png">
+                    <img class="logo" src="./2020/logos/Helsinki.png">
+                    <img class="logo" src="./2020/logos/hilife.jpg">
+                </div>
             </div>
         </div>
-    </div>    
-
-    <div id="team1">
-        <div class="text">
-            <div class="spacing">
-
-                <h1 id="team">TEAM</h1>
-                <p class="short">
-                    What if students ran their own research project?
-                </p>
-
-                <p class="maintext">
-                    The Aalto-Helsinki 2019 is a <span style="color: rgb(68, 141, 125);">multidisciplinary</span> team of 10 people with a shared ambition to conduct a unique synthetic biology research project. With expertise in biosystems and biomaterials engineering, microbiology, bioinformatics, molecular biosciences, energy and environmental engineering, biotechnology and chemical engineering, translational medicine, chemistry, design, and business, our team has the capability to conduct an exceptional research project that requires multidisciplinary skills, ambition, and innovation. Thus, Aalto-Helsinki is an extremely diverse team that truly represents the spirit of Aalto University and University of Helsinki by bringing the various fields of study together for higher <span style="color: rgb(68, 141, 125);">value creation</span>.<br><br>
-                    
-                    Our main advisor is <span style="color: rgb(68, 141, 125);">Heli Viskari</span>, Aalto University lecturer, Department of Bioproducts and Biosystems, and our advising team also includes <span style="color: rgb(68, 141, 125);">Minna Poranen</span>, Principal Investigator at the University of Helsinki, faculty of Biological and Environmental Sciences, and <span style="color: rgb(68, 141, 125);">Markus Linder</span>, Aalto University professor of Biomolecular Sciences.<br><br>
-                    
-                    Our aim is to design and prototype a synthetic biology project and participate in the world’s largest synthetic biology competition, <span style="color: rgb(68, 141, 125);">iGEM</span>, in November 2019 to showcase our project among other top universities in the world.<br>
-                </p>
-            </div>
-        </div>
-    </div>    
-
-
-    <div class="team-row">
-
-        <div class="column">
-            <img src="2019/img/ilse.jpg" alt="Ilse" style="width:100%">
-            <div class="container">
-                <h4><b>Ilse Kaaja</b></h4>
-                <h5>University of Helsinki</h5>
-                <p class="desc">Ilse is currently studying in the Translational Medicine MSc program at the University of Helsinki. She is enthusiastic about health innovations. On free time enjoys all things outdoors and coaches track & field.</p>
-            </div>
-        </div>        
-        <div class="column">
-            <img src="2019/img/amanda.jpg" alt="Amanda" style="width:100%">
-            <div class="container">
-                <h4><b>Amanda Raitosalo</b></h4>
-                <h5>University of Helsinki</h5>
-                <p class="desc">Amanda is currently wrapping up her Master’s studies in Microbiology at the University of Helsinki. She has a Bachelor’s degree in the same subject. Currently she's working on a project related to oil spill response, with the help of microbes! Amanda also has some experience in medical microbiology. </p>
-            </div>
-        </div>
-
-        <div class="column">
-            <img src="2019/img/antti.jpg" alt="Antti" style="width:100%">
-            <div class="container">
-                <h4><b>Antti Pennanen</b></h4>
-                <h5>University of Helsinki</h5>
-                <p class="desc">Antti is studying Molecular Biosciences (BSc) at the University of Helsinki. He applied to the team because iGEM seemed like a great opportunity to gain experience in applying scholarly knowledge in practice, while learning lots of other useful skills.</p>
-            </div>
-        </div>
-        
-        <div class="column">
-            <img src="2019/img/anttit1.jpg" alt="Antti T" style="width:100%">
-            <div class="container">
-                <h4><b>Antti Toivanen</b></h4>
-                <h5>University of Helsinki</h5>
-                <p class="desc">Antti is studying molecular biosciences at University of Helsinki. He has studied some computer science on the side and is planning on focusing on bioinformatics during his master's. Antti is interested in tech, sciences and all things nerdy in general. He enjoys books, movies and occasional videogaming. </p>
-            </div>
-        </div>
-            
-        <div class="column">
-            <img src="2019/img/arina.jpg" alt="Arina" style="width:100%">
-            <div class="container">
-                <h4><b>Arina Vara</b></h4>
-                <h5>Aalto University</h5>
-                <p class="desc">Arina is currently majoring in Energy and Environmental Technology and minoring in Bioinformation Technology at Aalto University. On her free time she loves doing art, such as painting and drawing.</p>
-            </div>
-
-        </div>
-
-        <div class="column">
-            <img src="2019/img/camilla.jpg" alt="Camilla" style="width:100%">
-            <div class="container">
-                <h4><b>Camilla Selenius</b></h4>
-                <h5>Aalto University</h5>
-                <p class="desc">Camilla is finishing her Bachelor’s Degree in Biotechnology and Chemical Technology at Aalto University. In the fall, she will start studying towards her Master’s Degree in Biosystems and Biomaterials Engineering. </p>
-            </div>
-        </div>
-
-        <div class="column">
-            <img src="2019/img/miika.jpg" alt="Miika" style="width:100%">
-            <div class="container">
-                <h4><b>Miika Korpioja</b></h4>
-                <h5>Aalto University</h5>
-                <p class="desc">Miika has a Bachelor’s Degree in Biotechnology and Chemical Technology and is currently studying a Master’s programme in Biosystems and Biomaterials Engineering at Aalto University. On his free time, Miika can be found at the gym or playing his beloved guitars.</p>
-            </div>
-        </div>
-
-        <div class="column">
-            <img src="2019/img/neja.jpg" alt="Neja" style="width:100%">
-            <div class="container">
-                <h4><b>Neja Sirc</b></h4>
-                <h5>University of Helsinki</h5>
-                <p class="desc">Neja is currently finishing her Bachelor's degree in Chemistry at University of Helsinki. In the fall, she will start Master’s programme in Translational Medicine. She has some experiences in biomedical research and is looking forward to use those in the project. In her free time she enjoys taking long hikes, preferably in the mountains. She is an active member of 2 student organizations and when she is not trying to figure out a solution to a scientific problem she is a social butterfly. </p>
-            </div>
-        </div>        
-        <div class="column">
-            <img src="2019/img/noora.jpg" alt="Noora" style="width:100%">
-            <div class="container">
-                <h4><b>Noora Haapala</b></h4>
-                <h5>University of Helsinki</h5>
-                <p class="desc">Noora Haapala has a Bachelor’s degree in Biomedicine and is currently studying a Master’s programme in Translational Medicine. She has some experience in biomedical research and bioentrepreneurship. She goes bouldering or works out at the gym at times when she is not busy figuring out how to solve all the problems in the world with science.</p>
-            </div>
-        </div>
-                
-        <div class="column">
-            <img src="2019/img/tuomas.jpg" alt="Tuomas" style="width:100%">
-            <div class="container">
-                <h4><b>Tuomas Burakowski</b></h4>
-                <h5>Aalto University</h5>
-                <p class="desc">Tuomas studies design at Aalto ARTS. He worked as an art conservator for a number of years before deciding to switch fields. Did some sports way back then. He likes tinkering with stuff such as 3D-printers etc. and he enjoys watching certain sports as well.</p>
-            </div>
-        </div>
-
-        <div class="column">
-            <img src="2019/img/ursula.jpg" alt="Ursula" style="width:100%">
-            <div class="container">
-                <h4><b>Ursula Mikkola</b></h4>
-                <h5>UH & Aalto University</h5>
-                <p class="desc">Ursula is studying Entrepreneurship and Innovation Management at Aalto University and minoring in Molecular Biosciences at the University of Helsinki. On her free time, she enjoys doing sports and spending time with her friends. </p>
-            </div>
-        </div>
-
-    </div>
-
-
-    <div id="igem1" style="padding-top: 15%;">
-        <div class="text">
-            <div class="spacing">
-
-                <h1 id="igem">iGEM</h1>
-                <p class="short">
-                    What if synthetic biology was used to engineer a solution to solve grand issues in healthcare?
-                </p>
-
-                <p class="maintext">
-                        International Genetically Engineered Machine (iGEM) is an international synthetic biology competition originating from the Massachusetts Institute of Technology, Boston, USA. The iGEM competition challenges students to design and implement a project within a short time frame using innovation, design, experimental work, modelling applications.<br><br>
-                        The broader purpose of our project is to promote and increase the understanding of synthetic biology in Finland and around the world. Synthetic biology is a field of science and technology that combines biology with engineering principles. The basic principle is to design new genes, genetic devices, metabolic routes and entire organisms to create novel products and production pathways. Standardization is also a key component of this process, which is why one goal of the iGEM competition is to maintain the "BioBrick part registry" - a library of standardized genetic parts.
-                </p>
-                <p class="maintext">
-                        Synthetic biology has the potential to provide valuable solutions to many of today's problems. However, media and the general public still sometimes see genetically modified organisms rather as a threat than an opportunity. We work responsibly and take safety and ethics carefully into account in our project design and laboratory work. We conduct research that is safe for us and the environment. 
-                </p>
-
+        <div class="section s6" id="s6">
+            <div class="content">
+                <h2 class="title">CONTACT</h2>
+                <div class="row">
+                    <div class="description">
+                        <p>
+                            We are a student-driven team that will participate in a synthetic biology competition:
+                            International
+                            Genetically Engineered Machine (iGEM).
+                        </p>
+                        <p>We believe that science has great potential, when practiced responsibly and safely. We are
+                            happy
+                            to
+                            comment on our project, synthetic biology, the competition or science in general. Because of
+                            this,
+                            we also intend to organize workshops and present at events, as well as create educational
+                            online
+                            material about synthetic biology, in Finnish.</p>
+                        <p>If you would like to interview us or write about us in the media, feel free to contact us
+                            through
+                            our
+                            team email team@aaltohelsinki.com. We are more than happy to help.</p>
+                        <p>Warm thanks to all who have contributed to our iGEM journey! This project would not be
+                            possible
+                            without them.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <a class="previous" id="prev" href="http://www.aaltohelsinki.com/2019/index.html" target="_blank">2019</a>
+                    <a class="previous" id="prev" href="http://www.aaltohelsinki.com/2018/index.html" target="_blank">2018</a>
+                    <a class="previous" id="prev" href="http://www.aaltohelsinki.com/2017/index.html" target="_blank">2017</a>
+                    <a class="previous" id="prev" href="http://www.aaltohelsinki.com/2016/index.html" target="_blank">2016</a>
+                    <a class="previous" id="prev" href="http://www.aaltohelsinki.com/2015/index.html" target="_blank">2015</a>
+                    <a class="previous" id="prev" href="http://www.aaltohelsinki.com/2014/index.html" target="_blank">2014</a>
+                </div>
+                <div class="row">
+                    <div class="footer">
+                        <div class="logos">
+                            <a class="icon fa fa-facebook-f" href="https://www.facebook.com/AaltoHelsinki"
+                                target="_blank"></a>
+                            <a class="icon fa fa-twitter" href="https://twitter.com/AaltoHelsinki" target="_blank"></a>
+                            <a class="icon fa fa-instagram" href="https://instagram.com/aaltohelsinki_igem"
+                                target="_blank"></a>
+                            <a class="icon fa fa-tumblr" href="http://blog.aaltohelsinki.com" target="_blank"></a>
+                        </div>
+                        <p>Kemistintie 1, Espoo, Finland<br>
+                            team@aaltohelsinki.com</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
-    <div id="partners1">
-        <div class="support">
-            <div class="spacing">
-
-                <h1 id="partners1">SUPPORT US</h1>
-                <p class="maintext_support">
-                    We are an independent, student driven team of passionate students, who have a strong will to create new synthetic biology solutions. However, we could not do this without the support of our partners. 
-
-                    If you or your organization would like to support us in some way, contact us at team (at) aaltohelsinki.com. All of our supporters will be mentioned on this page and in our presentations and posters. Additional benefits, such as social media visibility can be negotiated.
-                </p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="column1">
-                <img class="photo" src="2019/logos/Aalto_BIZ_black.png">
-            </div>
-            <div class="column1">
-                <img class="photo" src="2019/logos/Aalto_CHE_EN_black.png">
-            </div>
-            <div class="column1">
-                <img class="photo" src="2019/logos/Aalto_ELEC_EN_black.png">
-            </div>
-            <div class="column1">
-                <img class="photo" src="2019/logos/Aalto_ENG_EN_black.png">
-            </div>
-            <div class="column1">
-                <img class="photo" src="2019/logos/Aalto_SCI_EN_black.png">
-            </div>
-            <div class="column1">
-                <img class="photo" src="2019/logos/df_black.png">
-            </div>
-            <div class="column1">
-                <img class="photo" src="2019/logos/Helsinki.png">
-            </div>
-            <div class="column1">
-                <img class="photo" src="2019/logos/supported-by-hilife.png">
-            </div>
-            <div class="column1">
-                <img class="photo" src="2019/logos/Kemianteollisuus_black.png">
-            </div>
-            <div class="column1">
-                <img class="photo" src="2019/logos/LOIMU.jpg">
-            </div>
-            <div class="column1">
-                <img class="photo" src="2019/logos/ThermoFisher_black.jpg">
-            </div>
-
-    
-        </div>
-    </div>
-
-    <div id="press1">
-        <div class="text">
-            <div class="spacing">
-
-                <h1 id="press">CONTACT</h1>
-                <p class="maintext">
-                    We are a student-driven team that will participate in a synthetic biology competition: International Genetically Engineered Machine (<a id="link" href="https://igem.org/Main_Page">iGEM</a>).<br><br>
-                    We believe that science has great potential, when practiced responsibly and safely. We are happy to comment on our project, synthetic biology, the competition or science in general. Because of this, we also intend to organize workshops and present at events, as well as create educational online material about synthetic biology, in Finnish.<br><br>
-                    If you would like to interview us or write about us in the media, feel free to contact us through our team email <span style="color: rgb(6,69,173);">team@aaltohelsinki.com</span>. We are more than happy to help.<br><br>
-                    Warm thanks to all who have contributed to our iGEM journey! This project would not be possible without them.
-
-
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <div class="footer">
-        <a class="previous" id="prev" href="http://www.aaltohelsinki.com/2018/index.html">2018</a>
-        <a class="previous" id="prev" href="http://www.aaltohelsinki.com/2017/index.html">2017</a>
-        <a class="previous" id="prev" href="http://www.aaltohelsinki.com/2016/index.html">2016</a>
-        <a class="previous" id="prev" href="http://www.aaltohelsinki.com/2015/index.html">2015</a>
-        <a class="previous" id="prev" href="http://www.aaltohelsinki.com/2014/index.html">2014</a><br>
-        <a class="icon" id="fb" href="https://www.facebook.com/AaltoHelsinki"><i class="fab fa-facebook-square"></i></a>
-        <a class="icon" id="twi" href="https://twitter.com/AaltoHelsinki"><i class="fab fa-twitter"></i></a>
-        <a class="icon" id="ig" href="https://instagram.com/aaltohelsinki_igem"><i class="fab fa-instagram"></i></a>
-        <a class="icon" id="blog" href="http://blog.aaltohelsinki.com"><i class="fab fa-tumblr-square"></i></a><br>
-        Kemistintie 1, Espoo, Finland<br>
-        team@aaltohelsinki.com
-    </div>
-
+    <script src="./2020/js/app.js"></script>
 </body>
+
 </html>
