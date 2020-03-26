@@ -43,6 +43,13 @@ body {
     left: 5vh;
 }
 
+
+
+/* <text x="1607.94px" y="2999.21px"
+style="font-family:'Futura-Medium', 'Futura', sans-serif;font-weight:500;font-size:200px;">AAL
+<tspan x="1983.14px 2074.84px 2253.55px " y="2999.21px 2999.21px 2999.21px ">TO-</tspan>HEL
+<tspan x="2646.13px 2762.73px " y="2999.21px 2999.21px ">SI</tspan>NKI 2020</text></svg> */
+
 .content svg {
     position: relative;
     transform: translateY(-20%);
@@ -111,6 +118,10 @@ body {
     flex-direction: column;
     justify-content: center;
     min-height: 100vh;
+}
+
+.s1
+{
 }
 
 .s3 {
@@ -182,7 +193,7 @@ body {
 .description p {
     padding-top: 4vh;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.1em;
+    font-size: 1.2em;
     font-weight: lighter;
     line-height: 1.8;
     position: initial;
@@ -370,5 +381,5 @@ body {
 #logo path:nth-child(31) {
     stroke-dasharray: 3658;
     stroke-dashoffset: 3658;
-    animation: line-anim 1s ease forwards;
+    animation: line-anim 1.5s ease forwards;
 }

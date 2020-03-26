@@ -71,29 +71,31 @@ def gen1(n):
     open("animation.css", "w").close()
     f = open("animation.css", "w")
     for i in range(len(waves)):
-        f.write("#logo path:nth-child(%d) {\n" % waves[i])
-        f.write("   stroke-dasharray: %f;" % (wave_lens[i]))
-        f.write("   stroke-dashoffset: %f;\n" % (wave_lens[i]))
-        f.write("   animation: line-anim %.2fs linear forwards;\n" % n)
-        f.write("   animation-delay: %.2fs;\n" % (n * i))
-        f.write("}\n\n")
-
-    k = 1
+        if i < 5:
+            f.write("#logo path:nth-child(%d) {\n" % waves[i])
+            f.write("   stroke-dasharray: %f;" % (wave_lens[i]))
+            f.write("   stroke-dashoffset: %f;\n" % (wave_lens[i]))
+            f.write("   animation: line-anim %.2fs linear forwards;\n" % n)
+            f.write("   animation-delay: %.2fs;\n" % (n * i))
+            f.write("}\n\n")
+        else:
+            f.write("#logo path:nth-child(%d) {\n" % waves[i])
+            f.write("   stroke-dasharray: %f;" % (wave_lens[i]))
+            f.write("   stroke-dashoffset: -%f;\n" % (wave_lens[i]))
+            f.write("   animation: line-anim %.2fs linear forwards;\n" % n)
+            f.write("   animation-delay: %.2fs;\n" % ((n * i) - n * 5))
+            f.write("}\n\n")
+        
     for i in range(len(lines)):
         f.write("#logo path:nth-child(%d) {\n" % lines[i])
         f.write("   stroke-dasharray: %d;" % (line_lens[i]+1))
-        if k == 2 or k == 3:
-            f.write("   stroke-dashoffset: -%d;\n" % (line_lens[i]+1))
-        else:
-            f.write("   stroke-dashoffset: %d;\n" % (line_lens[i]+1))
-        f.write("   animation: line-anim %.2fs ease-out forwards;\n" % (n+0.2))
-        # f.write("   animation-direction: alternate\n")
-        f.write("   animation-delay: %.2fs;\n" % 0.8)
+        f.write("   stroke-dashoffset: %d;\n" % (line_lens[i]+1))
+        f.write("   animation: line-anim %.2fs ease-out forwards;\n" % (n))
+        f.write("   animation-delay: %.2fs;\n" % (n * i / 4))
         f.write("}\n\n")
-        k += 1
-        if k == 5:
-            k = 1
+
+
     f.close()
 
 
-gen(0.2)
+gen1(0.3)
