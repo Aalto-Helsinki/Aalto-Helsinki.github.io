@@ -4,25 +4,23 @@
     box-sizing: border-box;
 }
 
-html
-{
-    -webkit-overflow-scrolling: touch;
-    overflow-y: scroll; 
-    overflow-x: hidden; 
+@supports not (-webkit-touch-callout: none) {
+    html {
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
 }
 
 @supports (-webkit-touch-callout: none) {
-    html
-    {
-        overflow-y: initial; 
-        overflow-x: initial; 
+    html {
+        -webkit-overflow-scrolling: touch;
+
     }
 }
 
 body {
     font-family: "Poppins", sans-serif;
 }
-
 
 #navbar {
     position: fixed;
@@ -45,8 +43,7 @@ body {
     left: 5vh;
 }
 
-.content svg
-{
+.content svg {
     position: relative;
     transform: translateY(-20%);
 }
@@ -58,8 +55,6 @@ body {
     align-items: center;
     width: 100vw;
 }
-
-
 
 .section {
     padding: 10%;
@@ -80,16 +75,14 @@ body {
     text-align: center;
 }
 
-.bio h4
-{
+.bio h4 {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5em;
     font-weight: lighter;
     line-height: 1.5;
 }
 
-.bio h5
-{
+.bio h5 {
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
     font-weight: lighter;
@@ -144,8 +137,7 @@ body {
     font-weight: lighter;
 }
 
-.previous
-{
+.previous {
     color: black;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
@@ -153,8 +145,7 @@ body {
     font-weight: lighter;
 }
 
-.previous:hover
-{
+.previous:hover {
     color: rgb(68, 141, 125);
 }
 
@@ -168,7 +159,6 @@ body {
     width: 100px;
     height: 100px;
 }
-
 
 .title {
     font-size: 2em;
@@ -198,8 +188,7 @@ body {
     position: initial;
 }
 
-.sponsors
-{
+.sponsors {
     display: flex;
     justify-content: space-evenly;
     padding-left: 10%;
@@ -207,8 +196,7 @@ body {
     align-items: center;
 }
 
-.sponsors img
-{
+.sponsors img {
     width: 20vw;
     height: 20vw;
 }
@@ -219,8 +207,7 @@ body {
     min-width: 20vw;
 }
 
-.logos a
-{
+.logos a {
     width: 40px;
     height: 40px;
 }
@@ -247,8 +234,8 @@ body {
     text-decoration: none;
     color: rgb(200, 200, 200);
 }
-.nav-list .selected a
-{
+
+.nav-list .selected a {
     color: rgb(219, 219, 219);
 }
 
@@ -267,8 +254,6 @@ body {
     margin: 5px;
     transition: all 0.3s ease;
 }
-
-
 
 .nav-list a:hover {
     color: rgb(255, 255, 255);
@@ -377,7 +362,6 @@ body {
 .toggle .line3 {
     transform: rotate(45deg) translate(-5px, -6px);
 }
-
 
 /*  */
 

@@ -18,7 +18,7 @@ $(document).ready(function(){
     scrollLink.click(function(ev){
         ev.preventDefault();
         $('body,html').animate({
-            scrollTop: $(this.hash).offset().top
+            scrollTop: $(this.hash).offset().top - 30
         }, 1000);
     });
 
@@ -26,7 +26,7 @@ $(document).ready(function(){
         var scrollbarLocation = $(this).scrollTop();
 
         scrollLink.each(function(){
-            var sectionOffset = $(this.hash).offset().top - 20;
+            var sectionOffset = $(this.hash).offset().top - 50;
 
             if(sectionOffset <= scrollbarLocation)
             {
