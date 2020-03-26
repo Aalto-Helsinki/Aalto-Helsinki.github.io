@@ -4,9 +4,15 @@
     box-sizing: border-box;
 }
 
+html
+{
+    overflow-x: hidden;
+}
+
 body {
     font-family: "Poppins", sans-serif;
 }
+
 
 #navbar {
     position: fixed;
@@ -329,7 +335,7 @@ body {
         opacity: 0;
     }
     .burger {
-        right: 50px;
+        right: 30px;
         display: block;
     }
 }
