@@ -9,11 +9,9 @@ html
     overflow-y: scroll;
     overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
-
 }
 
 body {
-    -webkit-overflow-scrolling: touch;
     font-family: "Poppins", sans-serif;
 }
 
@@ -41,7 +39,6 @@ body {
 
 .content svg
 {
-    scale: 20%;
     position: relative;
     transform: translateY(-20%);
 }
@@ -56,6 +53,7 @@ body {
 
 .section {
     padding: 10%;
+    -webkit-overflow-scrolling: touch;
 }
 
 .row {
