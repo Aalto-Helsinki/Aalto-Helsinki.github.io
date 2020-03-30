@@ -17,8 +17,8 @@ $(document).ready(function(){
 
     scrollLink.click(function(ev){
         ev.preventDefault();
-        $('body,html').animate({
-            scrollTop: $(this.hash).offset().top - 30
+        $('html').stop().animate({
+            scrollTop: $(this.hash).offset().top - 40
         }, 1000);
     });
 

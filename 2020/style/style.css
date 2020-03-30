@@ -382,4 +382,5 @@ style="font-family:'Futura-Medium', 'Futura', sans-serif;font-weight:500;font-si
     stroke-dasharray: 3658;
     stroke-dashoffset: 3658;
     animation: line-anim 1.5s ease forwards;
+    animation-delay: 0.5s;
 }
