@@ -73,22 +73,22 @@ def gen1(n):
     for i in range(len(waves)):
         if i < 5:
             f.write("#logo path:nth-child(%d) {\n" % waves[i])
-            f.write("   stroke-dasharray: %f;" % (wave_lens[i]))
-            f.write("   stroke-dashoffset: %f;\n" % (wave_lens[i]))
+            f.write("   stroke-dasharray: %.2f;\n" % (wave_lens[i]))
+            f.write("   stroke-dashoffset: %.2f;\n" % (wave_lens[i]))
             f.write("   animation: line-anim %.2fs linear forwards;\n" % n)
             f.write("   animation-delay: %.2fs;\n" % (n * i + 0.5))
             f.write("}\n\n")
         else:
             f.write("#logo path:nth-child(%d) {\n" % waves[i])
-            f.write("   stroke-dasharray: %f;" % (wave_lens[i]))
-            f.write("   stroke-dashoffset: -%f;\n" % (wave_lens[i]))
+            f.write("   stroke-dasharray: %.2f;\n" % (wave_lens[i]))
+            f.write("   stroke-dashoffset: %.2f;\n" % (wave_lens[i]))
             f.write("   animation: line-anim %.2fs linear forwards;\n" % n)
             f.write("   animation-delay: %.2fs;\n" % ((n * i) - n * 5 + 0.5))
             f.write("}\n\n")
         
     for i in range(len(lines)):
         f.write("#logo path:nth-child(%d) {\n" % lines[i])
-        f.write("   stroke-dasharray: %d;" % (line_lens[i]+1))
+        f.write("   stroke-dasharray: %d;\n" % (line_lens[i]+1))
         f.write("   stroke-dashoffset: %d;\n" % (line_lens[i]+1))
         f.write("   animation: line-anim %.2fs ease-out forwards;\n" % (n))
         f.write("   animation-delay: %.2fs;\n" % (n * i / 4 + 0.5))

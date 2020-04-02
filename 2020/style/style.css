@@ -14,7 +14,6 @@
 @supports (-webkit-touch-callout: none) {
     html {
         -webkit-overflow-scrolling: touch;
-
     }
 }
 
@@ -379,8 +378,8 @@ style="font-family:'Futura-Medium', 'Futura', sans-serif;font-weight:500;font-si
 /* LINE */
 
 #logo path:nth-child(31) {
-    stroke-dasharray: 3658;
-    stroke-dashoffset: 3658;
+    stroke-dasharray: 3659;
+    stroke-dashoffset: 3659;
     animation: line-anim 1.5s ease forwards;
     animation-delay: 0.5s;
 }
