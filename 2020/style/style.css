@@ -116,6 +116,11 @@ body {
     color: rgb(68, 141, 125);
     text-decoration: none;
 }
+
+.s6 p a {
+    color: rgb(68, 141, 125);
+    text-decoration: none;
+}
 .s3 {
     background-color: black;
 }
