@@ -187,6 +187,8 @@ body {
     position: initial;
 }
 
+
+
 .description p {
     padding-top: 4vh;
     font-family: 'Montserrat', sans-serif;
@@ -207,6 +209,18 @@ body {
 .sponsors img {
     width: 20vw;
     height: 20vw;
+}
+
+.last 
+{
+    display: flex;
+    align-items: center;
+}
+
+.last img
+{
+    margin-top: 50px;
+    width: 33vw;
 }
 
 .logos {
