@@ -201,9 +201,25 @@ body {
     align-items: center;
 }
 
+.sponsors_long 
+{
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 6vh;
+    justify-content: space-evenly;
+
+}
+
+.sponsors_long img {
+    width: 25vw;
+}
+
 .sponsors img {
     width: 20vw;
 }
+
 
 .last 
 {
@@ -214,7 +230,7 @@ body {
 .last img
 {
     margin-top: 6vh;
-    width: 20vw;
+    width: 18vw;
 }
 
 .logos {
