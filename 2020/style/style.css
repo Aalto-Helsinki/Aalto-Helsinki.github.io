@@ -163,11 +163,6 @@ body {
     padding-top: 5vh;
 }
 
-.sponsors img {
-    width: 100px;
-    height: 100px;
-}
-
 .title {
     font-size: 2em;
     font-family: 'Oswald', sans-serif;
@@ -208,7 +203,6 @@ body {
 
 .sponsors img {
     width: 20vw;
-    height: 20vw;
 }
 
 .last 
@@ -219,8 +213,8 @@ body {
 
 .last img
 {
-    margin-top: 50px;
-    width: 33vw;
+    margin-top: 70px;
+    width: 20vw;
 }
 
 .logos {
