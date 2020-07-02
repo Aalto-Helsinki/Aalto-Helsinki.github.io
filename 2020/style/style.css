@@ -19,6 +19,8 @@
 
 body {
     font-family: "Poppins", sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 #navbar {
@@ -99,6 +101,8 @@ body {
     padding-left: 2%;
     padding-right: 2%;
     padding-bottom: 2%;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .bio img {
