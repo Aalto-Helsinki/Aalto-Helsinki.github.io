@@ -223,14 +223,25 @@ body {
     width: 20vw;
 }
 
+.sponsors a:hover {
+    transform: scale(1.1); 
+}
 
-.last 
+.sponsors_long a:hover {
+    transform: scale(1.1); 
+}
+
+.sponsors_last a:hover {
+    transform: scale(1.1);
+}
+
+.sponsors_last 
 {
     display: flex;
     align-items: center;
 }
 
-.last img
+.sponsors_last img
 {
     margin-top: 6vh;
     width: 18vw;
@@ -333,6 +344,11 @@ body {
 .fa-tumblr {
     background: #34526f;
     color: white;
+}
+
+.andritz {
+    background-color: white;
+    padding: 20px 30px 20px 30px;
 }
 
 #fp-nav ul li a span, .fp-slidesNav ul li a span {
