@@ -146,6 +146,43 @@ body {
     background-color: white;
 }
 
+.s7 {
+    padding-top: 0;
+    min-height: 100vh;
+    background-color: white;
+}
+
+.s7 .content .center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.s7 .content img {
+    width: 30vw;
+}
+
+.s7 .content .title {
+    top: 10vh;
+}
+
+.s7 .content .applinks {
+    display: flex;
+    align-items: center;
+}
+
+.s7 .content #previewimg {
+    margin-bottom: 20px;
+}
+
+.s7 .content .applinks img {
+    width: 24vw;
+}
+
+.s7 .content .applinks .appstore {
+    width: 20vw;
+}
+
 .footer p {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2em;
