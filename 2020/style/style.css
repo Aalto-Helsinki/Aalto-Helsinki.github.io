@@ -167,13 +167,13 @@ body {
 }
 
 .hiring img {
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     margin-left: 10vw;
     width: 60vw;
 }
 
 .hiring iframe {
-    padding-top: 50px;
+    margin-top: 50px;
     margin-left: 10vw;
     width: 60vw;
     min-height: 34vw;
