@@ -58,7 +58,7 @@ body {
 }
 
 .section {
-    padding: 10%;
+    padding: 10vw;
 }
 
 .row {
@@ -129,6 +129,54 @@ body {
 .s4 p a {
     color: rgb(68, 141, 125);
     text-decoration: none;
+}
+
+.hiring {
+    background-color: black;
+    width: 100vw;
+}
+
+.hiring .description {
+    padding-bottom: 50px;
+}
+
+.hiring .subtitle {
+    color: white;
+}
+
+.hiring p {
+    color: white;
+}
+
+.hiring p a {
+    color: rgb(68, 141, 125);
+    text-decoration: none;
+}
+
+.hiring ul li {
+    margin-left: 20px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.hiring ul li p {
+    text-align: left;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.hiring img {
+    padding-bottom: 50px;
+    margin-left: 10vw;
+    width: 60vw;
+}
+
+.hiring iframe {
+    padding-top: 50px;
+    margin-left: 10vw;
+    width: 60vw;
+    min-height: 34vw;
 }
 
 .s3 {
@@ -211,6 +259,7 @@ body {
 }
 
 .title {
+    text-align: left;
     font-size: 2em;
     font-family: 'Oswald', sans-serif;
     font-stretch: condensed;
@@ -221,6 +270,7 @@ body {
 }
 
 .subtitle {
+    text-align: left;
     font-family: 'Oswald', sans-serif;
     font-stretch: condensed;
     font-size: 1.7em;
@@ -405,6 +455,16 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+    .hiring iframe{
+        margin-left: 0;
+        width: 80vw;
+        height: 56vw;
+    }
+    .hiring img {
+        margin-left: 0;
+        width: 80vw;
+        height: 56vw;
+    }
     body {
         overflow-x: hidden;
     }
