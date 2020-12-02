@@ -153,6 +153,14 @@ body {
     text-decoration: none;
 }
 
+.hiring p a img {
+    width: 1.2em;
+    height: 1.2em;
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+}
+
 .hiring ul li {
     margin-left: 20px;
     color: white;
