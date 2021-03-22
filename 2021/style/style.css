@@ -94,7 +94,7 @@ body {
 
 .bio h4 {
     font-family: 'Barlow',sans-serif;
-    font-size: 2em;
+    font-size: 1.5em;
     color: rgb(0, 0, 0);
     font-weight: lighter;
     line-height: 1.5;
@@ -102,7 +102,7 @@ body {
 
 .bio h5 {
     font-family: 'Barlow',sans-serif;
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: lighter;
     line-height: 1.5;
 }
@@ -111,7 +111,7 @@ body {
     padding-top: 3vh;
     text-align: left;
     font-family: 'Barlow',sans-serif;
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: lighter;
     line-height: 1.5;
     position: initial;
@@ -265,7 +265,7 @@ body {
 
 .footer p {
     font-family: 'Barlow',sans-serif;
-    font-size: 1.5em;
+    font-size: 1.2em;
     padding: 2vh;
     text-align: center;
     line-height: 1.8;
@@ -276,8 +276,8 @@ body {
     color: rgb(0, 0, 0);
     text-decoration: none;
     font-family: 'Barlow',sans-serif;
-    font-weight: 500;
-    font-size: 1.5em;
+    font-weight: lighter;
+    font-size: 1.1em;
 }
 
 .previous:hover {
@@ -292,7 +292,7 @@ body {
 
 .title {
     text-align: left;
-    font-size: 3em;
+    font-size: 2em;
     font-family: 'Barlow',sans-serif;
     font-stretch: condensed;
     font-weight: 700;
@@ -305,7 +305,7 @@ body {
     text-align: left;
     font-family: 'Barlow',sans-serif;
     font-stretch: condensed;
-    font-size: 2em;
+    font-size: 1.7em;
     letter-spacing: 0.1vh;
     text-transform: uppercase;
     position: initial;
@@ -316,7 +316,7 @@ body {
 .description p {
     padding-top: 4vh;
     font-family: 'Barlow',sans-serif;
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: lighter;
     line-height: 1.8;
     position: initial;
