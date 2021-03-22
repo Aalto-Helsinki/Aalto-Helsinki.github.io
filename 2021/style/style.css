@@ -57,6 +57,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    align-items: center;
     min-height: 40vh;
 }
 
