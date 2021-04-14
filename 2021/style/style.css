@@ -108,9 +108,10 @@ body {
   min-height: 100vh;
 }
 
-#s1 {
-  background-image: linear-gradient(white, white, black);
-  height: 250vh;
+#s2 {
+  background-image: linear-gradient(white, white, white, black);
+  width: 100vw;
+  height: 150vh;
 }
 
 .animation {
@@ -179,15 +180,11 @@ body {
   position: initial;
 }
 
-#s1 p a {
+#s2 p a {
   color: rgb(0, 0, 0);
   font-weight: 700;
   text-decoration: none;
   font-weight: bold;
-}
-
-#s2 {
-  padding-top: 20vh;
 }
 
 #s3 {
@@ -237,20 +234,6 @@ body {
 .bio img {
   width: 20vw;
 }
-
-/*
-#s4 {
-  background-image: url(/2021/team_img/bacteria.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-*/
-
-/*
-#s4 {
-  background-image: url(/2021/team_img/linssi3.jpg);
-}
-*/
 
 #s4 .content {
   vertical-align: middle;
@@ -307,11 +290,9 @@ body {
 }
 
 #s6 {
-  background-image: linear-gradient(white, white, black);
-  height: 100vh;
+  background-image: linear-gradient(white, white, white, black);
   width: 100vw;
-  padding-bottom: 100vh;
-  padding-top: 5vh;
+  height: 150vh;
 }
 
 #s6 p a {
@@ -336,7 +317,7 @@ body {
 .footer {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   background-color: rgb(0, 0, 0);
   font-family: "Barlow", sans-serif;
   color: rgb(255, 255, 255);
@@ -344,6 +325,7 @@ body {
   width: 100vw;
   height: 80vh;
   padding-top: 40px;
+  padding-left: 5vw;
 }
 
 .footer li {
@@ -355,7 +337,6 @@ body {
   justify-content: center;
   min-height: 35vh;
   width: 200vh;
-  justify-content: space-evenly;
   padding-bottom: 50px;
   padding-top: 5vh;
   line-height: 2em;
@@ -367,7 +348,14 @@ body {
 }
 
 .contact {
-  justify-content: left;
+  justify-content: center;
+  width: 25vw;
+}
+
+.footer_logo {
+  justify-content: center;
+  height: 5vh;
+  width: 25vw;
 }
 
 ul,
@@ -377,13 +365,10 @@ li {
   color: white;
 }
 
-.footer png {
-  position: right;
-}
-
 .find-us {
   color: white;
   text-align: center;
+  width: 33vw;
 }
 
 .find-us li a {
