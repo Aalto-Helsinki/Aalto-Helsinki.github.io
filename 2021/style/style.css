@@ -336,8 +336,6 @@ body {
   display: flex;
   justify-content: center;
   min-height: 35vh;
-  width: 200vh;
-  padding-bottom: 50px;
   padding-top: 5vh;
   line-height: 2em;
 }
