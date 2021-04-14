@@ -110,8 +110,6 @@ body {
 
 #s2 {
   background-image: linear-gradient(white, white, white, black);
-  width: 100vw;
-  height: 150vh;
   padding-bottom: 50px;
 }
 
@@ -247,7 +245,6 @@ body {
 }
 
 #s5 {
-  width: 100vw;
   background-color: black;
   color: white;
 }
@@ -292,8 +289,6 @@ body {
 
 #s6 {
   background-image: linear-gradient(white, white, white, black);
-  width: 100vw;
-  height: 150vh;
 }
 
 #s6 p a {
