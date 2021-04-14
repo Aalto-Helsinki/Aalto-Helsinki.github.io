@@ -111,7 +111,7 @@ body {
 #s2 {
   background-image: linear-gradient(white, white, white, black);
   width: 100vw;
-  height: 150vh;
+  height: 200vh;
 }
 
 .animation {
@@ -469,6 +469,13 @@ li {
   .burger {
     right: 30px;
     display: block;
+  }
+
+  .footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
