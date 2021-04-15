@@ -110,7 +110,8 @@ body {
 
 #s2 {
   background-image: linear-gradient(white, white, white, black);
-  padding-bottom: 50px;
+  padding-bottom: 50vh;
+  width: 100vw;
 }
 
 .animation {
@@ -247,6 +248,7 @@ body {
 #s5 {
   background-color: black;
   color: white;
+  width: 100vw;
 }
 
 #s5 h2 {
@@ -289,6 +291,8 @@ body {
 
 #s6 {
   background-image: linear-gradient(white, white, white, black);
+  padding-bottom: 50vh;
+  width: 100vw;
 }
 
 #s6 p a {
@@ -330,6 +334,7 @@ body {
 
 .footer_row {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   min-height: 35vh;
   padding-top: 5vh;
@@ -344,16 +349,19 @@ body {
 .contact {
   justify-content: center;
   width: 25vw;
+  min-width: 12.5rem;
 }
 
 .footer_logo {
   justify-content: center;
   width: 25vw;
+  min-width: 12.5rem;
 }
 
 .footer_logo img {
   height: 200px;
   width: 200px;
+  min-width: 12.5rem;
 }
 
 ul,
@@ -367,6 +375,7 @@ li {
   color: white;
   text-align: center;
   width: 25vw;
+  min-width: 12.5rem;
 }
 
 .find-us li a {
@@ -474,6 +483,7 @@ li {
     flex-direction: column;
     align-items: center;
     float: left;
+    justify-content: space-around;
   }
 }
 
