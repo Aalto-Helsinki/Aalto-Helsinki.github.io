@@ -483,6 +483,7 @@ li {
     align-items: center;
     float: left;
     justify-content: space-around;
+    height: 800px;
   }
 }
 
