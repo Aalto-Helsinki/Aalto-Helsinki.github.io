@@ -239,6 +239,7 @@ body {
   width: 50vw;
   margin: auto;
   border: 10px solid black;
+  overflow: hidden;
 }
 
 .carousel-slide {
