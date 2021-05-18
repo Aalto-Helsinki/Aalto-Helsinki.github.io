@@ -150,13 +150,13 @@ body {
 
 .content h2 {
   text-align: left;
-  font-size: 3.8em;
+  font-size: 3.6em;
   font-family: "Krona One", sans-serif;
   font-weight: 900;
   color: rgb(0, 0, 0);
   position: initial;
   padding-bottom: 5vh;
-  line-height: 2.3em;
+  line-height: 2.1em;
 }
 
 .content h1 {
@@ -206,7 +206,7 @@ body {
 }
 
 .bio {
-  width: 35vw;
+  width: 30vw;
   padding-left: 2vw;
   padding-right: 2vw;
   color: rgb(0, 0, 0);
@@ -322,7 +322,8 @@ body {
 
 .sponsors_long img {
   width: 30vw;
-  padding-left: 40px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .sponsors a:hover {
