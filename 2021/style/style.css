@@ -54,7 +54,7 @@ body {
 }
 
 .nav-list li {
-  font-size: 0.8em;
+  font-size: 0.7em;
   font-family: "Krona One", sans-serif;
   list-style: none;
   cursor: pointer;
@@ -144,30 +144,30 @@ body {
   min-height: 100vh;
   width: 50vw;
   vertical-align: middle;
-  font-size: 0.9em;
-  line-height: 1.5em;
+  font-size: 0.8em;
+  line-height: 1.4em;
 }
 
 .content h2 {
   text-align: left;
-  font-size: 3.8em;
+  font-size: 3.6em;
   font-family: "Krona One", sans-serif;
   font-weight: 900;
   color: rgb(0, 0, 0);
   position: initial;
   padding-bottom: 5vh;
-  line-height: 2.3em;
+  line-height: 2.1em;
 }
 
 .content h1 {
   text-align: left;
   font-family: "Krona One", sans-serif;
   font-weight: 900;
-  font-size: 1.3em;
+  font-size: 1.1em;
   letter-spacing: 0.1vh;
   text-transform: uppercase;
   position: initial;
-  line-height: 1.3em;
+  line-height: 1.1em;
 }
 
 .content svg {
@@ -185,8 +185,8 @@ body {
 .description p {
   padding-top: 4vh;
   font-family: "Roboto";
-  font-size: 1.2em;
-  line-height: 1.5em;
+  font-size: 1em;
+  line-height: 1.3em;
   font-weight: normal;
   position: initial;
 }
@@ -215,7 +215,7 @@ body {
 
 .bio h4 {
   font-family: "Krona One", sans-serif;
-  font-size: 1.2em;
+  font-size: 1em;
   color: rgb(255, 255, 255);
   font-weight: lighter;
   line-height: 1.5;
@@ -349,7 +349,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: lighter;
   justify-content: space-evenly;
-  font-size: 1.1em;
+  font-size: 1.2em;
 }
 
 .previous:hover {
@@ -362,7 +362,7 @@ body {
   justify-content: center;
   background-color: rgb(0, 0, 0);
   font-family: "Roboto", sans-serif;
-  font-size: 1.3em;
+  font-size: 1.1em;
   color: rgb(255, 255, 255);
   width: 100vw;
   padding-top: 40px;
@@ -386,7 +386,7 @@ body {
   justify-content: center;
   min-height: 35vh;
   padding-top: 5vh;
-  line-height: 2em;
+  line-height: 2.5em;
 }
 
 .icons img {
