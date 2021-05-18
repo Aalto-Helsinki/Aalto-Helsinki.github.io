@@ -54,7 +54,7 @@ body {
 }
 
 .nav-list li {
-  font-size: 1em;
+  font-size: 0.8em;
   font-family: "Krona One", sans-serif;
   list-style: none;
   cursor: pointer;
@@ -130,7 +130,7 @@ body {
 }
 
 .animation svg {
-  position: relative;
+  position: static;
   filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
 }
 
@@ -144,30 +144,30 @@ body {
   min-height: 100vh;
   width: 50vw;
   vertical-align: middle;
-  font-size: 1.1em;
-  line-height: 1.7em;
+  font-size: 0.9em;
+  line-height: 1.5em;
 }
 
 .content h2 {
   text-align: left;
-  font-size: 4em;
+  font-size: 3.8em;
   font-family: "Krona One", sans-serif;
   font-weight: 900;
   color: rgb(0, 0, 0);
   position: initial;
   padding-bottom: 5vh;
-  line-height: 2.5em;
+  line-height: 2.3em;
 }
 
 .content h1 {
   text-align: left;
   font-family: "Krona One", sans-serif;
   font-weight: 900;
-  font-size: 1.5em;
+  font-size: 1.3em;
   letter-spacing: 0.1vh;
   text-transform: uppercase;
   position: initial;
-  line-height: 1.5em;
+  line-height: 1.3em;
 }
 
 .content svg {
@@ -362,7 +362,7 @@ body {
   justify-content: center;
   background-color: rgb(0, 0, 0);
   font-family: "Roboto", sans-serif;
-  font-size: 1.5em;
+  font-size: 1.3em;
   color: rgb(255, 255, 255);
   width: 100vw;
   padding-top: 40px;
@@ -407,8 +407,8 @@ body {
 }
 
 .footer_logo img {
-  height: 300px;
-  width: 300px;
+  height: 250px;
+  width: 250px;
   min-width: 12.5rem;
 }
 
