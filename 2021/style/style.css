@@ -17,10 +17,18 @@
   }
 }
 
+/*
+
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;700&display=swap");
 
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Roboto:wght@400;700;900&display=swap");
+
 body {
-  font-family: "Barlow", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   text-align: justify;
   text-justify: inter-word;
@@ -46,7 +54,8 @@ body {
 }
 
 .nav-list li {
-  font-size: 15px;
+  font-size: 1em;
+  font-family: "Krona One", sans-serif;
   list-style: none;
   cursor: pointer;
 }
@@ -108,10 +117,8 @@ body {
   min-height: 100vh;
 }
 
-#s2 {
-  background-image: linear-gradient(white, white, white, black);
-  padding-bottom: 50vh;
-  width: 100vw;
+#s2 .content {
+  vertical-align: middle;
 }
 
 .animation {
@@ -134,29 +141,33 @@ body {
 .content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   min-height: 100vh;
+  width: 50vw;
+  vertical-align: middle;
+  font-size: 1.1em;
+  line-height: 1.7em;
 }
 
 .content h2 {
   text-align: left;
-  font-size: 3em;
-  font-family: "Barlow", sans-serif;
-  font-stretch: condensed;
-  font-weight: 1000;
+  font-size: 4em;
+  font-family: "Krona One", sans-serif;
+  font-weight: 900;
   color: rgb(0, 0, 0);
   position: initial;
   padding-bottom: 5vh;
+  line-height: 2.5em;
 }
 
 .content h1 {
   text-align: left;
-  font-family: "Barlow", sans-serif;
-  font-stretch: condensed;
-  font-size: 1.7em;
+  font-family: "Krona One", sans-serif;
+  font-weight: 900;
+  font-size: 1.5em;
   letter-spacing: 0.1vh;
   text-transform: uppercase;
   position: initial;
+  line-height: 1.5em;
 }
 
 .content svg {
@@ -173,10 +184,10 @@ body {
 
 .description p {
   padding-top: 4vh;
-  font-family: "Barlow", sans-serif;
+  font-family: "Roboto";
   font-size: 1.2em;
+  line-height: 1.5em;
   font-weight: normal;
-  line-height: 1.8;
   position: initial;
 }
 
@@ -187,12 +198,15 @@ body {
   font-weight: bold;
 }
 
-#s3 {
+#s3 .content {
+  padding-top: 150px;
+  width: 100vw;
   background-color: black;
+  vertical-align: middle;
 }
 
 .bio {
-  width: 50vw;
+  width: 35vw;
   padding-left: 2vw;
   padding-right: 2vw;
   color: rgb(0, 0, 0);
@@ -200,15 +214,15 @@ body {
 }
 
 .bio h4 {
-  font-family: "Barlow", sans-serif;
-  font-size: 1.5em;
+  font-family: "Krona One", sans-serif;
+  font-size: 1.2em;
   color: rgb(255, 255, 255);
   font-weight: lighter;
   line-height: 1.5;
 }
 
 .bio h5 {
-  font-family: "Barlow", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1em;
   color: white;
   font-weight: lighter;
@@ -219,7 +233,7 @@ body {
   padding-top: 3vh;
   color: white;
   text-align: left;
-  font-family: "Barlow", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.2em;
   font-weight: lighter;
   line-height: 1.5;
@@ -258,22 +272,38 @@ body {
   text-decoration: none;
 }
 
-#s5 {
-  background-color: black;
-  color: white;
+#s5 .content {
+  padding-top: 10vh;
   width: 100vw;
+  background-color: black;
+  vertical-align: middle;
+  align-items: center;
 }
 
-#s5 h2 {
+.black {
+  width: 50vw;
+}
+
+.black p {
   color: white;
+}
+
+.black h2 {
+  color: white;
+}
+
+#s5 .description {
+  vertical-align: middle;
 }
 
 .sponsors {
   display: flex;
+  width: 100vw;
   justify-content: space-evenly;
   padding-top: 5vh;
   padding-left: 10%;
   padding-right: 10%;
+  padding-bottom: 10vh;
   align-items: center;
 }
 
@@ -291,7 +321,8 @@ body {
 }
 
 .sponsors_long img {
-  width: 25vw;
+  width: 30vw;
+  padding-left: 40px;
 }
 
 .sponsors a:hover {
@@ -302,10 +333,8 @@ body {
   transform: scale(1.1);
 }
 
-#s6 {
-  background-image: linear-gradient(white, white, white, black);
-  padding-bottom: 50vh;
-  width: 100vw;
+#s6 .content {
+  vertical-align: middle;
 }
 
 #s6 p a {
@@ -317,7 +346,7 @@ body {
 .previous {
   color: rgb(255, 255, 255);
   text-decoration: none;
-  font-family: "Barlow", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: lighter;
   justify-content: space-evenly;
   font-size: 1.1em;
@@ -332,12 +361,19 @@ body {
   flex-direction: column;
   justify-content: center;
   background-color: rgb(0, 0, 0);
-  font-family: "Barlow", sans-serif;
-  font-size: 1.2em;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5em;
   color: rgb(255, 255, 255);
   width: 100vw;
   padding-top: 40px;
   padding-left: 5vw;
+  padding-bottom: 100px;
+}
+
+.footer h2 {
+  font-family: "Krona One", sans-serif;
+  font-weight: 900;
+  color: white;
 }
 
 .footer li {
@@ -354,8 +390,8 @@ body {
 }
 
 .icons img {
-  height: 50px;
-  width: 50px;
+  height: 70px;
+  width: 70px;
 }
 
 .contact {
@@ -371,8 +407,8 @@ body {
 }
 
 .footer_logo img {
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
   min-width: 12.5rem;
 }
 
