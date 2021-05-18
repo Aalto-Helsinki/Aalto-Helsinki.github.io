@@ -155,6 +155,7 @@ body {
   font-weight: 900;
   color: rgb(0, 0, 0);
   position: initial;
+  width: 50vw;
   padding-bottom: 5vh;
   line-height: 2.1em;
 }
@@ -164,6 +165,7 @@ body {
   font-family: "Krona One", sans-serif;
   font-weight: 900;
   font-size: 1.5em;
+  width: 50vw;
   letter-spacing: 0.1vh;
   text-transform: uppercase;
   position: initial;
@@ -285,15 +287,13 @@ body {
 }
 
 .black p {
+  width: 50vw;
   color: white;
 }
 
 .black h2 {
+  width: 50vw;
   color: white;
-}
-
-#s5 .description {
-  vertical-align: middle;
 }
 
 .sponsors {
