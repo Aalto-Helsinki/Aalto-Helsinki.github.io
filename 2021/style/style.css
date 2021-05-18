@@ -130,7 +130,7 @@ body {
 }
 
 .animation svg {
-  position: static;
+  position: relative;
   filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
 }
 
@@ -142,7 +142,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  width: 50vw;
+  width: 55vw;
   vertical-align: middle;
   font-size: 1em;
   line-height: 1.6em;
@@ -154,8 +154,7 @@ body {
   font-family: "Krona One", sans-serif;
   font-weight: 900;
   color: rgb(0, 0, 0);
-  position: initial;
-  width: 50vw;
+  position: relative;
   padding-bottom: 5vh;
   line-height: 2.1em;
 }
@@ -165,10 +164,9 @@ body {
   font-family: "Krona One", sans-serif;
   font-weight: 900;
   font-size: 1.5em;
-  width: 50vw;
   letter-spacing: 0.1vh;
   text-transform: uppercase;
-  position: initial;
+  position: relative;
   line-height: 1.5em;
 }
 
@@ -190,7 +188,7 @@ body {
   font-size: 1.2em;
   line-height: 1.5em;
   font-weight: normal;
-  position: initial;
+  position: relative;
 }
 
 #s2 p a {
@@ -201,7 +199,7 @@ body {
 }
 
 #s3 .content {
-  padding-top: 150px;
+  padding-top: 10%;
   width: 100vw;
   background-color: black;
   vertical-align: middle;
