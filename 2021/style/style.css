@@ -49,12 +49,12 @@ body {
 .nav-list {
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  width: 30vw;
+  align-items: stretch;
+  width: 45vw;
 }
 
 .nav-list li {
-  font-size: 0.9em;
+  font-size: 0.7em;
   font-family: "Krona One", sans-serif;
   list-style: none;
   cursor: pointer;
