@@ -138,6 +138,14 @@ body {
   padding: 10vw;
 }
 
+.recruitment video {
+  width: 50vw;
+  height: auto;
+  margin-left: 2.5vw;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
 .content {
   display: flex;
   flex-direction: column;
@@ -189,6 +197,34 @@ body {
   line-height: 1.5em;
   font-weight: normal;
   position: relative;
+}
+
+.description ul li {
+  color: rgb(0, 0, 0);
+  font-family: "Roboto";
+  position: relative;
+}
+
+.description h3 {
+  font-size: 1.2em;
+  line-height: 1em;
+}
+
+.description ul li p {
+  margin-left: 2.5vw;
+  line-height: 1.5em;
+  padding-bottom: 4vh;
+}
+
+.description a {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+#bullets li {
+  list-style-type: circle;
+  margin-left: 2.5vw;
 }
 
 #s2 p a {
