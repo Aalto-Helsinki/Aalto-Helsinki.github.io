@@ -40,7 +40,7 @@ body {
   justify-content: space-around;
   align-items: center;
   z-index: 9;
-  width: 100%;
+  width: 100vw;
   min-height: 4em;
   background-color: black;
   color: black;
@@ -255,6 +255,7 @@ body {
   color: rgb(255, 255, 255);
   font-weight: lighter;
   line-height: 1.5;
+  margin-top: 2vh;
 }
 
 .bio h5 {
@@ -282,7 +283,8 @@ body {
 }
 
 .bio img {
-  width: 20vw;
+  height: 60vh;
+  width: auto;
 }
 
 .carousel-container {
@@ -425,8 +427,8 @@ body {
 }
 
 .icons img {
-  height: 70px;
-  width: 70px;
+  height: 45px;
+  width: 45px;
 }
 
 .contact {
