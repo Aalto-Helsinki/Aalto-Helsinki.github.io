@@ -54,7 +54,7 @@ body {
 }
 
 .nav-list li {
-  font-size: 0.7em;
+  font-size: 0.9em;
   font-family: "Krona One", sans-serif;
   list-style: none;
   cursor: pointer;
@@ -104,8 +104,8 @@ body {
   display: flex;
   top: 50%;
   transform: translateY(-50%);
-  height: 7vh;
-  left: 5vh;
+  height: 5vh;
+  left: 3vh;
 }
 
 .fullpage {
