@@ -104,7 +104,7 @@ body {
   display: flex;
   top: 50%;
   transform: translateY(-50%);
-  height: 4vh;
+  height: 5vh;
   left: 3vh;
 }
 
@@ -118,10 +118,9 @@ body {
 }
 
 #s1 {
-vertical-align: middle;
-width: 60vw;
-padding-top: 10vh;
-padding-bottom: 10vh;
+          vertical-align: middle;
+          width: 80vw;
+          padding-top: 10vh;
         }
 
 #s2 .content {
@@ -142,7 +141,7 @@ padding-bottom: 10vh;
 }
 
 .section {
-
+  padding: 10vw;
 }
 
 .recruitment video {
@@ -243,7 +242,6 @@ padding-bottom: 10vh;
 
 #s3 .content {
   padding-top: 10%;
-  padding-bottom: 7%;
   width: 100vw;
   background-color: black;
   vertical-align: middle;
@@ -310,8 +308,6 @@ padding-bottom: 10vh;
 
 #s4 .content {
   vertical-align: middle;
-  padding-top: 10vh;
-  
 }
 
 #s4 p a {
@@ -382,7 +378,6 @@ padding-bottom: 10vh;
 
 #s6 .content {
   vertical-align: middle;
-  padding-top: 10vh;
 }
 
 #s6 p a {
@@ -1101,7 +1096,6 @@ li {
           vertical-align: left;
           width: 100vw;
           padding-top: 10vh;
-
         }
 
         .contact_header{
