@@ -156,11 +156,11 @@ body {
 .content {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 50vh;
   width: 55vw;
   vertical-align: middle;
   font-size: 1em;
-  line-height: 1.6em;
+  line-height: 1.5em;
   padding-bottom: 10vh;
 }
 
@@ -199,7 +199,8 @@ body {
 }
 
 .description p {
-  padding-top: 4vh;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
   font-family: "Roboto";
   font-size: 1.2em;
   line-height: 1.5em;
@@ -214,7 +215,7 @@ body {
 }
 
 .description h3 {
-  font-size: 1.2em;
+  font-size: 1.5em;
   line-height: 1em;
 }
 
@@ -247,6 +248,7 @@ body {
 #bullets li {
   list-style-type: circle;
   margin-left: 2.5vw;
+  font-size: 1.2em;
 }
 
 #s2 p a {
