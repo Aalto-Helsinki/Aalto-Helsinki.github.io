@@ -117,10 +117,11 @@ body {
 }
 
 #s1 {
-          vertical-align: middle;
-          width: 70vw;
-          padding-top: 10vh;
-        }
+  vertical-align: middle;
+  width: 70vw;
+  padding-top: 12vh; /* Default 10vh */
+  padding-bottom: 0vh; /* Remove this when logo added, override default bottom padding temporarily*/
+}
 
 #s2 .content {
   vertical-align: middle;
@@ -140,8 +141,8 @@ body {
 }
 
 .section {
-  padding-top: 10vh;
-  padding-bottom: 10vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
 }
 
 .recruitment video {
@@ -160,7 +161,7 @@ body {
   vertical-align: middle;
   font-size: 1em;
   line-height: 1.5em;
-  padding-bottom: 10vh;
+  padding-bottom: 0vh;
 }
 
 .content h2 {
@@ -170,8 +171,14 @@ body {
   font-weight: 900;
   color: rgb(0, 0, 0);
   position: relative;
-  padding-bottom: 5vh;
+  padding-bottom: 2vh;
   line-height: 2.1em;
+}
+
+#temp_logo { /* Temporary id for the logo replacement text*/
+  text-align: center;
+  font-size: 3.6em;
+  font-family: "Krona One", sans-serif;
 }
 
 .content h1 {
@@ -258,10 +265,16 @@ body {
 }
 
 #s3 .content {
-  padding-top: 10%;
+  padding-top: 5vh;
   width: 100vw;
   background-color: black;
   vertical-align: middle;
+}
+
+#team_header {
+  padding-left: 15vw;
+  color: white;
+  width: 100vw;
 }
 
 .bio {
