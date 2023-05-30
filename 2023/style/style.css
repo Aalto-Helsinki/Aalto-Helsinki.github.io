@@ -17,6 +17,15 @@
   }
 }
 
+@font-face {
+  font-family: 'Blisstwin';
+  src: url('Blisstwin.woff2') format('woff2'), /* Modern Browsers */
+       url('Blisstwin.otf') format('opentype'); /* Safari, Android, iOS */
+           font-style: italic;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
 /*
 
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;700&display=swap");
@@ -107,6 +116,11 @@ body {
   left: 3vh;
 }
 
+/* SVG viewport size for logo 132.8 248.26 1672.23 380*/
+#Logo23 {
+  padding-top: 10vh;
+}
+
 .fullpage {
   display: flex;
   flex-direction: column;
@@ -118,9 +132,10 @@ body {
 
 #s1 {
   vertical-align: middle;
+  text-align: center;
   width: 70vw;
-  padding-top: 12vh; /* Default 10vh */
-  padding-bottom: 0vh; /* Remove this when logo added, override default bottom padding temporarily*/
+  padding-top: 6vh;
+  
 }
 
 #s2 .content {
@@ -173,12 +188,6 @@ body {
   position: relative;
   padding-bottom: 2vh;
   line-height: 2.1em;
-}
-
-#temp_logo { /* Temporary id for the logo replacement text*/
-  text-align: center;
-  font-size: 3.6em;
-  font-family: "Krona One", sans-serif;
 }
 
 .content h1 {
