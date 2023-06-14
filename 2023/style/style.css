@@ -34,7 +34,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
 
-@import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Roboto:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto:wght@400;700;900&display=swap");
 
 body {
   font-family: "Roboto", sans-serif;
@@ -63,7 +63,7 @@ body {
 
 .nav-list li {
   font-size: 0.9em;
-  font-family: "Krona One", sans-serif;
+  font-family: "Merriweather", sans-serif;
   list-style: none;
   cursor: pointer;
 }
@@ -182,7 +182,7 @@ body {
 .content h2 {
   text-align: left;
   font-size: 3.6em;
-  font-family: "Krona One", sans-serif;
+  font-family: "Merriweather", sans-serif;
   font-weight: 900;
   color: rgb(0, 0, 0);
   position: relative;
@@ -192,7 +192,7 @@ body {
 
 .content h1 {
   text-align: left;
-  font-family: "Krona One", sans-serif;
+  font-family: "Merriweather", sans-serif;
   font-weight: 900;
   font-size: 1.5em;
   letter-spacing: 0.1vh;
@@ -295,7 +295,7 @@ body {
 }
 
 .bio h4 {
-  font-family: "Krona One", sans-serif;
+  font-family: "Merriweather", sans-serif;
   font-size: 1.2em;
   color: rgb(255, 255, 255);
   font-weight: lighter;
@@ -453,7 +453,7 @@ body {
 }
 
 .footer h2 {
-  font-family: "Krona One", sans-serif;
+  font-family: "Merriweather", sans-serif;
   font-weight: 900;
   color: white;
 }
