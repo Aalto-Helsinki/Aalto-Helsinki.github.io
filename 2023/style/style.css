@@ -190,6 +190,29 @@ body {
   line-height: 2.1em;
 }
 
+.recruitment p {
+  padding-bottom: 1vh;
+  font-family: "Roboto";
+  font-size: 1.2em;
+  line-height: 1.5em;
+  font-weight: normal;
+  position: relative;
+}
+
+.recruitment h2 {
+  text-align: left;
+  font-family: "Merriweather", sans-serif;
+  font-weight: 900;
+  font-size: 1.3em;
+  position: relative;
+  line-height: 1.3em;
+  padding-top: 2vh;
+}
+
+.recruitment td {
+  padding-left: 1vw;
+}
+
 .content h1 {
   text-align: left;
   font-family: "Merriweather", sans-serif;
@@ -503,8 +526,7 @@ body {
   min-width: 12.5rem;
 }
 
-ul,
-li {
+.find-us ul, li {
   list-style-type: none;
   text-decoration: none;
   color: white;
@@ -725,6 +747,11 @@ li {
 
         .content h2 {
           font-size: 2.5em;
+        }
+
+        .recruitment h2 {
+          font-size: 1.3em;
+          font-family: "Merriweather", sans-serif;
         }
 
         .logo {
