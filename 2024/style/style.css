@@ -1,0 +1,86 @@
+:root {
+    --main-colour: #005B6F;
+    --Header: linear-gradient(0deg, #FFF 0%, #83AFB9 18.4%, #2F7989 42.4%, #136779 62.9%, #005B6E 84.4%)  
+}
+
+*
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.wrapper {
+    max-width: 1116px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    height: 249px;
+    background: var(--Header);
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1071px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+nav .logo {
+    display: flex;
+    align-items: center;
+    margin-top: 49px;
+}
+
+.logo img {
+    width: 126px;
+    margin-right: 10px;
+}
+
+nav .logo-text {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    list-style: none;
+    margin-top: 60px;
+}
+
+nav ul li a {
+    color: #FFF;
+    font-family: "Aptos";
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.welcome {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.button {
+    padding: 14px 24px;
+    border-radius: 8px;
+    color: #000;
+    display: inline-block;
+    font-size: 16px;
+    font-style: normal;
+    background-color: #ffffff; 
+    text-decoration: none; 
+    position: relative;  
+}
