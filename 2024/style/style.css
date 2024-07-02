@@ -116,7 +116,7 @@ nav ul li a {
 }
 
 h2 {
-    color: var(--Main-Theme, #005B6F);
+    color: var(--main-colour);
     font-family: Saira;
     font-size: 36px;
     font-weight: 700;
