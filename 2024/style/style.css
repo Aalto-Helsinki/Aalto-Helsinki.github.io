@@ -3,16 +3,10 @@
     --Header: linear-gradient(0deg, #FFF 0%, #83AFB9 18.4%, #2F7989 42.4%, #136779 62.9%, #005B6E 84.4%)      
 }
 
-*
-*::after,
-*::before {
-    box-sizing: border-box;
-}
 
 body {
     margin: 0px;
 }
-
 
 header {
     width: 100%;
@@ -52,7 +46,6 @@ nav ul {
     display: flex;
     align-items: center;
     gap: 48px;
-    list-style: none;
     margin-top: 60px;
 }
 
@@ -70,7 +63,6 @@ nav ul li a {
     color: #000;
     display: inline-block;
     font-size: 16px;
-    font-style: normal;
     background-color: #ffffff; 
     text-decoration: none; 
     position: relative;  
@@ -80,6 +72,7 @@ nav ul li a {
     text-align: center;
     max-width: 77.5vw;
     margin: 0 auto;
+    padding: 100px;
 }
 
 .welcome {
@@ -136,6 +129,7 @@ p {
     background-color: var(--main-colour);
     display: flex;
     justify-content: center;
+    padding-top: 100px;
 }
 
 .about-section .content {
@@ -182,7 +176,6 @@ p {
     color: #ffffff;
     font-family: Aptos;
     font-size: 20px;
-    font-style: normal;
     font-weight: 700;
     line-height: 150%;
 }
@@ -192,7 +185,6 @@ p {
     color: #ffffff;
     font-family: Aptos;
     font-size: 20px;
-    font-style: normal;
     font-weight: 600;
     line-height: 150%;
 }
@@ -201,24 +193,11 @@ p {
 
 
 
-
-
-
-
-.wrapper-2 {
-    text-align: center;
-    max-width: 77.5vw;
-    margin: 0 auto;
-}
-
 .sponsors {
     width: 100%;
-    height: 2000px;
     background: var(--main-colour);
     justify-content: center;
-    margin-top: 85px;
     padding-top: 100px;
-    margin-bottom: 10%;
 }
 
 .sponsors .title {
@@ -236,4 +215,44 @@ p {
     font-weight: 400;
     margin-left: 11.25vw;
     margin-top: 26px;
+}
+
+.rows {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 70px auto;
+    box-sizing: border-box;
+}
+
+.foot {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    margin: 0 auto;
+}
+
+.contact h5 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.prev-teams h5 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.foot p {
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 10%;
+    line-height: 150%;
 }
