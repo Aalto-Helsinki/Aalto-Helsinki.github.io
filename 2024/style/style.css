@@ -24,7 +24,7 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
-    max-width: 1278px;
+    max-width: 88.73vw;
     align-items: center;
     margin: 0 auto;
 }
@@ -36,7 +36,7 @@ nav .logo {
 }
 
 .logo img {
-    width: 126px;
+    width: 8.75vw;
     margin-right: 10px;
 }
 
@@ -78,7 +78,7 @@ nav ul li a {
 
 .wrapper {
     text-align: center;
-    max-width: 1116px;
+    max-width: 77.5vw;
     margin: 0 auto;
 }
 
@@ -112,7 +112,7 @@ nav ul li a {
 }
 
 .circles img {
-    margin: 70px; 
+    margin: 4.86vw; 
 }
 
 h2 {
@@ -131,40 +131,109 @@ p {
     font-weight: 400;
 }
 
-.about {
+.about-section {
     width: 100%;
-    height: 2324px;
-    background: var(--main-colour);
+    background-color: var(--main-colour);
+    display: flex;
     justify-content: center;
-    margin-top: 85px;
-    padding-top: 100px;
 }
 
-.about .title {
-    color: #FFF;
-    font-family: Saira;
-    font-size: 36px;
-    font-weight: 700;
-    margin-left: 163px;
+.about-section .content {
+    width: 80%;
+    box-sizing: border-box;
 }
 
-.about .text {
+.about-section h2 {
+    color: #ffffff;
+}
+
+.about-section p {
+    color: #ffffff;
+}
+
+.about-section .row1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.about-section .pic {
+    flex: 1 1 30%;
+    margin: 10px;
+    text-align: center;
+}
+
+.about-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+.about-section .content p {
     color: #FFF;
     font-family: Aptos;
     font-size: 24px;
     font-weight: 400;
-    margin-left: 163px;
+}
+
+.about-section .content .row1 .pic h3 {
+    margin: 10px 0;
+    text-align: center;
+    color: #ffffff;
+    font-family: Aptos;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.about-section .content .row1 .pic p {
+    text-align: center;
+    color: #ffffff;
+    font-family: Aptos;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+
+
+
+
+
+
+
+
+.wrapper-2 {
+    text-align: center;
+    max-width: 77.5vw;
+    margin: 0 auto;
+}
+
+.sponsors {
+    width: 100%;
+    height: 2000px;
+    background: var(--main-colour);
+    justify-content: center;
+    margin-top: 85px;
+    padding-top: 100px;
+    margin-bottom: 10%;
+}
+
+.sponsors .title {
+    color: #FFF;
+    font-family: Saira;
+    font-size: 36px;
+    font-weight: 700;
+    margin-left: 11.25vw;
+}
+
+.sponsors .text {
+    color: #FFF;
+    font-family: Aptos;
+    font-size: 24px;
+    font-weight: 400;
+    margin-left: 11.25vw;
     margin-top: 26px;
 }
-
-.row {
-    display: flex;
-    justify-content: center;
-    max-width: 1205px;
-    margin: 0 auto;
-    gap: 123px;
-    margin-top: 116px;    
-}
-
-  
-
