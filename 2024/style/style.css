@@ -13,32 +13,30 @@ header {
     height: 249px;
     background: var(--Header);
     justify-content: center;
+    align-content: center;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
-    max-width: 88.73vw;
-    align-items: center;
+    max-width: 88.73%;
     margin: 0 auto;
 }
 
-nav .logo {
-    display: flex;
-    align-items: center;
-    margin-top: 49px;
+.logo {
+    display: flex;  
 }
 
 .logo img {
-    width: 8.75vw;
-    margin-right: 10px;
+    width: fit-content;
 }
 
 nav .logo-text {
     color: #FFF;
     text-align: center;
+    align-self: center;
     font-family: Poppins;
-    font-size: 20px;
+    font-size: 1.5em;
     font-weight: 700;
 }
 
@@ -46,10 +44,9 @@ nav ul {
     display: flex;
     align-items: center;
     gap: 48px;
-    margin-top: 60px;
 }
 
-nav ul li a {
+nav ul li {
     color: #FFF;
     font-family: "Aptos";
     font-size: 20px;
@@ -101,12 +98,18 @@ nav ul li a {
 }
 
 .circles {
-    margin-top: 84px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 84px;
 }
 
 .circles img {
-    margin: 4.86vw; 
+    max-width: 100%;
+    height: auto;
 }
+
+
 
 h2 {
     color: var(--main-colour);
