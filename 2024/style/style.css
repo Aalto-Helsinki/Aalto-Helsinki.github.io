@@ -15,7 +15,7 @@ body {
 header {
     position: fixed;
     width: 100%;
-    height: 200px;
+    height: 80px;
     background: var(--main-colour);
     justify-content: center;
     align-content: center;
@@ -29,8 +29,7 @@ nav {
 }
 
 .logo {
-    width: auto;
-    height: 100%;
+    width: 150px;
     display: flex;  
 }
 
@@ -62,7 +61,7 @@ nav ul li {
 }
 
 .wrapper {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     padding: 100px;
 }
@@ -80,7 +79,7 @@ nav ul li {
     color: #000;
     max-width: 750px;
     text-align: center;
-    font-family: Inter;
+    font-family: Aptos;
     font-size: 3.2rem;
     font-weight: 400;
     margin: 0 auto;
@@ -275,6 +274,7 @@ p {
 
     .wrapper {
         width: 100%;
+        padding: 40px;
         margin: 0;
     }
     
@@ -289,12 +289,9 @@ p {
     }
     
     .intro {
-        color: #000;
-        text-align: center;
-        font-family: Inter;
-        font-size: 1.4rem;
-        font-weight: 400;
-        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 40px;
+        font-size: 1.2rem;
     }  
 
     .circles {
