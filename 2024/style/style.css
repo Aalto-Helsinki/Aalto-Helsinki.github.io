@@ -3,15 +3,20 @@
     --Header: linear-gradient(0deg, #FFF 0%, #83AFB9 18.4%, #2F7989 42.4%, #136779 62.9%, #005B6E 84.4%)      
 }
 
+html {
+    font-size: 62.5%;
+}
+
 
 body {
-    margin: 0px;
+    margin: 0;
 }
 
 header {
+    position: fixed;
     width: 100%;
-    height: 249px;
-    background: var(--Header);
+    height: 200px;
+    background: var(--main-colour);
     justify-content: center;
     align-content: center;
 }
@@ -19,26 +24,16 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
-    max-width: 88.73%;
+    width: 88.73%;
     margin: 0 auto;
 }
 
 .logo {
+    width: auto;
+    height: 100%;
     display: flex;  
 }
 
-.logo img {
-    width: fit-content;
-}
-
-nav .logo-text {
-    color: #FFF;
-    text-align: center;
-    align-self: center;
-    font-family: Poppins;
-    font-size: 1.5em;
-    font-weight: 700;
-}
 
 nav ul {
     display: flex;
@@ -49,9 +44,10 @@ nav ul {
 nav ul li {
     color: #FFF;
     font-family: "Aptos";
-    font-size: 20px;
+    font-size: 1.6rem;
     font-weight: 600;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .button {
@@ -59,15 +55,14 @@ nav ul li {
     border-radius: 8px;
     color: #000;
     display: inline-block;
-    font-size: 16px;
+    font-size: 1.6rem;
     background-color: #ffffff; 
     text-decoration: none; 
     position: relative;  
 }
 
 .wrapper {
-    text-align: center;
-    max-width: 77.5vw;
+    width: 80%;
     margin: 0 auto;
     padding: 100px;
 }
@@ -76,26 +71,20 @@ nav ul li {
     color: #000;
     text-align: center;
     font-family: Saira;
-    font-size: 96px;
+    font-size: 9.6rem;
     font-weight: 700;
     margin-top: 275px;
 }
 
 .intro {
     color: #000;
+    max-width: 750px;
     text-align: center;
     font-family: Inter;
-    font-size: 32px;
+    font-size: 3.2rem;
     font-weight: 400;
+    margin: 0 auto;
 }  
-
-.para {
-    color: #3A3A3A;
-    text-align: justify;
-    font-family: Aptos;
-    font-size: 24px;
-    font-weight: 400;
-}
 
 .circles {
     display: flex;
@@ -114,7 +103,7 @@ nav ul li {
 h2 {
     color: var(--main-colour);
     font-family: Saira;
-    font-size: 36px;
+    font-size: 3.6rem;
     font-weight: 700;
     text-align: left;
 }
@@ -123,7 +112,7 @@ p {
     color: #3A3A3A;
     text-align: justify;
     font-family: Aptos;
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: 400;
 }
 
@@ -169,7 +158,7 @@ p {
 .about-section .content p {
     color: #FFF;
     font-family: Aptos;
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: 400;
 }
 
@@ -178,18 +167,18 @@ p {
     text-align: center;
     color: #ffffff;
     font-family: Aptos;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 700;
-    line-height: 150%;
+    line-height: 2rem;
 }
 
 .about-section .content .row1 .pic p {
     text-align: center;
     color: #ffffff;
     font-family: Aptos;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 600;
-    line-height: 150%;
+    line-height: 2rem;
 }
 
 
@@ -206,7 +195,7 @@ p {
 .sponsors .title {
     color: #FFF;
     font-family: Saira;
-    font-size: 36px;
+    font-size: 3.6rem;
     font-weight: 700;
     margin-left: 11.25vw;
 }
@@ -214,7 +203,7 @@ p {
 .sponsors .text {
     color: #FFF;
     font-family: Aptos;
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: 400;
     margin-left: 11.25vw;
     margin-top: 26px;
@@ -240,22 +229,120 @@ p {
 .contact h5 {
     color: #000;
     font-family: Poppins;
-    font-size: 32px;
+    font-size: 3.2rem;
     font-weight: 700;
 }
 
 .prev-teams h5 {
     color: #000;
     font-family: Poppins;
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: 700;
 }
 
 .foot p {
     color: #000;
     font-family: Inter;
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: 400;
     margin-top: 10%;
-    line-height: 150%;
+    line-height: 4rem;
+}
+
+
+
+/* MOBILE VERSION */
+
+@media only screen and (max-width: 600px) {
+    
+    
+    nav {
+        display: flex;
+        justify-content: space-between;
+        width: 88.73%;
+        margin: 0 auto;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .logo {
+        width: 180px;
+        height: 100%;
+        display: flex;  
+    }
+
+    .wrapper {
+        width: 100%;
+        margin: 0;
+    }
+    
+    .welcome {
+        color: #000;
+        width: 100%;
+        text-align: center;
+        font-family: Saira;
+        font-size: 4.4rem;
+        font-weight: 700;
+        margin-top: 275px;
+    }
+    
+    .intro {
+        color: #000;
+        text-align: center;
+        font-family: Inter;
+        font-size: 1.4rem;
+        font-weight: 400;
+        margin: 0 auto;
+    }  
+
+    .circles {
+        display: none;
+    }
+
+    h2 {
+        font-size: 2rem;
+        line-height: 1;
+
+    }
+
+    p {
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+
+    .about-section .content p {
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+
+    .about-section img {
+        width: 160px;
+        height: auto;
+    }
+
+    .about-section .content .row1 .pic h3 {
+        font-size: 1.6rem;
+        font-weight: 700;
+        line-height: 1.4rem;
+    }
+    
+    .about-section .content .row1 .pic p {
+        font-size: 1.2rem;
+        font-weight: 600;
+        line-height: 1.1rem;
+    }
+
+    .sponsors img{
+        margin: 20 20;
+    }
+
+    .foot {
+        flex-direction: column;
+        width: 80%;
+        justify-content: space-between;
+        padding-bottom: 50px;
+        margin: 0 auto;
+    }
 }
