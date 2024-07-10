@@ -72,12 +72,12 @@ nav ul li {
     font-family: Saira;
     font-size: 9.6rem;
     font-weight: 700;
-    margin-top: 275px;
+    margin-top: 100px;
 }
 
 .intro {
     color: #000;
-    max-width: 750px;
+    max-width: 600px;
     text-align: center;
     font-family: Aptos;
     font-size: 3.2rem;
@@ -232,6 +232,10 @@ p {
     font-weight: 700;
 }
 
+.prev-teams {
+    width: 200px;
+}
+
 .prev-teams h5 {
     color: #000;
     font-family: Poppins;
@@ -239,12 +243,26 @@ p {
     font-weight: 700;
 }
 
-.foot p {
+.prev-teams ul {
+    display: flex;
+    flex-wrap: wrap;  
+}
+
+.prev-teams ul li {
     color: #000;
-    font-family: Inter;
+    font-family: Aptos;
     font-size: 2.4rem;
     font-weight: 400;
-    margin-top: 10%;
+    line-height: 4rem;
+    margin: 0 10px 0 0;
+    cursor: pointer;
+}
+
+.foot p {
+    color: #000;
+    font-family: Aptos;
+    font-size: 2.4rem;
+    font-weight: 400;
     line-height: 4rem;
 }
 
@@ -332,6 +350,7 @@ p {
     }
 
     .sponsors img{
+        width: 225px;
         margin: 20 20;
     }
 
@@ -339,7 +358,35 @@ p {
         flex-direction: column;
         width: 80%;
         justify-content: space-between;
-        padding-bottom: 50px;
+        padding-bottom: 30px;
         margin: 0 auto;
+    }
+
+    .contact h5 {
+        font-size: 2.4rem;
+    }
+
+    .foot .contact p {
+        margin-top: 10px;
+    }
+    
+    .prev-teams h5 {
+        font-size: 2.4rem;
+        margin-top: 20px;
+    }
+    
+    .foot p {
+        font-size: 1.8rem;
+        margin-top: 10%;
+        line-height: 2.5rem;
+    }
+
+    .prev-teams ul li {
+        color: #000;
+        font-family: Aptos;
+        font-size: 1.8rem;
+        font-weight: 400;
+        line-height: 4rem;
+        margin: 0 8px 0 0;
     }
 }
