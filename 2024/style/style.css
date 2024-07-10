@@ -72,7 +72,7 @@ nav ul li {
     font-family: Saira;
     font-size: 9.6rem;
     font-weight: 700;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 .intro {
@@ -206,9 +206,10 @@ p {
     font-weight: 400;
     margin-left: 11.25vw;
     margin-top: 26px;
+    padding-bottom: 40px;
 }
 
-.rows {
+/*.rows {
     width: 80%;
     display: flex;
     justify-content: space-around;
@@ -217,11 +218,32 @@ p {
     box-sizing: border-box;
 }
 
+*/
+
+.sponsors .sbox {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.sponsors ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.sponsors ul li img {
+    margin: 20px;
+    cursor: pointer;
+}
+
 .foot {
     display: flex;
     width: 80%;
     justify-content: space-between;
     padding-bottom: 50px;
+    padding-top: 30px;
     margin: 0 auto;
 }
 
@@ -230,6 +252,10 @@ p {
     font-family: Poppins;
     font-size: 3.2rem;
     font-weight: 700;
+}
+
+.foot .contact p {
+    margin-top: 10px;
 }
 
 .prev-teams {
@@ -349,6 +375,12 @@ p {
         line-height: 1.1rem;
     }
 
+    .sponsors .sbox {
+        display: flex;
+        width: 200px;
+        margin: 0 auto;
+    }
+
     .sponsors img{
         width: 225px;
         margin: 20 20;
@@ -359,6 +391,7 @@ p {
         width: 80%;
         justify-content: space-between;
         padding-bottom: 30px;
+        padding-top: 30px;
         margin: 0 auto;
     }
 
