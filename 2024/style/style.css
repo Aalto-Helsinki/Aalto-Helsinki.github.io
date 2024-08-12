@@ -3,6 +3,16 @@
     --Header: linear-gradient(0deg, #FFF 0%, #83AFB9 18.4%, #2F7989 42.4%, #136779 62.9%, #005B6E 84.4%)      
 }
 
+@font-face {
+    font-family: Aptos;
+    src: url(../fonts/aptos.ttf);
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
@@ -43,9 +53,9 @@ nav ul {
 
 nav ul li {
     color: #FFF;
-    font-family: "Aptos";
+    font-family: Aptos;
     font-size: 1.6rem;
-    font-weight: 600;
+    font-weight: 500;
     text-decoration: none;
     cursor: pointer;
 }
@@ -70,7 +80,7 @@ nav ul li {
 .welcome {
     color: #000;
     text-align: center;
-    font-family: Saira;
+    font-family: Poppins;
     font-size: 9.6rem;
     font-weight: 700;
     margin-top: 150px;
@@ -102,7 +112,7 @@ nav ul li {
 
 h2 {
     color: var(--main-colour);
-    font-family: Saira;
+    font-family: Poppins;
     font-size: 3.6rem;
     font-weight: 700;
     text-align: left;
@@ -195,7 +205,7 @@ p {
 
 .sponsors .title {
     color: #FFF;
-    font-family: Saira;
+    font-family: Poppins;
     font-size: 3.6rem;
     font-weight: 700;
     margin-left: 11.25vw;
@@ -204,7 +214,7 @@ p {
 .sponsors .text {
     color: #FFF;
     font-family: Aptos;
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     font-weight: 400;
     margin-left: 11.25vw;
     margin-top: 26px;
@@ -330,7 +340,7 @@ p {
         color: #000;
         width: 100%;
         text-align: center;
-        font-family: Saira;
+        font-family: Poppins;
         font-size: 4.4rem;
         font-weight: 700;
         margin-top: 275px;
