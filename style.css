@@ -21,7 +21,7 @@ html {
 
 body {
     margin: 0;
-    background: #545454;
+    background: #282424;
 }
 
 header {
@@ -113,6 +113,7 @@ nav ul li {
 h2 {
     color: var(--main-colour);
     font-family: Poppins;
+    color: #ffffff;
     font-size: 3.6rem;
     font-weight: 700;
     text-align: left;
