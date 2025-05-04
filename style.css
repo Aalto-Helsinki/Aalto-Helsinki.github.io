@@ -78,7 +78,7 @@ nav ul li {
 }
 
 .welcome {
-    color: #000;
+    color: #FFF;
     text-align: center;
     font-family: Poppins;
     font-size: 9.6rem;
@@ -86,7 +86,7 @@ nav ul li {
 }
 
 .intro {
-    color: #000;
+    color: #FFF;
     max-width: 600px;
     text-align: center;
     font-family: Aptos;
@@ -200,7 +200,7 @@ li {
 .about-section .content .row1 .pic h3 {
     margin: 10px 0;
     text-align: center;
-    color: #ffffff;
+    color: #2e3d34;
     font-family: Aptos;
     font-size: 2rem;
     font-weight: 600;
@@ -209,7 +209,7 @@ li {
 
 .about-section .content .row1 .pic p {
     text-align: center;
-    color: #ffffff;
+    color: #2e3d34;
     font-family: Aptos;
     font-size: 1.6rem;
     font-weight: 250;
