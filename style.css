@@ -21,7 +21,7 @@ html {
 
 body {
     margin: 0;
-    background: #2e3d34;
+    background: #545454;
 }
 
 header {
@@ -64,7 +64,7 @@ nav ul li {
 .button {
     padding: 14px 24px;
     border-radius: 8px;
-    color: #000;
+    color: #FFF;
     display: inline-block;
     font-size: 1.6rem;
     background-color: #ffffff; 
@@ -136,7 +136,7 @@ h4 {
 }
 
 p {
-    color: #3A3A3A;
+    color: #FFF;
     text-align: justify;
     font-family: Aptos;
     font-size: 2rem;
@@ -144,7 +144,7 @@ p {
 }
 
 li {
-    color: #3A3A3A;
+    color: #FFF;
     text-align: justify;
     font-family: Aptos;
     font-size: 2rem;
@@ -201,7 +201,7 @@ li {
 .about-section .content .row1 .pic h3 {
     margin: 10px 0;
     text-align: center;
-    color: #2e3d34;
+    color: #FFF;
     font-family: Aptos;
     font-size: 2rem;
     font-weight: 600;
@@ -210,7 +210,7 @@ li {
 
 .about-section .content .row1 .pic p {
     text-align: center;
-    color: #2e3d34;
+    color: #FFF;
     font-family: Aptos;
     font-size: 1.6rem;
     font-weight: 250;
@@ -286,7 +286,7 @@ li {
 }
 
 .contact h5 {
-    color: #000;
+    color: #FFF;
     font-family: Poppins;
     font-size: 3.2rem;
     font-weight: 700;
@@ -302,7 +302,7 @@ li {
 }
 
 .prev-teams h5 {
-    color: #000;
+    color: #FFF;
     font-family: Poppins;
     font-size: 2.4rem;
     font-weight: 700;
@@ -314,7 +314,7 @@ li {
 }
 
 .prev-teams ul li {
-    color: #000;
+    color: #FFF;
     font-family: Aptos;
     font-size: 2rem;
     font-weight: 400;
@@ -324,7 +324,7 @@ li {
 }
 
 .foot p {
-    color: #000;
+    color: #FFF;
     font-family: Aptos;
     font-size: 2.4rem;
     font-weight: 400;
@@ -362,7 +362,7 @@ li {
     }
     
     .welcome {
-        color: #000;
+        color: #FFF;
         width: 100%;
         text-align: center;
         font-family: Poppins;
@@ -454,7 +454,7 @@ li {
     }
 
     .prev-teams ul li {
-        color: #000;
+        color: #FFF;
         font-family: Aptos;
         font-size: 1.8rem;
         font-weight: 400;
