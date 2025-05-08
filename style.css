@@ -415,6 +415,10 @@ li {
         line-height: 1.1rem;
     }
 
+    .about-section .pic {
+        flex: 1 1 100%;
+    }
+
     .sponsors .sbox {
         display: flex;
         width: 200px;
