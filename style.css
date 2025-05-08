@@ -360,7 +360,6 @@ li {
         width: 100%;
         padding: 40px;
         margin: 0;
-        padding-top: var(--header-height);
     }
     
     .welcome {
@@ -370,7 +369,7 @@ li {
         font-family: Poppins;
         font-size: 4.4rem;
         font-weight: 700;
-        /*margin-top: 275px;*/
+        margin-top: 100px;
     }
     
     .intro {
