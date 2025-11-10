@@ -1,13 +1,6 @@
 :root {
     --main-colour: black;
-    --Header: linear-gradient(
-        0deg,
-        #FFF 0%,
-        #83AFB9 18.4%,
-        #2F7989 42.4%,
-        #136779 62.9%,
-        #005B6E 84.4%
-    );     
+    --Header: linear-gradient(0deg, #FFF 0%, #83AFB9 18.4%, #2F7989 42.4%, #136779 62.9%, #005B6E 84.4%)      
 }
 
 @font-face {
@@ -28,7 +21,6 @@ html {
 body {
     margin: 0;
     background: #282424;
-    color: #FFF;
 }
 
 header {
@@ -36,9 +28,8 @@ header {
     width: 100%;
     height: 100px;
     background: var(--main-colour);
-    display: flex;
     justify-content: center;
-    align-items: center;
+    align-content: center;
 }
 
 nav {
@@ -74,8 +65,8 @@ nav ul li {
     color: #FFF;
     display: inline-block;
     font-size: 1.6rem;
-    background-color: #ffffff;
-    text-decoration: none;
+    background-color: #ffffff; 
+    text-decoration: none; 
     position: relative;  
 }
 
@@ -115,11 +106,8 @@ nav ul li {
     height: auto;
 }
 
-h2, h3, h4, p, li {
-    color: #FFF; /* make all text white */
-}
-
 h2 {
+    color: #FFF;
     font-family: Poppins;
     font-size: 3.6rem;
     font-weight: 700;
@@ -127,5 +115,319 @@ h2 {
 }
 
 h3 {
+    color: #FFF;
     font-family: Poppins;
     font-size: 2.6rem;
+    font-weight: 700;
+    text-align: left;
+}
+
+h4 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: left;
+    padding-top: 20px;
+}
+
+p {
+    color: #FFF;
+    text-align: justify;
+    font-family: Aptos;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+li {
+    color: #FFF;
+    text-align: justify;
+    font-family: Aptos;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.about-section {
+    width: 100%;
+    background-color: var(--main-colour);
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.about-section .content {
+    width: 80%;
+    box-sizing: border-box;
+}
+
+.about-section h2 {
+    color: #FFF;
+}
+
+.about-section p {
+    color: #FFF;
+}
+
+.about-section .row1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.about-section .pic {
+    flex: 1 1 30%;
+    margin: 10px;
+    text-align: center;
+}
+
+.about-section img {
+    max-width: 100%;
+    width: 60%;
+    height: auto;
+}
+
+.about-section .content p {
+    color: #FFF;
+    font-family: Aptos;
+    font-size: 2.4rem;
+    font-weight: 400;
+}
+
+.about-section .content .row1 .pic h3 {
+    margin: 10px 0;
+    text-align: center;
+    color: #FFF;
+    font-family: Aptos;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2rem;
+}
+
+.about-section .content .row1 .pic p {
+    text-align: center;
+    color: #FFF;
+    font-family: Aptos;
+    font-size: 1.6rem;
+    font-weight: 250;
+    line-height: 2rem;
+}
+
+.sponsors {
+    width: 100%;
+    background: var(--main-colour);
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.sponsors .title {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 3.6rem;
+    font-weight: 700;
+    margin-left: 11.25vw;
+}
+
+.sponsors .text {
+    color: #FFF;
+    font-family: Aptos;
+    font-size: 2.2rem;
+    font-weight: 400;
+    margin-left: 11.25vw;
+    margin-top: 26px;
+    padding-bottom: 40px;
+}
+
+.sponsors .sbox {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.sponsors ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.sponsors ul li img {
+    width: 70%;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.foot {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+
+.contact h5 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+
+.foot .contact p {
+    margin-top: 10px;
+    font-size: 2rem;
+}
+
+.prev-teams {
+    width: 200px;
+}
+
+.prev-teams h5 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.prev-teams ul {
+    display: flex;
+    flex-wrap: wrap;  
+}
+
+.prev-teams ul li {
+    color: #FFF;
+    font-family: Aptos;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 4rem;
+    margin: 0 10px 0 0;
+    cursor: pointer;
+}
+
+.foot p {
+    color: #FFF;
+    font-family: Aptos;
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 4rem;
+}
+
+/* MOBILE VERSION */
+
+@media only screen and (max-width: 600px) {
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        width: 88.73%;
+        margin: 0 auto;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .logo {
+        width: 180px;
+        height: 100%;
+        display: flex;  
+    }
+
+    .wrapper {
+        width: 100%;
+        padding: 40px;
+        margin: 0;
+    }
+
+    .welcome {
+        color: #FFF;
+        width: 100%;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 6rem;
+        font-weight: 700;
+        margin-top: 100px;
+    }
+
+    .intro {
+        margin-top: 10px;
+        margin-bottom: 40px;
+        font-size: 3.2rem;
+    }  
+
+    .circles {
+        display: none;
+    }
+
+    h2 {
+        font-size: 3.6rem;
+    }
+
+    p {
+        font-size: 2rem;
+    }
+
+    .about-section .content p {
+        font-size: 2.4rem;
+    }
+
+    .about-section img {
+        width: 60%;
+        height: auto;
+    }
+
+    .about-section .content .row1 .pic h3 {
+        font-size: 2rem;
+    }
+
+    .about-section .content .row1 .pic p {
+        font-size: 1.6rem;
+    }
+
+    .about-section .pic {
+        flex: 1 1 100%;
+    }
+
+    .sponsors .sbox {
+        display: flex;
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+    .sponsors img{
+        width: 70%;
+        margin: 20 20;
+    }
+
+    .foot {
+        flex-direction: column;
+        width: 80%;
+        justify-content: space-between;
+        padding-bottom: 30px;
+        padding-top: 30px;
+        margin: 0 auto;
+    }
+
+    .contact h5 {
+        font-size: 3.2rem;
+    }
+
+    .foot .contact p {
+        margin-top: 10px;
+    }
+
+    .prev-teams h5 {
+        font-size: 2.4rem;
+        margin-top: 20px;
+    }
+
+    .foot p {
+        font-size: 2.4rem;
+        margin-top: 10%;
+        line-height: 4rem;
+    }
+
+    .prev-teams ul li {
+        font-size: 2rem;
+    }
+}
