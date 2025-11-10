@@ -5,13 +5,13 @@
 
 @font-face {
     font-family: Aptos;
-    src: url(../fonts/aptos.ttf) format('truetype');
+    src: url(2024/fonts/aptos.ttf) format('truetype');
     font-weight: 400;
 }
 
 @font-face {
     font-family: Aptos;
-    src: url(../fonts/aptos-bold.ttf) format('truetype');
+    src: url(2024/fonts/aptos-bold.ttf) format('truetype');
     font-weight: 700;
 }
 
