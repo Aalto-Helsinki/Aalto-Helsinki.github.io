@@ -4,14 +4,30 @@
 }
 
 @font-face {
-    font-family: Aptos;
-    src: url(../fonts/aptos.ttf);
+    font-family: 'Aptos';
+    src: url('../fonts/aptos.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-    font-family: Poppins;
-    src: url(../fonts/Poppins-Regular.ttf);
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
 }
+
+@font-face {
+    font-family: 'Aptos';
+    src: url('../fonts/aptos-bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 
 html {
     font-size: 62.5%;

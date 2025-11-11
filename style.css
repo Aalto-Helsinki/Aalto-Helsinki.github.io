@@ -4,20 +4,27 @@
 }
 
 @font-face {
-    font-family: Aptos;
-    src: url(2024/fonts/aptos.ttf) format('truetype');
+    font-family: 'Aptos';
+    src: url('/2024/fonts/aptos.ttf') format('truetype');
     font-weight: 400;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-    font-family: Aptos;
-    src: url(2024/fonts/aptos-bold.ttf) format('truetype');
+    font-family: 'Aptos';
+    src: url('/2024/fonts/aptos-bold.ttf') format('truetype');
     font-weight: 700;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-    font-family: Poppins;
-    src: url(../fonts/Poppins-Regular.ttf);
+    font-family: 'Poppins';
+    src: url('/2024/fonts/Poppins-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
 }
 
 html {
@@ -80,26 +87,27 @@ nav ul li {
 .wrapper {
     width: 80%;
     margin: 0 auto;
-    padding: 100px;
+    padding-top: 100px;
 }
 
 .welcome {
     color: #FFF;
     text-align: center;
     font-family: Poppins;
-    font-size: 6rem;
+    font-size: 5.5rem;
     font-weight: 700;
+    margin-top: 60px; 
 }
 
 .intro {
     color: #FFF;
-    max-width: 600px;
+    max-width: 800px;
     text-align: center;
     font-family: Aptos;
-    font-size: 3.2rem;
+    font-size: 2.8rem;
     font-weight: 400;
-    margin: 0 auto;
-}  
+    margin: 40px auto 250px auto; 
+}
 
 .circles {
     display: flex;
@@ -119,6 +127,7 @@ h2 {
     font-size: 3.6rem;
     font-weight: 700;
     text-align: left;
+    padding-bottom: 15px;
 }
 
 h3 {
@@ -127,6 +136,8 @@ h3 {
     font-size: 2.6rem;
     font-weight: 700;
     text-align: left;
+    padding-top: 20px;
+    padding-bottom: 15px;
 }
 
 h4 {
@@ -136,6 +147,7 @@ h4 {
     font-weight: 700;
     text-align: left;
     padding-top: 20px;
+    padding-bottom: 15px;
 }
 
 p {
@@ -144,6 +156,13 @@ p {
     font-family: Aptos;
     font-size: 2rem;
     font-weight: 400;
+    padding-bottom: 10px;
+}
+
+p b,
+p strong {
+    font-family: Aptos;
+    font-weight: 700;
 }
 
 li {
@@ -154,12 +173,33 @@ li {
     font-weight: 400;
 }
 
+.about-igem {
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
 .about-section {
     width: 100%;
     background-color: var(--main-colour);
     display: flex;
     justify-content: center;
-    padding-top: 100px;
+    padding-top: 30px;
+    padding-top: 30px;
+
+}
+
+.project-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px 0; /* space above and below images */
+    flex-wrap: wrap; /* stack on smaller screens */
+}
+
+.project-images img {
+    max-width: 45%; /* side by side on desktop */
+    height: auto;
+    border-radius: 10px;
 }
 
 .about-section .content {
@@ -173,19 +213,26 @@ li {
 
 .about-section p {
     color: #FFF;
+    padding-bottom: 10px;
 }
 
 .about-section .row1 {
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
-    margin: 20px 0;
+    justify-content: space-around; 
+    gap: 20px;
 }
+
 
 .about-section .pic {
     flex: 1 1 30%;
-    margin: 10px;
-    text-align: center;
+    max-width: 400px;
+    display: flex;  
+    flex-direction: column; 
+    align-items: center;    
+    text-align: center;     
+    margin-bottom: 20px;
+    box-sizing: border-box;
 }
 
 .about-section img {
@@ -197,13 +244,14 @@ li {
 .about-section .content p {
     color: #FFF;
     font-family: Aptos;
-    font-size: 2.4rem;
+    font-size: 2rem;
     font-weight: 400;
 }
 
 .about-section .content .row1 .pic h3 {
     margin: 10px 0;
     text-align: center;
+     align-items: center;
     color: #FFF;
     font-family: Aptos;
     font-size: 2rem;
@@ -216,7 +264,7 @@ li {
     color: #FFF;
     font-family: Aptos;
     font-size: 1.6rem;
-    font-weight: 250;
+    font-weight: 400;
     line-height: 2rem;
 }
 
@@ -259,7 +307,7 @@ li {
 }
 
 .sponsors ul li img {
-    width: 70%;
+    width: 15vw;
     margin: 20px;
     cursor: pointer;
 }
@@ -341,41 +389,51 @@ li {
     }
 
     .wrapper {
-        width: 100%;
-        padding: 40px;
-        margin: 0;
+        width: 80%;
+        margin: 0 auto;
+        padding: 60px 20px; /* better spacing for mobile */
+    }
+
+    li {
+    color: #FFF;
+    text-align: justify;
+    font-family: Aptos;
+    font-size: 1.4rem;
+    font-weight: 400;
     }
 
     .welcome {
-        color: #FFF;
-        width: 100%;
+        font-size: 3rem;
+        margin: 60px 0 30px 0; /* top + bottom spacing */
         text-align: center;
-        font-family: Poppins;
-        font-size: 6rem;
-        font-weight: 700;
-        margin-top: 100px;
     }
 
     .intro {
-        margin-top: 10px;
-        margin-bottom: 40px;
-        font-size: 3.2rem;
-    }  
+        font-size: 2rem;
+        margin: 0 auto 60px auto; /* bottom spacing */
+        max-width: 600px;
+        text-align: center;
+        line-height: 1.4;
+    }
 
     .circles {
         display: none;
     }
 
     h2 {
-        font-size: 3.6rem;
+        font-size: 2.5rem;
+    }
+
+    h4 {
+        font-size: 1.6rem;
     }
 
     p {
-        font-size: 2rem;
+        font-size: 1.2rem;
     }
 
     .about-section .content p {
-        font-size: 2.4rem;
+        font-size: 1.2rem;
     }
 
     .about-section img {
@@ -384,57 +442,60 @@ li {
     }
 
     .about-section .content .row1 .pic h3 {
-        font-size: 2rem;
+        font-size: 1.4rem;
     }
 
     .about-section .content .row1 .pic p {
-        font-size: 1.6rem;
+        font-size: 1.2rem;
     }
 
+
     .about-section .pic {
-        flex: 1 1 100%;
+        flex: 1 1 100%; /* each pic takes full width on mobile */
+        max-width: 100%; /* prevent stretching */
+        margin-bottom: 20px; /* spacing between items */
     }
 
     .sponsors .sbox {
-        display: flex;
-        width: 1000px;
-        margin: 0 auto;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
-    .sponsors img{
-        width: 70%;
-        margin: 20 20;
+    .sponsors ul li img {
+        max-width: 80px;
     }
 
     .foot {
-        flex-direction: column;
+        flex-direction: column; /* stack vertically */
+        gap: 20px; /* space between sections */
         width: 80%;
-        justify-content: space-between;
+        justify-content: flex-start;
         padding-bottom: 30px;
         padding-top: 30px;
         margin: 0 auto;
     }
-
     .contact h5 {
-        font-size: 3.2rem;
+        font-size: 2rem;
     }
 
     .foot .contact p {
-        margin-top: 10px;
+        margin-top: 15px;
+        line-height: 2rem; 
     }
 
     .prev-teams h5 {
-        font-size: 2.4rem;
+        font-size: 1.8rem;
         margin-top: 20px;
     }
 
     .foot p {
-        font-size: 2.4rem;
+        font-size: 1.2rem;
         margin-top: 10%;
-        line-height: 4rem;
+        line-height: 1rem;
     }
 
     .prev-teams ul li {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 }
